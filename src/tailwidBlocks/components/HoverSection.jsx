@@ -12,7 +12,7 @@ const HoverSection = () => {
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360"/>
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://static.whereyat.com/whereyatcom_642311625.jpg"/>
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
@@ -22,7 +22,7 @@ const HoverSection = () => {
       </div>
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/601x361"/>
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://th.bing.com/th/id/OIP.E7oOOy6kl4ZbseF_5pbzcQHaHa?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"/>
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
@@ -32,7 +32,7 @@ const HoverSection = () => {
       </div>
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363"/>
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://th.bing.com/th/id/OIP.lQEYBuH_hpAt4hGk3KwxWgHaEo?w=1400&h=875&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"/>
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
@@ -42,7 +42,7 @@ const HoverSection = () => {
       </div>
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/602x362"/>
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://th.bing.com/th/id/OIP.GZGTU_OF-TlTMJXXsLDOUAHaE8?w=1200&h=800&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"/>
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
@@ -52,7 +52,7 @@ const HoverSection = () => {
       </div>
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/605x365"/>
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://th.bing.com/th/id/OIP.1-OjMpGn8V5DZXnoU5eQpQHaE0?w=1080&h=704&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"/>
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
@@ -62,7 +62,7 @@ const HoverSection = () => {
       </div>
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366"/>
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://th.bing.com/th/id/OIP.Uq0hC9UfosgsujQRv9R0RwHaE8?w=1224&h=816&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"/>
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>

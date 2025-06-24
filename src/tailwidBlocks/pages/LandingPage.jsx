@@ -11,10 +11,10 @@ import TestimonialSection from '../components/TestimonialSection'
 import ContactSection from '../components/ContactSection'
 import FooterSection from '../components/FooterSection'
 
-const LandingPage = ({change}) => {
+const LandingPage = () => {
   return (
     <div>
-        <NavBarSection change={change} />
+        <NavBarSection />
         <HeroSection />
         <ContentSection />
         <GallarySection />

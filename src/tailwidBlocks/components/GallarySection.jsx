@@ -8,7 +8,7 @@ const GallarySection = () => {
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260"/>
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="assets/ice_cream1.jpeg"/>
         </a>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
@@ -18,7 +18,7 @@ const GallarySection = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261"/>
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="assets/ice_cream2.webp"/>
         </a>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
@@ -28,7 +28,7 @@ const GallarySection = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262"/>
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="assets/ice_cream3.avif"/>
         </a>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
@@ -38,7 +38,7 @@ const GallarySection = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263"/>
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="assets/ice_cream4.jpeg"/>
         </a>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
@@ -48,7 +48,7 @@ const GallarySection = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264"/>
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="assets/ice_cream5.avif"/>
         </a>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
@@ -58,7 +58,7 @@ const GallarySection = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265"/>
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://th.bing.com/th/id/OIP.EyDCs7w8YEX8VtJshkgHRQHaE8?w=826&h=551&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"/>
         </a>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
@@ -68,7 +68,7 @@ const GallarySection = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267"/>
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://th.bing.com/th/id/OIP.4wTlWZyUrw8RLwG7Ww-H1QHaEg?w=510&h=310&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"/>
         </a>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
@@ -78,7 +78,7 @@ const GallarySection = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268"/>
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://i0.wp.com/www.franchiseindiaweb.in/wp-content/uploads/2017/08/ice-cream-shop-franchise-1.jpg?resize=768%2C573&ssl=1"/>
         </a>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
