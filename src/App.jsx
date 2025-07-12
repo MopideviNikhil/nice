@@ -24,10 +24,10 @@ const DataTable = () => {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
 
-  // ✅ Voice loading with retry
+  // ✅ Voice loading with fallback
   useEffect(() => {
     const loadVoices = () => {
-      let voices = speechSynthesis.getVoices();
+      const voices = speechSynthesis.getVoices();
       if (voices.length > 0) {
         setAvailableVoices(voices);
         if (!selectedVoice) {
@@ -35,13 +35,13 @@ const DataTable = () => {
           setSelectedVoice(preferred);
         }
       } else {
-        setTimeout(loadVoices, 200);
+        setTimeout(loadVoices, 200); // Retry
       }
     };
 
     loadVoices();
     speechSynthesis.onvoiceschanged = loadVoices;
-  }, [selectedVoice]);
+  }, []);
 
   const toggleColumn = (col) => {
     setVisibleColumns(prev => ({ ...prev, [col]: !prev[col] }));
@@ -53,30 +53,55 @@ const DataTable = () => {
     ? Json.verbs.filter(item => item.v1.toLowerCase().startsWith(filterLetter.toLowerCase()))
     : Json.verbs;
 
-  // ✅ Read aloud
+  // ✅ Speak words
   const speakAllWords = () => {
     if (!window.speechSynthesis) {
-      alert("Speech Synthesis not supported in this browser.");
+      alert("Speech Synthesis is not supported in this browser.");
+      return;
+    }
+
+    const voices = speechSynthesis.getVoices();
+    if (voices.length === 0) {
+      alert("Voices are still loading. Please try again in a moment.");
       return;
     }
 
     const text = filteredData.map(item => item.v1).join(', ');
     const utterance = new SpeechSynthesisUtterance(text);
-    if (selectedVoice) utterance.voice = selectedVoice;
 
-    speechSynthesis.cancel(); // Stop previous
-    setIsSpeaking(true);
-    setIsPaused(false);
+    if (selectedVoice) {
+      utterance.voice = selectedVoice;
+    } else {
+      const fallback = voices.find(v => v.lang.startsWith('en')) || voices[0];
+      utterance.voice = fallback;
+      setSelectedVoice(fallback);
+    }
+
+    utterance.onstart = () => {
+      setIsSpeaking(true);
+      setIsPaused(false);
+    };
+
+    utterance.onerror = (e) => {
+      console.error("Speech synthesis error:", e);
+      alert("Speech synthesis failed to start. Try refreshing or using a different browser.");
+      setIsSpeaking(false);
+    };
 
     utterance.onend = () => {
       setIsSpeaking(false);
       setIsPaused(false);
     };
 
-    speechSynthesis.speak(utterance);
+    try {
+      speechSynthesis.cancel();
+      speechSynthesis.speak(utterance);
+    } catch (err) {
+      alert("Failed to start speech synthesis. Please try again.");
+      console.error(err);
+    }
   };
 
-  // ✅ Pause/Resume button
   const togglePause = () => {
     if (!speechSynthesis.speaking) return;
     if (speechSynthesis.paused) {
@@ -106,7 +131,7 @@ const DataTable = () => {
     <div className="p-4 font-sans">
       <h2 className="text-xl font-bold mb-4">Verb Table (Filter, Read, Download)</h2>
 
-      {/* 🔤 Filter letters */}
+      {/* 🔤 Letter filter */}
       <div className="flex flex-wrap gap-2 mb-4">
         {alphabet.map(letter => (
           <button
@@ -120,7 +145,7 @@ const DataTable = () => {
         <button onClick={() => setFilterLetter('')} className="ml-4 px-3 py-1 border rounded bg-gray-200">Reset</button>
       </div>
 
-      {/* ✅ Column toggle */}
+      {/* 🧾 Column toggles */}
       <div className="flex flex-wrap gap-2 mb-4">
         {columns.map(col => (
           <button
@@ -133,7 +158,7 @@ const DataTable = () => {
         ))}
       </div>
 
-      {/* 🎙 Voice select and audio controls */}
+      {/* 🎙 Controls */}
       <div className="flex flex-wrap items-center gap-4 mb-6">
         <select
           className="px-3 py-1 border rounded max-w-full md:max-w-xs text-sm"
@@ -174,7 +199,7 @@ const DataTable = () => {
         </button>
       </div>
 
-      {/* 📊 Table */}
+      {/* 📋 Table */}
       <div className="overflow-x-auto">
         <table className="min-w-full border border-gray-300 text-sm">
           <thead className="bg-gray-100">
