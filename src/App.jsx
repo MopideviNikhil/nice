@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Json from './verbs.json'
-import './App.css'
-
+import './App.css';
 
 const DataTable = () => {
-
+ 
   const columns = ['v1', 'tel', 'v2', 'v3', 'v4', 'v5'];
   const columnLabels = {
     v1: 'Base',
@@ -16,38 +15,36 @@ const DataTable = () => {
   };
 
   const [visibleColumns, setVisibleColumns] = useState({
-    tel: true,
-    v1: true,
-    v2: true,
-    v3: true,
-    v4: true,
-    v5: true
+    tel: true, v1: true, v2: true, v3: true, v4: true, v5: true
   });
 
   const [filterLetter, setFilterLetter] = useState('');
   const [availableVoices, setAvailableVoices] = useState([]);
   const [selectedVoice, setSelectedVoice] = useState(null);
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
 
-  // Load voices for TTS
+  // ✅ Voice loading with retry
   useEffect(() => {
     const loadVoices = () => {
-      const voices = window.speechSynthesis.getVoices();
-      setAvailableVoices(voices);
-      if (!selectedVoice && voices.length) {
-        const preferred = voices.find(v => v.name.includes("Google") || v.name.includes("Microsoft")) || voices[0];
-        setSelectedVoice(preferred);
+      let voices = speechSynthesis.getVoices();
+      if (voices.length > 0) {
+        setAvailableVoices(voices);
+        if (!selectedVoice) {
+          const preferred = voices.find(v => v.name.includes("Google") || v.name.includes("Microsoft")) || voices[0];
+          setSelectedVoice(preferred);
+        }
+      } else {
+        setTimeout(loadVoices, 200);
       }
     };
 
     loadVoices();
-    window.speechSynthesis.onvoiceschanged = loadVoices;
+    speechSynthesis.onvoiceschanged = loadVoices;
   }, [selectedVoice]);
 
   const toggleColumn = (col) => {
-    setVisibleColumns(prev => ({
-      ...prev,
-      [col]: !prev[col]
-    }));
+    setVisibleColumns(prev => ({ ...prev, [col]: !prev[col] }));
   };
 
   const alphabet = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
@@ -56,7 +53,7 @@ const DataTable = () => {
     ? Json.verbs.filter(item => item.v1.toLowerCase().startsWith(filterLetter.toLowerCase()))
     : Json.verbs;
 
-  // 🔊 Read aloud filtered v1 words
+  // ✅ Read aloud
   const speakAllWords = () => {
     if (!window.speechSynthesis) {
       alert("Speech Synthesis not supported in this browser.");
@@ -65,16 +62,32 @@ const DataTable = () => {
 
     const text = filteredData.map(item => item.v1).join(', ');
     const utterance = new SpeechSynthesisUtterance(text);
+    if (selectedVoice) utterance.voice = selectedVoice;
 
-    if (selectedVoice) {
-      utterance.voice = selectedVoice;
-    }
+    speechSynthesis.cancel(); // Stop previous
+    setIsSpeaking(true);
+    setIsPaused(false);
 
-    speechSynthesis.cancel(); // Stop any ongoing speech
+    utterance.onend = () => {
+      setIsSpeaking(false);
+      setIsPaused(false);
+    };
+
     speechSynthesis.speak(utterance);
   };
 
-  // ⬇️ Download filtered words as .txt
+  // ✅ Pause/Resume button
+  const togglePause = () => {
+    if (!speechSynthesis.speaking) return;
+    if (speechSynthesis.paused) {
+      speechSynthesis.resume();
+      setIsPaused(false);
+    } else {
+      speechSynthesis.pause();
+      setIsPaused(true);
+    }
+  };
+
   const downloadWords = () => {
     const rows = filteredData.map(item =>
       columns.map(col => (visibleColumns[col] ? item[col] : '')).join('\t')
@@ -89,42 +102,11 @@ const DataTable = () => {
     link.click();
   };
 
-  // 🔊 Record and Download Audio
-  const downloadAudio = () => {
-    const utteranceText = filteredData.map(item => item.v1).join(', ');
-    const utterance = new SpeechSynthesisUtterance(utteranceText);
-    const stream = new MediaStream();
-
-    if (selectedVoice) {
-      utterance.voice = selectedVoice;
-    }
-
-    // Use MediaRecorder to record the speech
-    const mediaRecorder = new MediaRecorder(stream, { mimeType: 'audio/wav' });
-
-    mediaRecorder.ondataavailable = (event) => {
-      const audioBlob = event.data;
-      const audioUrl = URL.createObjectURL(audioBlob);
-      const link = document.createElement('a');
-      link.href = audioUrl;
-      link.download = 'spoken-verbs.wav';
-      link.click();
-    };
-
-    mediaRecorder.start();
-
-    // Start the speech synthesis and stop recording when done
-    speechSynthesis.speak(utterance);
-    utterance.onend = () => {
-      mediaRecorder.stop();
-    };
-  };
-
   return (
     <div className="p-4 font-sans">
       <h2 className="text-xl font-bold mb-4">Verb Table (Filter, Read, Download)</h2>
 
-      {/* Filter by letter */}
+      {/* 🔤 Filter letters */}
       <div className="flex flex-wrap gap-2 mb-4">
         {alphabet.map(letter => (
           <button
@@ -135,15 +117,10 @@ const DataTable = () => {
             {letter}
           </button>
         ))}
-        <button
-          onClick={() => setFilterLetter('')}
-          className="ml-4 px-3 py-1 border rounded bg-gray-200"
-        >
-          Reset
-        </button>
+        <button onClick={() => setFilterLetter('')} className="ml-4 px-3 py-1 border rounded bg-gray-200">Reset</button>
       </div>
 
-      {/* Column toggles */}
+      {/* ✅ Column toggle */}
       <div className="flex flex-wrap gap-2 mb-4">
         {columns.map(col => (
           <button
@@ -156,10 +133,10 @@ const DataTable = () => {
         ))}
       </div>
 
-      {/* Voice select, Read and Download buttons */}
+      {/* 🎙 Voice select and audio controls */}
       <div className="flex flex-wrap items-center gap-4 mb-6">
         <select
-          className="px-3 py-1 border rounded"
+          className="px-3 py-1 border rounded max-w-full md:max-w-xs text-sm"
           value={selectedVoice?.name || ''}
           onChange={(e) => {
             const voice = availableVoices.find(v => v.name === e.target.value);
@@ -180,23 +157,24 @@ const DataTable = () => {
           🔊 Read All Words
         </button>
 
+        {isSpeaking && (
+          <button
+            onClick={togglePause}
+            className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600"
+          >
+            {isPaused ? '▶️ Resume' : '⏸ Pause'}
+          </button>
+        )}
+
         <button
           onClick={downloadWords}
           className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
         >
           ⬇️ Download Words
         </button>
-
-        {/* Download Audio Button */}
-        <button
-          onClick={downloadAudio}
-          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-        >
-          🎧 Download Audio
-        </button>
       </div>
 
-      {/* Table */}
+      {/* 📊 Table */}
       <div className="overflow-x-auto">
         <table className="min-w-full border border-gray-300 text-sm">
           <thead className="bg-gray-100">
@@ -219,9 +197,7 @@ const DataTable = () => {
               filteredData.map((row, index) => (
                 <tr key={index} className="hover:bg-gray-50">
                   {columns.map(col => visibleColumns[col] && (
-                    <td key={col} className="border px-4 py-2">
-                      {row[col]}
-                    </td>
+                    <td key={col} className="border px-4 py-2">{row[col]}</td>
                   ))}
                 </tr>
               ))
