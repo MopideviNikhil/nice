@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaSun, FaMoon } from 'react-icons/fa';
 import Json from './verbs.json'
 import './App.css';
 
@@ -18,10 +19,7 @@ const DataTable = () => {
     tel: true, v1: true, v2: true, v3: true, v4: true, v5: true
   });
   const [filterLetter, setFilterLetter] = useState('');
-  const [availableVoices, setAvailableVoices] = useState([]);
-  const [selectedVoice, setSelectedVoice] = useState(null);
-  const [isSpeaking, setIsSpeaking] = useState(false);
-  const [isPaused, setIsPaused] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
   const alphabet = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
 
@@ -31,69 +29,6 @@ const DataTable = () => {
 
   const toggleColumn = (col) => {
     setVisibleColumns(prev => ({ ...prev, [col]: !prev[col] }));
-  };
-
-  const loadVoicesManually = () => {
-    let attempts = 0;
-
-    const tryLoad = () => {
-      const voices = speechSynthesis.getVoices();
-      if (voices.length > 0) {
-        setAvailableVoices(voices);
-        const preferred = voices.find(v => v.name.includes("Google") || v.name.includes("Microsoft")) || voices[0];
-        setSelectedVoice(preferred);
-      } else if (attempts < 20) {
-        attempts++;
-        setTimeout(tryLoad, 250);
-      } else {
-        alert("Unable to load speech voices. Try using a different browser like Chrome.");
-      }
-    };
-
-    tryLoad();
-  };
-
-  // 🔊 Read aloud
-  const speakAllWords = () => {
-    if (!window.speechSynthesis) {
-      alert("Speech Synthesis not supported in this browser.");
-      return;
-    }
-
-    const text = filteredData.map(item => item.v1).join(', ');
-    const utterance = new SpeechSynthesisUtterance(text);
-
-    const voices = speechSynthesis.getVoices();
-    const voice = selectedVoice || voices.find(v => v.lang.startsWith('en')) || voices[0];
-    if (voice) utterance.voice = voice;
-
-    utterance.onstart = () => {
-      setIsSpeaking(true);
-      setIsPaused(false);
-    };
-    utterance.onend = () => {
-      setIsSpeaking(false);
-      setIsPaused(false);
-    };
-    utterance.onerror = () => {
-      setIsSpeaking(false);
-      setIsPaused(false);
-      alert("Failed to speak. Try enabling voices again or refresh.");
-    };
-
-    speechSynthesis.cancel();
-    speechSynthesis.speak(utterance);
-  };
-
-  const togglePause = () => {
-    if (!speechSynthesis.speaking) return;
-    if (speechSynthesis.paused) {
-      speechSynthesis.resume();
-      setIsPaused(false);
-    } else {
-      speechSynthesis.pause();
-      setIsPaused(true);
-    }
   };
 
   const downloadWords = () => {
@@ -111,18 +46,19 @@ const DataTable = () => {
   };
 
   return (
-    <div className="p-4 font-sans">
-      <h2 className="text-xl font-bold mb-4">Verb Table (Filter, Read, Download)</h2>
-
-      {/* 🎙 Enable Audio */}
-      {availableVoices.length === 0 && (
+    <div className={`${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'} min-h-screen p-4 font-sans`}>
+      {/* 🔄 Dark Mode Toggle */}
+      <div className="flex justify-end mb-4">
         <button
-          onClick={loadVoicesManually}
-          className="px-4 py-2 mb-4 bg-orange-500 text-white rounded hover:bg-orange-600"
+          onClick={() => setDarkMode(!darkMode)}
+          className="text-2xl focus:outline-none"
+          title="Toggle Dark Mode"
         >
-          🎙 Enable Audio
+          {darkMode ? <FaSun className="text-yellow-400" /> : <FaMoon className="text-gray-700" />}
         </button>
-      )}
+      </div>
+
+      <h2 className="text-xl font-bold mb-4">Verb Table (Filter & Download)</h2>
 
       {/* 🔤 Alphabet Filter */}
       <div className="flex flex-wrap gap-2 mb-4">
@@ -130,14 +66,16 @@ const DataTable = () => {
           <button
             key={letter}
             onClick={() => setFilterLetter(letter)}
-            className={`px-3 py-1 border rounded ${filterLetter === letter ? 'bg-blue-500 text-white' : 'bg-white text-black'}`}
+            className={`px-3 py-1 border rounded ${filterLetter === letter
+              ? 'bg-blue-500 text-white'
+              : 'bg-white dark:bg-gray-800 text-black dark:text-white'}`}
           >
             {letter}
           </button>
         ))}
         <button
           onClick={() => setFilterLetter('')}
-          className="ml-4 px-3 py-1 border rounded bg-gray-200"
+          className="ml-4 px-3 py-1 border rounded bg-gray-200 dark:bg-gray-700 dark:text-white"
         >
           Reset
         </button>
@@ -149,46 +87,17 @@ const DataTable = () => {
           <button
             key={col}
             onClick={() => toggleColumn(col)}
-            className={`px-3 py-1 rounded text-sm font-medium ${visibleColumns[col] ? 'bg-red-500 text-white' : 'bg-green-500 text-white'}`}
+            className={`px-3 py-1 rounded text-sm font-medium ${visibleColumns[col]
+              ? 'bg-red-500 text-white'
+              : 'bg-green-500 text-white'}`}
           >
             {visibleColumns[col] ? `Hide ${columnLabels[col]}` : `Show ${columnLabels[col]}`}
           </button>
         ))}
       </div>
 
-      {/* 🎧 Controls */}
-      <div className="flex flex-wrap items-center gap-4 mb-6">
-        <select
-          className="px-3 py-1 border rounded text-sm w-full sm:w-auto max-w-xs"
-          value={selectedVoice?.name || ''}
-          onChange={(e) => {
-            const voice = availableVoices.find(v => v.name === e.target.value);
-            setSelectedVoice(voice);
-          }}
-        >
-          {availableVoices.map(voice => (
-            <option key={voice.name} value={voice.name}>
-              {voice.name} ({voice.lang})
-            </option>
-          ))}
-        </select>
-
-        <button
-          onClick={speakAllWords}
-          className="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700"
-        >
-          🔊 Read All Words
-        </button>
-
-        {isSpeaking && (
-          <button
-            onClick={togglePause}
-            className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600"
-          >
-            {isPaused ? '▶️ Resume' : '⏸ Pause'}
-          </button>
-        )}
-
+      {/* ⬇️ Download Words */}
+      <div className="mb-6">
         <button
           onClick={downloadWords}
           className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
@@ -197,13 +106,13 @@ const DataTable = () => {
         </button>
       </div>
 
-      {/* 📋 Verb Table */}
+      {/* 📋 Table */}
       <div className="overflow-x-auto">
-        <table className="min-w-full border border-gray-300 text-sm">
-          <thead className="bg-gray-100">
+        <table className="min-w-full border border-gray-300 dark:border-gray-600 text-sm">
+          <thead className="bg-gray-100 dark:bg-gray-800">
             <tr>
               {columns.map(col => visibleColumns[col] && (
-                <th key={col} className="border px-4 py-2 text-left font-medium">
+                <th key={col} className="border px-4 py-2 text-left font-medium dark:border-gray-700">
                   {columnLabels[col]}
                 </th>
               ))}
@@ -212,15 +121,15 @@ const DataTable = () => {
           <tbody>
             {filteredData.length === 0 ? (
               <tr>
-                <td colSpan={columns.length} className="p-4 text-center text-gray-500">
+                <td colSpan={columns.length} className="p-4 text-center text-gray-500 dark:text-gray-300">
                   No matching results for "{filterLetter}"
                 </td>
               </tr>
             ) : (
               filteredData.map((row, index) => (
-                <tr key={index} className="hover:bg-gray-50">
+                <tr key={index} className="hover:bg-gray-50 dark:hover:bg-gray-700">
                   {columns.map(col => visibleColumns[col] && (
-                    <td key={col} className="border px-4 py-2">{row[col]}</td>
+                    <td key={col} className="border px-4 py-2 dark:border-gray-700">{row[col]}</td>
                   ))}
                 </tr>
               ))
