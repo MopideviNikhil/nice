@@ -17,15 +17,22 @@ const DataTable = () => {
   const [visibleColumns, setVisibleColumns] = useState({
     tel: true, v1: true, v2: true, v3: true, v4: true, v5: true
   });
-
   const [filterLetter, setFilterLetter] = useState('');
   const [availableVoices, setAvailableVoices] = useState([]);
   const [selectedVoice, setSelectedVoice] = useState(null);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
 
-  // ✅ Voice loading with fallback
+  const alphabet = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+
+  const filteredData = filterLetter
+    ? Json.verbs.filter(item => item.v1.toLowerCase().startsWith(filterLetter.toLowerCase()))
+    : Json.verbs;
+
+  // ✅ Robust voice loading with retry
   useEffect(() => {
+    let attempts = 0;
+
     const loadVoices = () => {
       const voices = speechSynthesis.getVoices();
       if (voices.length > 0) {
@@ -34,70 +41,57 @@ const DataTable = () => {
           const preferred = voices.find(v => v.name.includes("Google") || v.name.includes("Microsoft")) || voices[0];
           setSelectedVoice(preferred);
         }
+      } else if (attempts < 20) {
+        attempts++;
+        setTimeout(loadVoices, 250);
       } else {
-        setTimeout(loadVoices, 200); // Retry
+        alert("Unable to load speech voices. Please refresh the page or use a different browser.");
       }
     };
 
-    loadVoices();
-    speechSynthesis.onvoiceschanged = loadVoices;
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
+      loadVoices();
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
   }, []);
 
   const toggleColumn = (col) => {
     setVisibleColumns(prev => ({ ...prev, [col]: !prev[col] }));
   };
 
-  const alphabet = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
-
-  const filteredData = filterLetter
-    ? Json.verbs.filter(item => item.v1.toLowerCase().startsWith(filterLetter.toLowerCase()))
-    : Json.verbs;
-
-  // ✅ Speak words
+  // ✅ Speak logic
   const speakAllWords = () => {
     if (!window.speechSynthesis) {
-      alert("Speech Synthesis is not supported in this browser.");
-      return;
-    }
-
-    const voices = speechSynthesis.getVoices();
-    if (voices.length === 0) {
-      alert("Voices are still loading. Please try again in a moment.");
+      alert("Speech Synthesis not supported in this browser.");
       return;
     }
 
     const text = filteredData.map(item => item.v1).join(', ');
     const utterance = new SpeechSynthesisUtterance(text);
 
-    if (selectedVoice) {
-      utterance.voice = selectedVoice;
-    } else {
-      const fallback = voices.find(v => v.lang.startsWith('en')) || voices[0];
-      utterance.voice = fallback;
-      setSelectedVoice(fallback);
-    }
+    const voices = speechSynthesis.getVoices();
+    const voice = selectedVoice || voices.find(v => v.lang.startsWith('en')) || voices[0];
+    if (voice) utterance.voice = voice;
 
     utterance.onstart = () => {
       setIsSpeaking(true);
       setIsPaused(false);
     };
-
-    utterance.onerror = (e) => {
-      console.error("Speech synthesis error:", e);
-      alert("Speech synthesis failed to start. Try refreshing or using a different browser.");
-      setIsSpeaking(false);
-    };
-
     utterance.onend = () => {
       setIsSpeaking(false);
       setIsPaused(false);
+    };
+    utterance.onerror = (e) => {
+      console.error("Speech error:", e);
+      alert("Speech synthesis failed to start. Try refreshing or changing browser.");
+      setIsSpeaking(false);
     };
 
     try {
       speechSynthesis.cancel();
       speechSynthesis.speak(utterance);
     } catch (err) {
-      alert("Failed to start speech synthesis. Please try again.");
+      alert("Speech synthesis failed.");
       console.error(err);
     }
   };
@@ -131,7 +125,7 @@ const DataTable = () => {
     <div className="p-4 font-sans">
       <h2 className="text-xl font-bold mb-4">Verb Table (Filter, Read, Download)</h2>
 
-      {/* 🔤 Letter filter */}
+      {/* 🔤 Filter by letter */}
       <div className="flex flex-wrap gap-2 mb-4">
         {alphabet.map(letter => (
           <button
@@ -142,10 +136,15 @@ const DataTable = () => {
             {letter}
           </button>
         ))}
-        <button onClick={() => setFilterLetter('')} className="ml-4 px-3 py-1 border rounded bg-gray-200">Reset</button>
+        <button
+          onClick={() => setFilterLetter('')}
+          className="ml-4 px-3 py-1 border rounded bg-gray-200"
+        >
+          Reset
+        </button>
       </div>
 
-      {/* 🧾 Column toggles */}
+      {/* ✅ Column toggles */}
       <div className="flex flex-wrap gap-2 mb-4">
         {columns.map(col => (
           <button
@@ -161,7 +160,7 @@ const DataTable = () => {
       {/* 🎙 Controls */}
       <div className="flex flex-wrap items-center gap-4 mb-6">
         <select
-          className="px-3 py-1 border rounded max-w-full md:max-w-xs text-sm"
+          className="px-3 py-1 border rounded text-sm w-full sm:w-auto max-w-xs"
           value={selectedVoice?.name || ''}
           onChange={(e) => {
             const voice = availableVoices.find(v => v.name === e.target.value);
