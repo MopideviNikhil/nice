@@ -1,0 +1,7538 @@
+{"verbs": [
+    {
+        "tel": "పరువు తీయడం",
+        "v1": "abash",
+        "v2": "abashed",
+        "v3": "abashed",
+        "v4": "abashing",
+        "v5": "abashes"
+    },
+    {
+        "tel": "తగ్గించుట",
+        "v1": "abate",
+        "v2": "abated",
+        "v3": "abated",
+        "v4": "abating",
+        "v5": "abates"
+    },
+    {
+        "tel": "కట్టుబడు, బధ్ధమైయుండు",
+        "v1": "abide",
+        "v2": "abode",
+        "v3": "abode",
+        "v4": "abiding",
+        "v5": "abides"
+    },
+    {
+        "tel": "పీల్చు, శోషించు",
+        "v1": "absorb",
+        "v2": "absorbed",
+        "v3": "absorbed",
+        "v4": "absorbing",
+        "v5": "absorbs"
+    },
+    {
+        "tel": "అంగీకరించడం",
+        "v1": "accept",
+        "v2": "accepted",
+        "v3": "accepted",
+        "v4": "accepting",
+        "v5": "accepts"
+    },
+    {
+        "tel": "తోడు",
+        "v1": "accompany",
+        "v2": "accompanied",
+        "v3": "accompanied",
+        "v4": "accompanying",
+        "v5": "accompanies"
+    },
+    {
+        "tel": "నొప్పి, బాధ",
+        "v1": "ache",
+        "v2": "ached",
+        "v3": "ached",
+        "v4": "aching",
+        "v5": "aches"
+    },
+    {
+        "tel": "సాధించు",
+        "v1": "achieve",
+        "v2": "achieved",
+        "v3": "achieved",
+        "v4": "achieving",
+        "v5": "achieves"
+    },
+    {
+        "tel": "సంపాదించు",
+        "v1": "acquire",
+        "v2": "acquired",
+        "v3": "acquired",
+        "v4": "acquiring",
+        "v5": "acquires"
+    },
+    {
+        "tel": "నటించు",
+        "v1": "act",
+        "v2": "acted",
+        "v3": "acted",
+        "v4": "acting",
+        "v5": "acts"
+    },
+    {
+        "tel": "చేర్చు, కూర్చు, జోడించు",
+        "v1": "add",
+        "v2": "added",
+        "v3": "added",
+        "v4": "adding",
+        "v5": "adds"
+    },
+    {
+        "tel": "సంబోధించు",
+        "v1": "address",
+        "v2": "addressed",
+        "v3": "addressed",
+        "v4": "addressing",
+        "v5": "addresses"
+    },
+    {
+        "tel": "సర్దుబాటు",
+        "v1": "adjust",
+        "v2": "adjusted",
+        "v3": "adjusted",
+        "v4": "adjusting",
+        "v5": "adjusts"
+    },
+    {
+        "tel": "ప్రశంసించు, మెచ్చుకొను",
+        "v1": "admire",
+        "v2": "admired",
+        "v3": "admired",
+        "v4": "admiring",
+        "v5": "admires"
+    },
+    {
+        "tel": "ఒప్పుకొను/అనుమతించు",
+        "v1": "admit",
+        "v2": "admitted",
+        "v3": "admitted",
+        "v4": "admitting",
+        "v5": "admits"
+    },
+    {
+        "tel": "సలహా",
+        "v1": "advise",
+        "v2": "advised",
+        "v3": "advised",
+        "v4": "advising",
+        "v5": "advises"
+    },
+    {
+        "tel": "భరించు,స్థోమత,",
+        "v1": "afford",
+        "v2": "afforded",
+        "v3": "afforded",
+        "v4": "affording",
+        "v5": "affords"
+    },
+    {
+        "tel": "ఒప్పుకొను, సమ్మతించు, అంగీకరించు",
+        "v1": "agree",
+        "v2": "agreed",
+        "v3": "agreed",
+        "v4": "agreeing",
+        "v5": "agrees"
+    },
+    {
+        "tel": "వెలుగుతూ, దిగు",
+        "v1": "alight",
+        "v2": "alit",
+        "v3": "alit",
+        "v4": "alighting",
+        "v5": "alights"
+    },
+    {
+        "tel": "అనుమతించు",
+        "v1": "allow",
+        "v2": "allowed",
+        "v3": "allowed",
+        "v4": "allowing",
+        "v5": "allows"
+    },
+    {
+        "tel": "ప్రాణియైన, చేతనమైన",
+        "v1": "animate",
+        "v2": "animated",
+        "v3": "animated",
+        "v4": "animating",
+        "v5": "animates"
+    },
+    {
+        "tel": "ప్రకటించు, చాటించు",
+        "v1": "announce",
+        "v2": "announced",
+        "v3": "announced",
+        "v4": "announcing",
+        "v5": "announces"
+    },
+    {
+        "tel": "",
+        "v1": "answer",
+        "v2": "answered",
+        "v3": "answered",
+        "v4": "answering",
+        "v5": "answers"
+    },
+    {
+        "tel": "క్షమాపణలు",
+        "v1": "apologize",
+        "v2": "apologized",
+        "v3": "apologized",
+        "v4": "apologizing",
+        "v5": "apologizes"
+    },
+    {
+        "tel": "కనిపించు, హాజరవ్వు",
+        "v1": "appear",
+        "v2": "appeared",
+        "v3": "appeared",
+        "v4": "appearing",
+        "v5": "appears"
+    },
+    {
+        "tel": "స్తుతించు, పొగుడు",
+        "v1": "applaud",
+        "v2": "applauded",
+        "v3": "applauded",
+        "v4": "applauding",
+        "v5": "applauds"
+    },
+    {
+        "tel": "దరఖాస్తు చేయటం",
+        "v1": "apply",
+        "v2": "applied",
+        "v3": "applied",
+        "v4": "applying",
+        "v5": "applies"
+    },
+    {
+        "tel": "విధానం, సమీపించు",
+        "v1": "approach",
+        "v2": "approached",
+        "v3": "approached",
+        "v4": "approaching",
+        "v5": "approaches"
+    },
+    {
+        "tel": "ఆమోదించు, అంగీకరించు",
+        "v1": "approve",
+        "v2": "approved",
+        "v3": "approved",
+        "v4": "approving",
+        "v5": "approves"
+    },
+    {
+        "tel": "వాదించు",
+        "v1": "argue",
+        "v2": "argued",
+        "v3": "argued",
+        "v4": "arguing",
+        "v5": "argues"
+    },
+    {
+        "tel": "లేచు, తలెత్తు",
+        "v1": "arise",
+        "v2": "arose",
+        "v3": "arisen",
+        "v4": "arising",
+        "v5": "arises"
+    },
+    {
+        "tel": "ఏర్పాటుచెయ్యి",
+        "v1": "arrange",
+        "v2": "arranged",
+        "v3": "arranged",
+        "v4": "arranging",
+        "v5": "arranges"
+    },
+    {
+        "tel": "నిర్భందించు, అరెస్టు",
+        "v1": "arrest",
+        "v2": "arrested",
+        "v3": "arrested",
+        "v4": "arresting",
+        "v5": "arrests"
+    },
+    {
+        "tel": "అడుగు",
+        "v1": "ask",
+        "v2": "asked",
+        "v3": "asked",
+        "v4": "asking",
+        "v5": "asks"
+    },
+    {
+        "tel": "నొక్కి చెప్పు, చెప్పు",
+        "v1": "assert",
+        "v2": "asserted",
+        "v3": "asserted",
+        "v4": "asserting",
+        "v5": "asserts"
+    },
+    {
+        "tel": "వర్గీకరించు",
+        "v1": "assort",
+        "v2": "assorted",
+        "v3": "assorted",
+        "v4": "assorting",
+        "v5": "assorts"
+    },
+    {
+        "tel": "ఆశ్చర్యపడు, నిర్ఘాంతపోవు",
+        "v1": "astonish",
+        "v2": "astonished",
+        "v3": "astonished",
+        "v4": "astonishing",
+        "v5": "astonishes"
+    },
+    {
+        "tel": "దాడి చెయ్యు",
+        "v1": "attack",
+        "v2": "attacked",
+        "v3": "attacked",
+        "v4": "attacking",
+        "v5": "attacks"
+    },
+    {
+        "tel": "హాజరు అవ్వు",
+        "v1": "attend",
+        "v2": "attended",
+        "v3": "attended",
+        "v4": "attending",
+        "v5": "attends"
+    },
+    {
+        "tel": "ఆకర్షించు",
+        "v1": "attract",
+        "v2": "attracted",
+        "v3": "attracted",
+        "v4": "attracting",
+        "v5": "attracts"
+    },
+    {
+        "tel": "లెక్కలు తనిఖీ చెయ్యి",
+        "v1": "audit",
+        "v2": "audited",
+        "v3": "audited",
+        "v4": "auditing",
+        "v5": "audits"
+    },
+    {
+        "tel": "తప్పించుకొను",
+        "v1": "avoid",
+        "v2": "avoided",
+        "v3": "avoided",
+        "v4": "avoiding",
+        "v5": "avoids"
+    },
+    {
+        "tel": "మేలుకొని",
+        "v1": "awake",
+        "v2": "awoke",
+        "v3": "awoken",
+        "v4": "awaking",
+        "v5": "awakes"
+    },
+    {
+        "tel": "బాదు, కొట్టు, మోగించు",
+        "v1": "bang",
+        "v2": "banged",
+        "v3": "banged",
+        "v4": "banging",
+        "v5": "bangs"
+    },
+    {
+        "tel": "బహిష్కరించు, వెళ్ళగొట్టు",
+        "v1": "banish",
+        "v2": "banished",
+        "v3": "banished",
+        "v4": "banishing",
+        "v5": "banishes"
+    },
+    {
+        "tel": "చిట్లగొట్టు",
+        "v1": "bash",
+        "v2": "bashed",
+        "v3": "bashed",
+        "v4": "bashing",
+        "v5": "bashes"
+    },
+    {
+        "tel": "గబ్బిలము, బ్యాటింగ్ చేయు",
+        "v1": "bat",
+        "v2": "batted",
+        "v3": "batted",
+        "v4": "batting",
+        "v5": "bats"
+    },
+    {
+        "tel": "భరించు",
+        "v1": "bear",
+        "v2": "bore",
+        "v3": "born",
+        "v4": "bearing",
+        "v5": "bears"
+    },
+    {
+        "tel": "కొట్టు",
+        "v1": "beat",
+        "v2": "beat",
+        "v3": "beaten",
+        "v4": "beating",
+        "v5": "beats"
+    },
+    {
+        "tel": "అందమైన, చక్కని",
+        "v1": "beautify",
+        "v2": "beautified",
+        "v3": "beautified",
+        "v4": "beautifying",
+        "v5": "beautifies"
+    },
+    {
+        "tel": "అవ్వు",
+        "v1": "become",
+        "v2": "became",
+        "v3": "become",
+        "v4": "becoming",
+        "v5": "becomes"
+    },
+    {
+        "tel": "జరుగు",
+        "v1": "befall",
+        "v2": "befell",
+        "v3": "befallen",
+        "v4": "befalling",
+        "v5": "befalls"
+    },
+    {
+        "tel": "యాచించు, వేడుకోను, ప్రార్థించు",
+        "v1": "beg",
+        "v2": "begged",
+        "v3": "begged",
+        "v4": "begging",
+        "v5": "begs"
+    },
+    {
+        "tel": "ప్రారంభం",
+        "v1": "begin",
+        "v2": "began",
+        "v3": "begun",
+        "v4": "beginning",
+        "v5": "begins"
+    },
+    {
+        "tel": "ప్రవర్తించు, నడచుకోను",
+        "v1": "behave",
+        "v2": "behaved",
+        "v3": "behaved",
+        "v4": "behaving",
+        "v5": "behaves"
+    },
+    {
+        "tel": "తెలుసుకొను, చూడు",
+        "v1": "behold",
+        "v2": "beheld",
+        "v3": "beheld",
+        "v4": "beholding",
+        "v5": "beholds"
+    },
+    {
+        "tel": "నమ్ము, విశ్వసించు",
+        "v1": "believe",
+        "v2": "believed",
+        "v3": "believed",
+        "v4": "believing",
+        "v5": "believes"
+    },
+    {
+        "tel": "చెందు, సంబంధించు",
+        "v1": "belong",
+        "v2": "belonged",
+        "v3": "belonged",
+        "v4": "belonging",
+        "v5": "belongs"
+    },
+    {
+        "tel": "వంచు, వంగు",
+        "v1": "bend",
+        "v2": "bent",
+        "v3": "bent",
+        "v4": "bending",
+        "v5": "bends"
+    },
+    {
+        "tel": "కోల్పోవు, నష్టపరచు",
+        "v1": "bereave",
+        "v2": "bereft",
+        "v3": "bereft",
+        "v4": "bereaving",
+        "v5": "bereaves"
+    },
+    {
+        "tel": "బతిమాలుకొనుచున్నాను, మనస్ఫూర్తిగా కోరు",
+        "v1": "beseech",
+        "v2": "besought",
+        "v3": "besought",
+        "v4": "beseeching",
+        "v5": "beseeches"
+    },
+    {
+        "tel": "పందెంవెయ్యి, పందెం",
+        "v1": "bet",
+        "v2": "bet",
+        "v3": "bet",
+        "v4": "betting",
+        "v5": "bets"
+    },
+    {
+        "tel": "ద్రోహం చెయ్యి, మోసంచెయ్యి",
+        "v1": "betray",
+        "v2": "betrayed",
+        "v3": "betrayed",
+        "v4": "betraying",
+        "v5": "betrays"
+    },
+    {
+        "tel": "వేలంలోపాడు, పంపు",
+        "v1": "bid",
+        "v2": "bid",
+        "v3": "bid",
+        "v4": "bidding",
+        "v5": "bids"
+    },
+    {
+        "tel": "కట్టుబడి ఉండుట",
+        "v1": "bind",
+        "v2": "bound",
+        "v3": "bound",
+        "v4": "binding",
+        "v5": "binds"
+    },
+    {
+        "tel": "కాటు, కొరుకు, కరుvuట",
+        "v1": "bite",
+        "v2": "bit",
+        "v3": "bitten",
+        "v4": "biting",
+        "v5": "bites"
+    },
+    {
+        "tel": "రక్తంకారు, రక్తస్రావం",
+        "v1": "bleed",
+        "v2": "bled",
+        "v3": "bled",
+        "v4": "bleeding",
+        "v5": "bleeds"
+    },
+    {
+        "tel": "దీవించు, ఆశీర్వదించు",
+        "v1": "bless",
+        "v2": "blessed",
+        "v3": "blessed",
+        "v4": "blessing",
+        "v5": "blesses"
+    },
+    {
+        "tel": "పూయు, వికసించు",
+        "v1": "blossom",
+        "v2": "blossomed",
+        "v3": "blossomed",
+        "v4": "blossoming",
+        "v5": "blossoms"
+    },
+    {
+        "tel": "వీచు, విసరు",
+        "v1": "blow",
+        "v2": "blew",
+        "v3": "blown",
+        "v4": "blowing",
+        "v5": "blows"
+    },
+    {
+        "tel": "అస్పష్టత, కళంకం",
+        "v1": "blur",
+        "v2": "blurred",
+        "v3": "blurred",
+        "v4": "blurring",
+        "v5": "blurs"
+    },
+    {
+        "tel": "సిగ్గు",
+        "v1": "blush",
+        "v2": "blushed",
+        "v3": "blushed",
+        "v4": "blushing",
+        "v5": "blushes"
+    },
+    {
+        "tel": "బోర్డు, వసతి, ఎక్కు",
+        "v1": "board",
+        "v2": "boarded",
+        "v3": "boarded",
+        "v4": "boarding",
+        "v5": "boards"
+    },
+    {
+        "tel": "ప్రగల్భాలు",
+        "v1": "boast",
+        "v2": "boasted",
+        "v3": "boasted",
+        "v4": "boasting",
+        "v5": "boasts"
+    },
+    {
+        "tel": "మరుగు, కాచు, పొంగు",
+        "v1": "boil",
+        "v2": "boiled",
+        "v3": "boiled",
+        "v4": "boiling",
+        "v5": "boils"
+    },
+    {
+        "tel": "విల్లు, వంచిన",
+        "v1": "bow",
+        "v2": "bowed",
+        "v3": "bowed",
+        "v4": "bowing",
+        "v5": "bows"
+    },
+    {
+        "tel": "పగలగొట్టు",
+        "v1": "break",
+        "v2": "broke",
+        "v3": "broken",
+        "v4": "breaking",
+        "v5": "breaks"
+    },
+    {
+        "tel": "ఊపిరి తీసుకొను",
+        "v1": "breathe",
+        "v2": "breathed",
+        "v3": "breathed",
+        "v4": "breathing",
+        "v5": "breathes"
+    },
+    {
+        "tel": "జాతిని",
+        "v1": "breed",
+        "v2": "bred",
+        "v3": "bred",
+        "v4": "breeding",
+        "v5": "breeds"
+    },
+    {
+        "tel": "దూరం ప్రదేశంనుండి దగ్గరకు తీసుకొనివచ్చు",
+        "v1": "bring",
+        "v2": "brought",
+        "v3": "brought",
+        "v4": "bringing",
+        "v5": "brings"
+    },
+    {
+        "tel": "ప్రసారం చేయు",
+        "v1": "broadcast",
+        "v2": "broadcast",
+        "v3": "broadcast",
+        "v4": "broadcasting",
+        "v5": "broadcasts"
+    },
+    {
+        "tel": "బ్రష్షు చేయు",
+        "v1": "brush",
+        "v2": "brushed",
+        "v3": "brushed",
+        "v4": "brushing",
+        "v5": "brushes"
+    },
+    {
+        "tel": "నిర్మించు",
+        "v1": "build",
+        "v2": "built",
+        "v3": "built",
+        "v4": "building",
+        "v5": "builds"
+    },
+    {
+        "tel": "కాలిన గాయము, కాలుట",
+        "v1": "burn",
+        "v2": "burnt",
+        "v3": "burnt",
+        "v4": "burning",
+        "v5": "burns"
+    },
+    {
+        "tel": "ప్రేలుట",
+        "v1": "burst",
+        "v2": "burst",
+        "v3": "burst",
+        "v4": "bursting",
+        "v5": "bursts"
+    },
+    {
+        "tel": "మట్టిలో కప్పిపెట్టు, దాయు",
+        "v1": "bury",
+        "v2": "buried",
+        "v3": "buried",
+        "v4": "burying",
+        "v5": "buries"
+    },
+    {
+        "tel": "కొనుగోలు",
+        "v1": "buy",
+        "v2": "bought",
+        "v3": "bought",
+        "v4": "buying",
+        "v5": "buys"
+    },
+    {
+        "tel": "శబ్దం చేయుట",
+        "v1": "buzz",
+        "v2": "buzzed",
+        "v3": "buzzed",
+        "v4": "buzzing",
+        "v5": "buzzes"
+    },
+    {
+        "tel": "లెక్కించు",
+        "v1": "calculate",
+        "v2": "calculated",
+        "v3": "calculated",
+        "v4": "calculating",
+        "v5": "calculates"
+    },
+    {
+        "tel": "పిలవడం",
+        "v1": "call",
+        "v2": "called",
+        "v3": "called",
+        "v4": "calling",
+        "v5": "calls"
+    },
+    {
+        "tel": "ప్రచారం",
+        "v1": "canvass",
+        "v2": "canvassed",
+        "v3": "canvassed",
+        "v4": "canvassing",
+        "v5": "canvasses"
+    },
+    {
+        "tel": "బంధించు",
+        "v1": "capture",
+        "v2": "captured",
+        "v3": "captured",
+        "v4": "capturing",
+        "v5": "captures"
+    },
+    {
+        "tel": "మెల్లగా ఆప్యాయంతో నిమురు",
+        "v1": "caress",
+        "v2": "caressed",
+        "v3": "caressed",
+        "v4": "caressing",
+        "v5": "caresses"
+    },
+    {
+        "tel": "తరలించు",
+        "v1": "carry",
+        "v2": "carried",
+        "v3": "carried",
+        "v4": "carrying",
+        "v5": "carries"
+    },
+    {
+        "tel": "ఆకారాలు చెక్కు",
+        "v1": "carve",
+        "v2": "carved",
+        "v3": "carved",
+        "v4": "carving",
+        "v5": "carves"
+    },
+    {
+        "tel": "ఉపయోగించు కొనుట, డబ్బు చేసుకొనుట",
+        "v1": "cash",
+        "v2": "cashed",
+        "v3": "cashed",
+        "v4": "cashing",
+        "v5": "cashes"
+    },
+    {
+        "tel": "పాత్రలు పోషించేవారు",
+        "v1": "cast",
+        "v2": "cast",
+        "v3": "cast",
+        "v4": "casting",
+        "v5": "casts"
+    },
+    {
+        "tel": "పట్టుకొను",
+        "v1": "catch",
+        "v2": "caught",
+        "v3": "caught",
+        "v4": "catching",
+        "v5": "catches"
+    },
+    {
+        "tel": "కారణమవు",
+        "v1": "cause",
+        "v2": "caused",
+        "v3": "caused",
+        "v4": "causing",
+        "v5": "causes"
+    },
+    {
+        "tel": "ఆపు, నిలుపు",
+        "v1": "cease",
+        "v2": "ceased",
+        "v3": "ceased",
+        "v4": "ceasing",
+        "v5": "ceases"
+    },
+    {
+        "tel": "సంబరాలు చేసుకొను",
+        "v1": "celebrate",
+        "v2": "celebrated",
+        "v3": "celebrated",
+        "v4": "celebrating",
+        "v5": "celebrates"
+    },
+    {
+        "tel": "సవాలు",
+        "v1": "challenge",
+        "v2": "challenged",
+        "v3": "challenged",
+        "v4": "challenging",
+        "v5": "challenges"
+    },
+    {
+        "tel": "మార్పు",
+        "v1": "change",
+        "v2": "changed",
+        "v3": "changed",
+        "v4": "changing",
+        "v5": "changes"
+    },
+    {
+        "tel": "శక్తిని నింపు",
+        "v1": "charge",
+        "v2": "charged",
+        "v3": "charged",
+        "v4": "charging",
+        "v5": "charges"
+    },
+    {
+        "tel": "వెంబడించు",
+        "v1": "chase",
+        "v2": "chased",
+        "v3": "chased",
+        "v4": "chasing",
+        "v5": "chases"
+    },
+    {
+        "tel": "కబుర్లు చెప్పు",
+        "v1": "chat",
+        "v2": "chatted",
+        "v3": "chatted",
+        "v4": "chatting",
+        "v5": "chats"
+    },
+    {
+        "tel": "తనిఖీ",
+        "v1": "check",
+        "v2": "checked",
+        "v3": "checked",
+        "v4": "checking",
+        "v5": "checks"
+    },
+    {
+        "tel": "ఉత్సాహంగా నినాదాలు చేయడం",
+        "v1": "cheer",
+        "v2": "cheered",
+        "v3": "cheered",
+        "v4": "cheering",
+        "v5": "cheers"
+    },
+    {
+        "tel": "నమలటం",
+        "v1": "chew",
+        "v2": "chewed",
+        "v3": "chewed",
+        "v4": "chewing",
+        "v5": "chews"
+    },
+    {
+        "tel": "అతి కష్టంపై అణచిపెట్టు, ఊపిరాడకుండా చేయు",
+        "v1": "choke",
+        "v2": "choked",
+        "v3": "choked",
+        "v4": "choking",
+        "v5": "chokes"
+    },
+    {
+        "tel": "ఎంచుకొను, ఎన్నుకొను",
+        "v1": "choose",
+        "v2": "chose",
+        "v3": "chosen",
+        "v4": "choosing",
+        "v5": "chooses"
+    },
+    {
+        "tel": "వర్గాలుగా విభజించు",
+        "v1": "classify",
+        "v2": "classified",
+        "v3": "classified",
+        "v4": "classifying",
+        "v5": "classifies"
+    },
+    {
+        "tel": "శుభ్రమైన",
+        "v1": "clean",
+        "v2": "cleaned",
+        "v3": "cleaned",
+        "v4": "cleaning",
+        "v5": "cleans"
+    },
+    {
+        "tel": "రెండు చీలికలుగా చేయు, గాలిలో బాట వేసుకుని పోవు",
+        "v1": "cleave",
+        "v2": "clove/cleft",
+        "v3": "cloven/cleft",
+        "v4": "cleaving",
+        "v5": "cleaves"
+    },
+    {
+        "tel": "క్లిక్ మనే శబ్ధం",
+        "v1": "click",
+        "v2": "clicked",
+        "v3": "clicked",
+        "v4": "clicking",
+        "v5": "clicks"
+    },
+    {
+        "tel": "కాళ్లు చేతులతో పైకి ఎక్కు",
+        "v1": "climb",
+        "v2": "climbed",
+        "v3": "climbed",
+        "v4": "climbing",
+        "v5": "climbs"
+    },
+    {
+        "tel": "వ్రేలాడటం, వ్రేలాడటం ద్వారా అంటిపెట్టుకుని యుండు",
+        "v1": "cling",
+        "v2": "clung",
+        "v3": "clung",
+        "v4": "clinging",
+        "v5": "clings"
+    },
+    {
+        "tel": "దగ్గరగా, సమీపంలో, మూసి వేయుట",
+        "v1": "close",
+        "v2": "closed",
+        "v3": "closed",
+        "v4": "closing",
+        "v5": "closes"
+    },
+    {
+        "tel": "దుస్తులు ధరింపజేయు",
+        "v1": "clothe",
+        "v2": "clad",
+        "v3": "clad",
+        "v4": "clothing",
+        "v5": "clothes"
+    },
+    {
+        "tel": "పంజా విసురు, గట్టి పట్టు",
+        "v1": "clutch",
+        "v2": "clutched",
+        "v3": "clutched",
+        "v4": "clutching",
+        "v5": "clutches"
+    },
+    {
+        "tel": "ముక్కలై పోవడం",
+        "v1": "collapse",
+        "v2": "collapsed",
+        "v3": "collapsed",
+        "v4": "collapsing",
+        "v5": "collapses"
+    },
+    {
+        "tel": "వసూలు చేయు",
+        "v1": "collect",
+        "v2": "collected",
+        "v3": "collected",
+        "v4": "collecting",
+        "v5": "collects"
+    },
+    {
+        "tel": "రంగు వేయుట",
+        "v1": "colour",
+        "v2": "coloured",
+        "v3": "coloured",
+        "v4": "colouring",
+        "v5": "colours"
+    },
+    {
+        "tel": "వచ్చు, పొందు",
+        "v1": "come",
+        "v2": "came",
+        "v3": "come",
+        "v4": "coming",
+        "v5": "comes"
+    },
+    {
+        "tel": "వ్యాఖ్య, అభిప్రాయం",
+        "v1": "comment",
+        "v2": "commented",
+        "v3": "commented",
+        "v4": "commenting",
+        "v5": "comments"
+    },
+    {
+        "tel": "పోల్చి చూసుకొను",
+        "v1": "compare",
+        "v2": "compared",
+        "v3": "compared",
+        "v4": "comparing",
+        "v5": "compares"
+    },
+    {
+        "tel": "ఆదేశించు, బలవంతపెట్టు",
+        "v1": "compel",
+        "v2": "compelled",
+        "v3": "compelled",
+        "v4": "compelling",
+        "v5": "compels"
+    },
+    {
+        "tel": "పోటీపడు",
+        "v1": "compete",
+        "v2": "competed",
+        "v3": "competed",
+        "v4": "competing",
+        "v5": "competes"
+    },
+    {
+        "tel": "ఫిర్యాదు చేయు",
+        "v1": "complain",
+        "v2": "complained",
+        "v3": "complained",
+        "v4": "complaining",
+        "v5": "complains"
+    },
+    {
+        "tel": "పూర్తి చేయబడు",
+        "v1": "complete",
+        "v2": "completed",
+        "v3": "completed",
+        "v4": "completing",
+        "v5": "completes"
+    },
+    {
+        "tel": "ముగించు, పూర్తి చేయు",
+        "v1": "conclude",
+        "v2": "concluded",
+        "v3": "concluded",
+        "v4": "concluding",
+        "v5": "concludes"
+    },
+    {
+        "tel": "నిర్వహించడం",
+        "v1": "conduct",
+        "v2": "conducted",
+        "v3": "conducted",
+        "v4": "conducting",
+        "v5": "conducts"
+    },
+    {
+        "tel": "నేరం ఒప్పుకొను, చేసిన పాపాలను అంగీకరించు",
+        "v1": "confess",
+        "v2": "confessed",
+        "v3": "confessed",
+        "v4": "confessing",
+        "v5": "confesses"
+    },
+    {
+        "tel": "హద్దులలో ఉంచు",
+        "v1": "confine",
+        "v2": "confined",
+        "v3": "confined",
+        "v4": "confining",
+        "v5": "confines"
+    },
+    {
+        "tel": "జప్తు",
+        "v1": "confiscate",
+        "v2": "confiscated",
+        "v3": "confiscated",
+        "v4": "confiscating",
+        "v5": "confiscates"
+    },
+    {
+        "tel": "ఒకదానికొకటి అని పొరబడు",
+        "v1": "confuse",
+        "v2": "confused",
+        "v3": "confused",
+        "v4": "confusing",
+        "v5": "confuses"
+    },
+    {
+        "tel": "అభినందించు",
+        "v1": "congratulate",
+        "v2": "congratulated",
+        "v3": "congratulated",
+        "v4": "congratulating",
+        "v5": "congratulates"
+    },
+    {
+        "tel": "ఒకదానితో మరొకటి కలుపు",
+        "v1": "connect",
+        "v2": "connected",
+        "v3": "connected",
+        "v4": "connecting",
+        "v5": "connects"
+    },
+    {
+        "tel": "ప్రత్యేకమైన అర్థం తెలుపు",
+        "v1": "connote",
+        "v2": "connoted",
+        "v3": "connoted",
+        "v4": "connoting",
+        "v5": "connotes"
+    },
+    {
+        "tel": "విజయం సాధించు, ఆధీనంలోకి తెచ్చుకును",
+        "v1": "conquer",
+        "v2": "conquered",
+        "v3": "conquered",
+        "v4": "conquering",
+        "v5": "conquers"
+    },
+    {
+        "tel": "పవిత్రం చేయు",
+        "v1": "consecrate",
+        "v2": "consecrated",
+        "v3": "consecrated",
+        "v4": "consecrating",
+        "v5": "consecrates"
+    },
+    {
+        "tel": "ఇచ్ఛాపూర్వక ఆమోదం",
+        "v1": "consent",
+        "v2": "consented",
+        "v3": "consented",
+        "v4": "consenting",
+        "v5": "consents"
+    },
+    {
+        "tel": "సంరక్షించు",
+        "v1": "conserve",
+        "v2": "conserved",
+        "v3": "conserved",
+        "v4": "conserving",
+        "v5": "conserves"
+    },
+    {
+        "tel": "లెక్కలోకి తీసుకొను",
+        "v1": "consider",
+        "v2": "considered",
+        "v3": "considered",
+        "v4": "considering",
+        "v5": "considers"
+    },
+    {
+        "tel": "కేటాయించు",
+        "v1": "consign",
+        "v2": "consigned",
+        "v3": "consigned",
+        "v4": "consigning",
+        "v5": "consigns"
+    },
+    {
+        "tel": "కలిగియుండు",
+        "v1": "consist",
+        "v2": "consisted",
+        "v3": "consisted",
+        "v4": "consisting",
+        "v5": "consists"
+    },
+    {
+        "tel": "ఓదార్చారు",
+        "v1": "console",
+        "v2": "consoled",
+        "v3": "consoled",
+        "v4": "consoling",
+        "v5": "consoles"
+    },
+    {
+        "tel": "భార్య, భర్త",
+        "v1": "consort",
+        "v2": "consorted",
+        "v3": "consorted",
+        "v4": "consorting",
+        "v5": "consorts"
+    },
+    {
+        "tel": "కుట్ర చేయు",
+        "v1": "conspire",
+        "v2": "conspired",
+        "v3": "conspired",
+        "v4": "conspiring",
+        "v5": "conspires"
+    },
+    {
+        "tel": "సమానంగా ఉండు",
+        "v1": "constitute",
+        "v2": "constituted",
+        "v3": "constituted",
+        "v4": "constituting",
+        "v5": "constitutes"
+    },
+    {
+        "tel": "బలవంతం చేయు",
+        "v1": "constrain",
+        "v2": "constrained",
+        "v3": "constrained",
+        "v4": "constraining",
+        "v5": "constrains"
+    },
+    {
+        "tel": "నిర్మించు",
+        "v1": "construct",
+        "v2": "constructed",
+        "v3": "constructed",
+        "v4": "constructing",
+        "v5": "constructs"
+    },
+    {
+        "tel": "ప్రత్యేకార్థమును వివరించు",
+        "v1": "construe",
+        "v2": "construed",
+        "v3": "construed",
+        "v4": "construing",
+        "v5": "construes"
+    },
+    {
+        "tel": "సంప్రదించు",
+        "v1": "consult",
+        "v2": "consulted",
+        "v3": "consulted",
+        "v4": "consulting",
+        "v5": "consults"
+    },
+    {
+        "tel": "కలిగి",
+        "v1": "contain",
+        "v2": "contained",
+        "v3": "contained",
+        "v4": "containing",
+        "v5": "contains"
+    },
+    {
+        "tel": "పోటీ పడు",
+        "v1": "contend",
+        "v2": "contended",
+        "v3": "contended",
+        "v4": "contending",
+        "v5": "contends"
+    },
+    {
+        "tel": "పోటీ",
+        "v1": "contest",
+        "v2": "contested",
+        "v3": "contested",
+        "v4": "contesting",
+        "v5": "contests"
+    },
+    {
+        "tel": "కొనసాగించు",
+        "v1": "continue",
+        "v2": "continued",
+        "v3": "continued",
+        "v4": "continuing",
+        "v5": "continues"
+    },
+    {
+        "tel": "ఒప్పందం",
+        "v1": "contract",
+        "v2": "contracted",
+        "v3": "contracted",
+        "v4": "contracting",
+        "v5": "contracts"
+    },
+    {
+        "tel": "వ్యతిరేకించు",
+        "v1": "contradict",
+        "v2": "contradicted",
+        "v3": "contradicted",
+        "v4": "contradicting",
+        "v5": "contradicts"
+    },
+    {
+        "tel": "విరుద్ధంగా",
+        "v1": "contrast",
+        "v2": "contrasted",
+        "v3": "contrasted",
+        "v4": "contrasting",
+        "v5": "contrasts"
+    },
+    {
+        "tel": "దోహదం",
+        "v1": "contribute",
+        "v2": "contributed",
+        "v3": "contributed",
+        "v4": "contributing",
+        "v5": "contributes"
+    },
+    {
+        "tel": "నైపుణ్యంగా ప్రణాళిక వేయు",
+        "v1": "contrive",
+        "v2": "contrived",
+        "v3": "contrived",
+        "v4": "contriving",
+        "v5": "contrives"
+    },
+    {
+        "tel": "నియంత్రణ",
+        "v1": "control",
+        "v2": "controlled",
+        "v3": "controlled",
+        "v4": "controlling",
+        "v5": "controls"
+    },
+    {
+        "tel": "సమావేశ పరచు",
+        "v1": "convene",
+        "v2": "convened",
+        "v3": "convened",
+        "v4": "convening",
+        "v5": "convenes"
+    },
+    {
+        "tel": "ఒక చోట చేర్చుకొను",
+        "v1": "converge",
+        "v2": "converged",
+        "v3": "converged",
+        "v4": "converging",
+        "v5": "converges"
+    },
+    {
+        "tel": "అభిప్రాయాలు తెలుసుకునేలా చర్చించడం",
+        "v1": "converse",
+        "v2": "conversed",
+        "v3": "conversed",
+        "v4": "conversing",
+        "v5": "converses"
+    },
+    {
+        "tel": "మార్చు",
+        "v1": "convert",
+        "v2": "converted",
+        "v3": "converted",
+        "v4": "converting",
+        "v5": "converts"
+    },
+    {
+        "tel": "తెలియచేసిన",
+        "v1": "convey",
+        "v2": "conveyed",
+        "v3": "conveyed",
+        "v4": "conveying",
+        "v5": "conveys"
+    },
+    {
+        "tel": "అపరాధి",
+        "v1": "convict",
+        "v2": "convicted",
+        "v3": "convicted",
+        "v4": "convicting",
+        "v5": "convicts"
+    },
+    {
+        "tel": "ఒప్పించు",
+        "v1": "convince",
+        "v2": "convinced",
+        "v3": "convinced",
+        "v4": "convincing",
+        "v5": "convinces"
+    },
+    {
+        "tel": "వంటచేయు",
+        "v1": "cook",
+        "v2": "cooked",
+        "v3": "cooked",
+        "v4": "cooking",
+        "v5": "cooks"
+    },
+    {
+        "tel": "చల్లని",
+        "v1": "cool",
+        "v2": "cooled",
+        "v3": "cooled",
+        "v4": "cooling",
+        "v5": "cools"
+    },
+    {
+        "tel": "పరస్పరం సహకరించుకొను",
+        "v1": "co-operate",
+        "v2": "co-operated",
+        "v3": "co-operated",
+        "v4": "co-operating",
+        "v5": "co-operates"
+    },
+    {
+        "tel": "సమర్థంగా ఎదుర్కొను, సహకరించుకొను",
+        "v1": "cope",
+        "v2": "coped",
+        "v3": "cope",
+        "v4": "coping",
+        "v5": "copes"
+    },
+    {
+        "tel": "నకలు",
+        "v1": "copy",
+        "v2": "copied",
+        "v3": "copied",
+        "v4": "copying",
+        "v5": "copies"
+    },
+    {
+        "tel": "సరైన",
+        "v1": "correct",
+        "v2": "corrected",
+        "v3": "corrected",
+        "v4": "correcting",
+        "v5": "corrects"
+    },
+    {
+        "tel": "ఒకదానికొకటి సరిపడు",
+        "v1": "correspond",
+        "v2": "corresponded",
+        "v3": "corresponded",
+        "v4": "corresponding",
+        "v5": "corresponds"
+    },
+    {
+        "tel": "రసాయనిక చర్య ద్వారా శిథిలం చేయు",
+        "v1": "corrode",
+        "v2": "corroded",
+        "v3": "corroded",
+        "v4": "corroding",
+        "v5": "corrodes"
+    },
+    {
+        "tel": "అవినీతి",
+        "v1": "corrupt",
+        "v2": "corrupted",
+        "v3": "corrupted",
+        "v4": "corrupting",
+        "v5": "corrupts"
+    },
+    {
+        "tel": "ధర",
+        "v1": "cost",
+        "v2": "cost",
+        "v3": "cost",
+        "v4": "costing",
+        "v5": "costs"
+    },
+    {
+        "tel": "దగ్గు",
+        "v1": "cough",
+        "v2": "coughed",
+        "v3": "coughed",
+        "v4": "coughing",
+        "v5": "coughs"
+    },
+    {
+        "tel": "న్యాయసలహాదారు",
+        "v1": "counsel",
+        "v2": "counselled",
+        "v3": "counselled",
+        "v4": "counselling",
+        "v5": "counsels"
+    },
+    {
+        "tel": "లెక్కించు",
+        "v1": "count",
+        "v2": "counted",
+        "v3": "counted",
+        "v4": "counting",
+        "v5": "counts"
+    },
+    {
+        "tel": "విద్యా కోర్సులు",
+        "v1": "course",
+        "v2": "coursed",
+        "v3": "coursed",
+        "v4": "coursing",
+        "v5": "courses"
+    },
+    {
+        "tel": "పైన కప్పేది",
+        "v1": "cover",
+        "v2": "covered",
+        "v3": "covered",
+        "v4": "covering",
+        "v5": "covers"
+    },
+    {
+        "tel": "భయంచేత వంగిపోవు",
+        "v1": "cower",
+        "v2": "cowered",
+        "v3": "cowered",
+        "v4": "cowering",
+        "v5": "cowers"
+    },
+    {
+        "tel": "చీలిక,",
+        "v1": "crack",
+        "v2": "cracked",
+        "v3": "cracked",
+        "v4": "cracking",
+        "v5": "cracks"
+    },
+    {
+        "tel": "పగులు, Chitlu",
+        "v1": "crackle",
+        "v2": "crackled",
+        "v3": "crackled",
+        "v4": "crackling",
+        "v5": "crackles"
+    },
+    {
+        "tel": "కుప్పకూలు",
+        "v1": "crash",
+        "v2": "crashed",
+        "v3": "crashed",
+        "v4": "crashing",
+        "v5": "crashes"
+    },
+    {
+        "tel": "కావాలనికోరు",
+        "v1": "crave",
+        "v2": "craved",
+        "v3": "craved",
+        "v4": "craving",
+        "v5": "craves"
+    },
+    {
+        "tel": "సృష్టించు",
+        "v1": "create",
+        "v2": "created",
+        "v3": "created",
+        "v4": "creating",
+        "v5": "creates"
+    },
+    {
+        "tel": "ప్రాకు",
+        "v1": "creep",
+        "v2": "crept",
+        "v3": "crept",
+        "v4": "creeping",
+        "v5": "creeps"
+    },
+    {
+        "tel": "అడ్డంగా దాటిపోవు",
+        "v1": "cross",
+        "v2": "crossed",
+        "v3": "crossed",
+        "v4": "crossing",
+        "v5": "crosses"
+    },
+    {
+        "tel": "జన సమూహం",
+        "v1": "crowd",
+        "v2": "crowded",
+        "v3": "crowded",
+        "v4": "crowding",
+        "v5": "crowds"
+    },
+    {
+        "tel": "నలిపివేయు",
+        "v1": "crush",
+        "v2": "crushed",
+        "v3": "crushed",
+        "v4": "crushing",
+        "v5": "crushes"
+    },
+    {
+        "tel": "ఏడ్చు",
+        "v1": "cry",
+        "v2": "cried",
+        "v3": "cried",
+        "v4": "crying",
+        "v5": "cries"
+    },
+    {
+        "tel": "అదుపులో పెట్టు",
+        "v1": "curb",
+        "v2": "curbed",
+        "v3": "curbed",
+        "v4": "curbing",
+        "v5": "curbs"
+    },
+    {
+        "tel": "నయం చేయు",
+        "v1": "cure",
+        "v2": "cured",
+        "v3": "cured",
+        "v4": "curing",
+        "v5": "cures"
+    },
+    {
+        "tel": "వక్ర రేఖ",
+        "v1": "curve",
+        "v2": "curved",
+        "v3": "curved",
+        "v4": "curving",
+        "v5": "curves"
+    },
+    {
+        "tel": "కత్తిరించు",
+        "v1": "cut",
+        "v2": "cut",
+        "v3": "cut",
+        "v4": "cutting",
+        "v5": "cuts"
+    },
+    {
+        "tel": "చక్రం",
+        "v1": "cycle",
+        "v2": "cycled",
+        "v3": "cycled",
+        "v4": "cycling",
+        "v5": "cycles"
+    },
+    {
+        "tel": "నష్టం జరగటం",
+        "v1": "damage",
+        "v2": "damaged",
+        "v3": "damaged",
+        "v4": "damaging",
+        "v5": "damages"
+    },
+    {
+        "tel": "నీటి ఆవిరితో కూడిన",
+        "v1": "damp",
+        "v2": "damped",
+        "v3": "damped",
+        "v4": "damping",
+        "v5": "damps"
+    },
+    {
+        "tel": "నృత్యం",
+        "v1": "dance",
+        "v2": "danced",
+        "v3": "danced",
+        "v4": "dancing",
+        "v5": "dances"
+    },
+    {
+        "tel": "ధైర్యం కలిగిఉండుట",
+        "v1": "dare",
+        "v2": "dared",
+        "v3": "dared",
+        "v4": "daring",
+        "v5": "dares"
+    },
+    {
+        "tel": "బలంగా విసిరివేయు",
+        "v1": "dash",
+        "v2": "dashed",
+        "v3": "dashed",
+        "v4": "dashing",
+        "v5": "dashes"
+    },
+    {
+        "tel": "సమ్మోహనం",
+        "v1": "dazzle",
+        "v2": "dazzled",
+        "v3": "dazzled",
+        "v4": "dazzling",
+        "v5": "dazzles"
+    },
+    {
+        "tel": "ఒప్పందం",
+        "v1": "deal",
+        "v2": "dealt",
+        "v3": "dealt",
+        "v4": "dealing",
+        "v5": "deals"
+    },
+    {
+        "tel": "పాడవటం",
+        "v1": "decay",
+        "v2": "decayed",
+        "v3": "decayed",
+        "v4": "decaying",
+        "v5": "decays"
+    },
+    {
+        "tel": "నిర్ణయించు, తీర్మానించు",
+        "v1": "decide",
+        "v2": "decided",
+        "v3": "decided",
+        "v4": "deciding",
+        "v5": "decides"
+    },
+    {
+        "tel": "చాటించు, తెలియజేయు",
+        "v1": "declare",
+        "v2": "declared",
+        "v3": "declared",
+        "v4": "declaring",
+        "v5": "declares"
+    },
+    {
+        "tel": "అలంకరించు",
+        "v1": "decorate",
+        "v2": "decorated",
+        "v3": "decorated",
+        "v4": "decorating",
+        "v5": "decorates"
+    },
+    {
+        "tel": "క్షీణించు",
+        "v1": "decrease",
+        "v2": "decreased",
+        "v3": "decreased",
+        "v4": "decreasing",
+        "v5": "decreases"
+    },
+    {
+        "tel": "అంకితం చేయు",
+        "v1": "dedicate",
+        "v2": "dedicated",
+        "v3": "dedicated",
+        "v4": "dedicating",
+        "v5": "dedicates"
+    },
+    {
+        "tel": "ఆలస్యం చేయు, వాయుదా వేయు",
+        "v1": "delay",
+        "v2": "delayed",
+        "v3": "delayed",
+        "v4": "delaying",
+        "v5": "delays"
+    },
+    {
+        "tel": "తొలగించు",
+        "v1": "delete",
+        "v2": "deleted",
+        "v3": "deleted",
+        "v4": "deleting",
+        "v5": "deletes"
+    },
+    {
+        "tel": "నిరాకరించు",
+        "v1": "deny",
+        "v2": "denied",
+        "v3": "denied",
+        "v4": "denying",
+        "v5": "denies"
+    },
+    {
+        "tel": "ఆధారపడియుండు",
+        "v1": "depend",
+        "v2": "depended",
+        "v3": "depended",
+        "v4": "depending",
+        "v5": "depends"
+    },
+    {
+        "tel": "వంచించు",
+        "v1": "deprive",
+        "v2": "deprived",
+        "v3": "deprived",
+        "v4": "depriving",
+        "v5": "deprives"
+    },
+    {
+        "tel": "పొందు, ఉత్పన్నం చేయు",
+        "v1": "derive",
+        "v2": "derived",
+        "v3": "derived",
+        "v4": "deriving",
+        "v5": "derives"
+    },
+    {
+        "tel": "వర్ణించుట",
+        "v1": "describe",
+        "v2": "described",
+        "v3": "described",
+        "v4": "describing",
+        "v5": "describes"
+    },
+    {
+        "tel": "కోరుకొను",
+        "v1": "desire",
+        "v2": "desired",
+        "v3": "desired",
+        "v4": "desiring",
+        "v5": "desires"
+    },
+    {
+        "tel": "నాశనము చేయు",
+        "v1": "destroy",
+        "v2": "destroyed",
+        "v3": "destroyed",
+        "v4": "destroying",
+        "v5": "destroys"
+    },
+    {
+        "tel": "వేరుచేయు",
+        "v1": "detach",
+        "v2": "detached",
+        "v3": "detached",
+        "v4": "detaching",
+        "v5": "detaches"
+    },
+    {
+        "tel": "వాస్తవాలను కనిపెట్టు",
+        "v1": "detect",
+        "v2": "detected",
+        "v3": "detected",
+        "v4": "detecting",
+        "v5": "detects"
+    },
+    {
+        "tel": "కచ్చితంగా తెలుసుకొను",
+        "v1": "determine",
+        "v2": "determined",
+        "v3": "determined",
+        "v4": "determining",
+        "v5": "determines"
+    },
+    {
+        "tel": "అభివృద్ధిచేయు",
+        "v1": "develop",
+        "v2": "developed",
+        "v3": "developed",
+        "v4": "developing",
+        "v5": "develops"
+    },
+    {
+        "tel": "చనిపోవటం",
+        "v1": "die",
+        "v2": "died",
+        "v3": "died",
+        "v4": "dying",
+        "v5": "dies"
+    },
+    {
+        "tel": "వేరే విధంగా ఉండు",
+        "v1": "differ",
+        "v2": "differed",
+        "v3": "differed",
+        "v4": "differing",
+        "v5": "differs"
+    },
+    {
+        "tel": "తవ్వుట",
+        "v1": "dig",
+        "v2": "dug",
+        "v3": "dug",
+        "v4": "digging",
+        "v5": "digs"
+    },
+    {
+        "tel": "జీర్ణించు",
+        "v1": "digest",
+        "v2": "digested",
+        "v3": "digested",
+        "v4": "digesting",
+        "v5": "digests"
+    },
+    {
+        "tel": "ప్రకాశంలేని",
+        "v1": "dim",
+        "v2": "dimmed",
+        "v3": "dimmed",
+        "v4": "dimming",
+        "v5": "dims"
+    },
+    {
+        "tel": "తక్కువజేయు",
+        "v1": "diminish",
+        "v2": "diminished",
+        "v3": "diminished",
+        "v4": "diminishing",
+        "v5": "diminishes"
+    },
+    {
+        "tel": "భోజనం చేయు",
+        "v1": "dine",
+        "v2": "dined",
+        "v3": "dined",
+        "v4": "dining",
+        "v5": "dines"
+    },
+    {
+        "tel": "నీటిలో ముంచి పైకి ఎత్తు",
+        "v1": "dip",
+        "v2": "dipped",
+        "v3": "dipped",
+        "v4": "dipping",
+        "v5": "dips"
+    },
+    {
+        "tel": "నిర్దేశించు",
+        "v1": "direct",
+        "v2": "directed",
+        "v3": "directed",
+        "v4": "directing",
+        "v5": "directs"
+    },
+    {
+        "tel": "అదృశ్యమవడం",
+        "v1": "disappear",
+        "v2": "disappeared",
+        "v3": "disappeared",
+        "v4": "disappearing",
+        "v5": "disappears"
+    },
+    {
+        "tel": "కనుగొనుట",
+        "v1": "discover",
+        "v2": "discovered",
+        "v3": "discovered",
+        "v4": "discovering",
+        "v5": "discovers"
+    },
+    {
+        "tel": "వివిధ ధృక్కోణాల నుంచి పరిశీలించు",
+        "v1": "discuss",
+        "v2": "discussed",
+        "v3": "discussed",
+        "v4": "discussing",
+        "v5": "discusses"
+    },
+    {
+        "tel": "నిరాకరించు",
+        "v1": "disobey",
+        "v2": "disobeyed",
+        "v3": "disobeyed",
+        "v4": "disobeying",
+        "v5": "disobeys"
+    },
+    {
+        "tel": "ప్రదర్శించు",
+        "v1": "display",
+        "v2": "displayed",
+        "v3": "displayed",
+        "v4": "displaying",
+        "v5": "displays"
+    },
+    {
+        "tel": "పారవేయాలని",
+        "v1": "dispose",
+        "v2": "disposed",
+        "v3": "disposed",
+        "v4": "disposing",
+        "v5": "disposes"
+    },
+    {
+        "tel": "పంపిణీ",
+        "v1": "distribute",
+        "v2": "distributed",
+        "v3": "distributed",
+        "v4": "distributing",
+        "v5": "distributes"
+    },
+    {
+        "tel": "భగ్నపరచు",
+        "v1": "disturb",
+        "v2": "disturbed",
+        "v3": "disturbed",
+        "v4": "disturbing",
+        "v5": "disturbs"
+    },
+    {
+        "tel": "ఉపయోగంలో లేని స్థితి",
+        "v1": "disuse",
+        "v2": "disused",
+        "v3": "disused",
+        "v4": "disusing",
+        "v5": "disuses"
+    },
+    {
+        "tel": "దూకు",
+        "v1": "dive",
+        "v2": "dived",
+        "v3": "dived",
+        "v4": "diving",
+        "v5": "dives"
+    },
+    {
+        "tel": "విభజన",
+        "v1": "divide",
+        "v2": "divided",
+        "v3": "divided",
+        "v4": "dividing",
+        "v5": "divides"
+    },
+    {
+        "tel": "చేయు",
+        "v1": "do",
+        "v2": "did",
+        "v3": "done",
+        "v4": "doing",
+        "v5": "does"
+    },
+    {
+        "tel": "దానం",
+        "v1": "donate",
+        "v2": "donated",
+        "v3": "donated",
+        "v4": "donating",
+        "v5": "donates"
+    },
+    {
+        "tel": "",
+        "v1": "download",
+        "v2": "downloaded",
+        "v3": "downloaded",
+        "v4": "downloading",
+        "v5": "downloads"
+    },
+    {
+        "tel": "లాగు",
+        "v1": "drag",
+        "v2": "dragged",
+        "v3": "dragged",
+        "v4": "dragging",
+        "v5": "drags"
+    },
+    {
+        "tel": "వేయు, ఆకర్షించు",
+        "v1": "draw",
+        "v2": "drew",
+        "v3": "drawn",
+        "v4": "drawing",
+        "v5": "draws"
+    },
+    {
+        "tel": "కలగను",
+        "v1": "dream",
+        "v2": "dreamt",
+        "v3": "dreamt",
+        "v4": "dreaming",
+        "v5": "dreams"
+    },
+    {
+        "tel": "తొడుగు",
+        "v1": "dress",
+        "v2": "dressed",
+        "v3": "dressed",
+        "v4": "dressing",
+        "v5": "dresses"
+    },
+    {
+        "tel": "బెజ్జం వెయ్యి",
+        "v1": "drill",
+        "v2": "drilled",
+        "v3": "drilled",
+        "v4": "drilling",
+        "v5": "drills"
+    },
+    {
+        "tel": "తాగు",
+        "v1": "drink",
+        "v2": "drank",
+        "v3": "drunk",
+        "v4": "drinking",
+        "v5": "drinks"
+    },
+    {
+        "tel": "నడుపు, తోలు",
+        "v1": "drive",
+        "v2": "drove",
+        "v3": "driven",
+        "v4": "driving",
+        "v5": "drives"
+    },
+    {
+        "tel": "జారవిడుచుట",
+        "v1": "drop",
+        "v2": "dropped",
+        "v3": "dropped",
+        "v4": "dropping",
+        "v5": "drops"
+    },
+    {
+        "tel": "ఆరబెట్టుట",
+        "v1": "dry",
+        "v2": "dried",
+        "v3": "dried",
+        "v4": "drying",
+        "v5": "dries"
+    },
+    {
+        "tel": "పోగుగా పడవేయు",
+        "v1": "dump",
+        "v2": "dumped",
+        "v3": "dumped",
+        "v4": "dumping",
+        "v5": "dumps"
+    },
+    {
+        "tel": "నివసించు",
+        "v1": "dwell",
+        "v2": "dwelt",
+        "v3": "dwelt",
+        "v4": "dwelling",
+        "v5": "dwells"
+    },
+    {
+        "tel": "రంగువేయు",
+        "v1": "dye",
+        "v2": "dyed",
+        "v3": "dyed",
+        "v4": "dyeing",
+        "v5": "dyes"
+    },
+    {
+        "tel": "సంపాదించు",
+        "v1": "earn",
+        "v2": "earned",
+        "v3": "earned",
+        "v4": "earning",
+        "v5": "earns"
+    },
+    {
+        "tel": "తిను",
+        "v1": "eat",
+        "v2": "ate",
+        "v3": "eaten",
+        "v4": "eating",
+        "v5": "eats"
+    },
+    {
+        "tel": "తెలుసుకొను, చదువుకొను",
+        "v1": "educate",
+        "v2": "educated",
+        "v3": "educated",
+        "v4": "educating",
+        "v5": "educates"
+    },
+    {
+        "tel": "అధికారం",
+        "v1": "empower",
+        "v2": "empowered",
+        "v3": "empowered",
+        "v4": "empowering",
+        "v5": "empowers"
+    },
+    {
+        "tel": "ఏమీ లేకుండా చేయి",
+        "v1": "empty",
+        "v2": "emptied",
+        "v3": "emptied",
+        "v4": "emptying",
+        "v5": "empties"
+    },
+    {
+        "tel": "చుట్టుముట్టు",
+        "v1": "encircle",
+        "v2": "encircled",
+        "v3": "encircled",
+        "v4": "encircling",
+        "v5": "encircles"
+    },
+    {
+        "tel": "ప్రోత్సహించు",
+        "v1": "encourage",
+        "v2": "encouraged",
+        "v3": "encouraged",
+        "v4": "encouraging",
+        "v5": "encourages"
+    },
+    {
+        "tel": "ఆక్రమించు",
+        "v1": "encroach",
+        "v2": "encroached",
+        "v3": "encroached",
+        "v4": "encroaching",
+        "v5": "encroaches"
+    },
+    {
+        "tel": "అపాయం లోనికి వెళ్ళు",
+        "v1": "endanger",
+        "v2": "endangered",
+        "v3": "endangered",
+        "v4": "entangling",
+        "v5": "endangers"
+    },
+    {
+        "tel": "ఆమోదించు",
+        "v1": "endorse",
+        "v2": "endorsed",
+        "v3": "endorsed",
+        "v4": "endorsing",
+        "v5": "endorses"
+    },
+    {
+        "tel": "ఓర్చుకో",
+        "v1": "endure",
+        "v2": "endured",
+        "v3": "endured",
+        "v4": "enduring",
+        "v5": "endures"
+    },
+    {
+        "tel": "మలచు",
+        "v1": "engrave",
+        "v2": "engraved",
+        "v3": "engraved",
+        "v4": "engraving",
+        "v5": "engraves"
+    },
+    {
+        "tel": "ఆనందించు",
+        "v1": "enjoy",
+        "v2": "enjoyed",
+        "v3": "enjoyed",
+        "v4": "enjoying",
+        "v5": "enjoys"
+    },
+    {
+        "tel": "పెద్దది చేయు",
+        "v1": "enlarge",
+        "v2": "enlarged",
+        "v3": "enlarged",
+        "v4": "enlarging",
+        "v5": "enlarges"
+    },
+    {
+        "tel": "జ్ఞానం కలిగించు",
+        "v1": "enlighten",
+        "v2": "enlightened",
+        "v3": "enlightened",
+        "v4": "enlightening",
+        "v5": "enlightens"
+    },
+    {
+        "tel": "ప్రవేశించు",
+        "v1": "enter",
+        "v2": "entered",
+        "v3": "entered",
+        "v4": "entering",
+        "v5": "enters"
+    },
+    {
+        "tel": "అసూయ, కడుపుమంట",
+        "v1": "envy",
+        "v2": "envied",
+        "v3": "envied",
+        "v4": "envying",
+        "v5": "envies"
+    },
+    {
+        "tel": "తుడుచు",
+        "v1": "erase",
+        "v2": "erased",
+        "v3": "erased",
+        "v4": "erasing",
+        "v5": "erases"
+    },
+    {
+        "tel": "తప్పించుకొని",
+        "v1": "escape",
+        "v2": "escaped",
+        "v3": "escaped",
+        "v4": "escaping",
+        "v5": "escapes"
+    },
+    {
+        "tel": "ఆవిరవ్వు",
+        "v1": "evaporate",
+        "v2": "evaporated",
+        "v3": "evaporated",
+        "v4": "evaporating",
+        "v5": "evaporates"
+    },
+    {
+        "tel": "వినిమయం, బదులుగా ఇవ్వు",
+        "v1": "exchange",
+        "v2": "exchanged",
+        "v3": "exchanged",
+        "v4": "exchanging",
+        "v5": "exchanges"
+    },
+    {
+        "tel": "ఆశ్చర్యపడు",
+        "v1": "exclaim",
+        "v2": "exclaimed",
+        "v3": "exclaimed",
+        "v4": "exclaiming",
+        "v5": "exclaims"
+    },
+    {
+        "tel": "మినహాయించు",
+        "v1": "exclude",
+        "v2": "excluded",
+        "v3": "excluded",
+        "v4": "excluding",
+        "v5": "excludes"
+    },
+    {
+        "tel": "జీవించు, ఉండు",
+        "v1": "exist",
+        "v2": "existed",
+        "v3": "existed",
+        "v4": "existing",
+        "v5": "exists"
+    },
+    {
+        "tel": "విస్తరించు",
+        "v1": "expand",
+        "v2": "expanded",
+        "v3": "expanded",
+        "v4": "expanding",
+        "v5": "expands"
+    },
+    {
+        "tel": "ఆశించు",
+        "v1": "expect",
+        "v2": "expected",
+        "v3": "expected",
+        "v4": "expecting",
+        "v5": "expects"
+    },
+    {
+        "tel": "వివరించు",
+        "v1": "explain",
+        "v2": "explained",
+        "v3": "explained",
+        "v4": "explaining",
+        "v5": "explains"
+    },
+    {
+        "tel": "శోధించు, వెదుకు",
+        "v1": "explore",
+        "v2": "explored",
+        "v3": "explored",
+        "v4": "exploring",
+        "v5": "explores"
+    },
+    {
+        "tel": "వ్యక్తపరచు",
+        "v1": "express",
+        "v2": "expressed",
+        "v3": "expressed",
+        "v4": "expressing",
+        "v5": "expresses"
+    },
+    {
+        "tel": "పొడిగించు",
+        "v1": "extend",
+        "v2": "extended",
+        "v3": "extended",
+        "v4": "extending",
+        "v5": "extends"
+    },
+    {
+        "tel": "కనిపెట్టుట",
+        "v1": "eye",
+        "v2": "eyed",
+        "v3": "eyed",
+        "v4": "eyeing",
+        "v5": "eyes"
+    },
+    {
+        "tel": "ఎదుర్కొను",
+        "v1": "face",
+        "v2": "faced",
+        "v3": "faced",
+        "v4": "facing",
+        "v5": "faces"
+    },
+    {
+        "tel": "తప్పుట, ఓడు",
+        "v1": "fail",
+        "v2": "failed",
+        "v3": "failed",
+        "v4": "failing",
+        "v5": "fails"
+    },
+    {
+        "tel": "మూర్ఛపోవుట",
+        "v1": "faint",
+        "v2": "fainted",
+        "v3": "fainted",
+        "v4": "fainting",
+        "v5": "faints"
+    },
+    {
+        "tel": "పడుట",
+        "v1": "fall",
+        "v2": "fell",
+        "v3": "fallen",
+        "v4": "falling",
+        "v5": "falls"
+    },
+    {
+        "tel": "విసురుట",
+        "v1": "fan",
+        "v2": "fanned",
+        "v3": "fanned",
+        "v4": "fanning",
+        "v5": "fans"
+    },
+    {
+        "tel": "ఆశించుట, తలచుట",
+        "v1": "fancy",
+        "v2": "fancied",
+        "v3": "fancied",
+        "v4": "fancying",
+        "v5": "fancies"
+    },
+    {
+        "tel": "ఆదరించుట",
+        "v1": "favour",
+        "v2": "favoured",
+        "v3": "favoured",
+        "v4": "favouring",
+        "v5": "favours"
+    },
+    {
+        "tel": "తినిపించు",
+        "v1": "feed",
+        "v2": "fed",
+        "v3": "fed",
+        "v4": "feeding",
+        "v5": "feeds"
+    },
+    {
+        "tel": "అనుభవించు, స్పర్శించుట",
+        "v1": "feel",
+        "v2": "felt",
+        "v3": "felt",
+        "v4": "feeling",
+        "v5": "feels"
+    },
+    {
+        "tel": "పుట్టి",
+        "v1": "ferry",
+        "v2": "ferried",
+        "v3": "ferried",
+        "v4": "ferrying",
+        "v5": "ferries"
+    },
+    {
+        "tel": "తీసుకొని వచ్చు, పోయి తేచ్చు",
+        "v1": "fetch",
+        "v2": "fetched",
+        "v3": "fetched",
+        "v4": "fetching",
+        "v5": "fetches"
+    },
+    {
+        "tel": "యుద్ధముచేసుట, యుద్ధముచేసుట",
+        "v1": "fight",
+        "v2": "fought",
+        "v3": "fought",
+        "v4": "fighting",
+        "v5": "fights"
+    },
+    {
+        "tel": "నింపు",
+        "v1": "fill",
+        "v2": "filled",
+        "v3": "filled",
+        "v4": "filling",
+        "v5": "fills"
+    },
+    {
+        "tel": "కనుగొను",
+        "v1": "find",
+        "v2": "found",
+        "v3": "found",
+        "v4": "finding",
+        "v5": "finds"
+    },
+    {
+        "tel": "సమాప్తి చేయు, ముగించు",
+        "v1": "finish",
+        "v2": "finished",
+        "v3": "finished",
+        "v4": "finishing",
+        "v5": "finishes"
+    },
+    {
+        "tel": "అమర్చుట, కుదుర్చుట",
+        "v1": "fit",
+        "v2": "fit/fitted",
+        "v3": "fit/fitted",
+        "v4": "fitting",
+        "v5": "fits"
+    },
+    {
+        "tel": "మరమ్మత్తు చేయు",
+        "v1": "fix",
+        "v2": "fixed",
+        "v3": "fixed",
+        "v4": "fixing",
+        "v5": "fixes"
+    },
+    {
+        "tel": "దళము",
+        "v1": "flap",
+        "v2": "flapped",
+        "v3": "flapped",
+        "v4": "flapping",
+        "v5": "flaps"
+    },
+    {
+        "tel": "తళుక్కుమనుట, మెరుపు",
+        "v1": "flash",
+        "v2": "flashed",
+        "v3": "flashed",
+        "v4": "flashing",
+        "v5": "flashes"
+    },
+    {
+        "tel": "పారిపోవు",
+        "v1": "flee",
+        "v2": "fled",
+        "v3": "fled",
+        "v4": "fleeing",
+        "v5": "flees"
+    },
+    {
+        "tel": "విసిరివేయు",
+        "v1": "fling",
+        "v2": "flung",
+        "v3": "flung",
+        "v4": "flinging",
+        "v5": "flings"
+    },
+    {
+        "tel": "తేలుచు పోవు",
+        "v1": "float",
+        "v2": "floated",
+        "v3": "floated",
+        "v4": "floating",
+        "v5": "floats"
+    },
+    {
+        "tel": "ఆడించు, ఱెక్కలు కొట్టుకొను",
+        "v1": "flop",
+        "v2": "flopped",
+        "v3": "flopped",
+        "v4": "flopping",
+        "v5": "flops"
+    },
+    {
+        "tel": "ఎగురు",
+        "v1": "fly",
+        "v2": "flew",
+        "v3": "flown",
+        "v4": "flying",
+        "v5": "flies"
+    },
+    {
+        "tel": "మడత",
+        "v1": "fold",
+        "v2": "folded",
+        "v3": "folded",
+        "v4": "folding",
+        "v5": "folds"
+    },
+    {
+        "tel": "వెంబడించు",
+        "v1": "follow",
+        "v2": "followed",
+        "v3": "followed",
+        "v4": "following",
+        "v5": "follows"
+    },
+    {
+        "tel": "హద్దులలోపెట్టు, నిషేధించు",
+        "v1": "forbid",
+        "v2": "forbade",
+        "v3": "forbidden",
+        "v4": "forbidding",
+        "v5": "forbids"
+    },
+    {
+        "tel": "బలము",
+        "v1": "force",
+        "v2": "forced",
+        "v3": "forced",
+        "v4": "forcing",
+        "v5": "forces"
+    },
+    {
+        "tel": "ముందు జాగ్రత్త",
+        "v1": "forecast",
+        "v2": "forecast",
+        "v3": "forecast",
+        "v4": "forecasting",
+        "v5": "forecasts"
+    },
+    {
+        "tel": "భవిష్యత్తును చెప్పు",
+        "v1": "foretell",
+        "v2": "foretold",
+        "v3": "foretold",
+        "v4": "foretelling",
+        "v5": "foretells"
+    },
+    {
+        "tel": "మర్చిపోవుట",
+        "v1": "forget",
+        "v2": "forgot",
+        "v3": "forgotten",
+        "v4": "forgetting",
+        "v5": "forgets"
+    },
+    {
+        "tel": "క్షమించుట",
+        "v1": "forgive",
+        "v2": "forgave",
+        "v3": "forgiven",
+        "v4": "forgiving",
+        "v5": "forgives"
+    },
+    {
+        "tel": "క్రమపరుచుట, యేర్పడుట",
+        "v1": "form",
+        "v2": "formed",
+        "v3": "formed",
+        "v4": "forming",
+        "v5": "forms"
+    },
+    {
+        "tel": "త్యజించు",
+        "v1": "forsake",
+        "v2": "forsook",
+        "v3": "forsaken",
+        "v4": "forsaking",
+        "v5": "forsakes"
+    },
+    {
+        "tel": "నిర్మించుట, స్థాపించుట",
+        "v1": "found",
+        "v2": "founded",
+        "v3": "founded",
+        "v4": "founding",
+        "v5": "founds"
+    },
+    {
+        "tel": "ఏర్పరుచు, సృష్టించు",
+        "v1": "frame",
+        "v2": "framed",
+        "v3": "framed",
+        "v4": "framing",
+        "v5": "frames"
+    },
+    {
+        "tel": "వదులు, విడిపించుట",
+        "v1": "free",
+        "v2": "freed",
+        "v3": "freed",
+        "v4": "freeing",
+        "v5": "frees"
+    },
+    {
+        "tel": "గడ్డకట్టు",
+        "v1": "freeze",
+        "v2": "froze",
+        "v3": "frozen",
+        "v4": "freezing",
+        "v5": "freezes"
+    },
+    {
+        "tel": "భయపెట్టుట, బెదిరించుట",
+        "v1": "frighten",
+        "v2": "frightened",
+        "v3": "frightened",
+        "v4": "frightening",
+        "v5": "frightens"
+    },
+    {
+        "tel": "వేపు",
+        "v1": "fry",
+        "v2": "fried",
+        "v3": "fried",
+        "v4": "frying",
+        "v5": "fries"
+    },
+    {
+        "tel": "నెరవేర్చుట",
+        "v1": "fulfil",
+        "v2": "fulfilled",
+        "v3": "fulfilled",
+        "v4": "fulfilling",
+        "v5": "fulfils"
+    },
+    {
+        "tel": "నోటిలో కుక్కే బట్టముక్క",
+        "v1": "gag",
+        "v2": "gagged",
+        "v3": "gagged",
+        "v4": "gagging",
+        "v5": "gags"
+    },
+    {
+        "tel": "పెరుగుట",
+        "v1": "gain",
+        "v2": "gained",
+        "v3": "gained",
+        "v4": "gaining",
+        "v5": "gains"
+    },
+    {
+        "tel": "తిరస్కరించు",
+        "v1": "gainsay",
+        "v2": "gainsaid",
+        "v3": "gainsaid",
+        "v4": "gainsaying",
+        "v5": "gainsays"
+    },
+    {
+        "tel": "గీచుట",
+        "v1": "gash",
+        "v2": "gashed",
+        "v3": "gashed",
+        "v4": "gashing",
+        "v5": "gashes"
+    },
+    {
+        "tel": "తదేకంగాచూచు",
+        "v1": "gaze",
+        "v2": "gazed",
+        "v3": "gazed",
+        "v4": "gazing",
+        "v5": "gazes"
+    },
+    {
+        "tel": "లభించిన",
+        "v1": "get",
+        "v2": "got",
+        "v3": "got",
+        "v4": "getting",
+        "v5": "gets"
+    },
+    {
+        "tel": "ఇవ్వు",
+        "v1": "give",
+        "v2": "gave",
+        "v3": "given",
+        "v4": "giving",
+        "v5": "gives"
+    },
+    {
+        "tel": "క్షణకాలపు చూపు",
+        "v1": "glance",
+        "v2": "glanced",
+        "v3": "glanced",
+        "v4": "glancing",
+        "v5": "glances"
+    },
+    {
+        "tel": "మెరుస్తున్న, తళతళలాడుట",
+        "v1": "glitter",
+        "v2": "glittered",
+        "v3": "glittered",
+        "v4": "glittering",
+        "v5": "glitters"
+    },
+    {
+        "tel": "ప్రకాశించుట",
+        "v1": "glow",
+        "v2": "glowed",
+        "v3": "glowed",
+        "v4": "glowing",
+        "v5": "glows"
+    },
+    {
+        "tel": "వెళ్ళు",
+        "v1": "go",
+        "v2": "went",
+        "v3": "gone",
+        "v4": "going",
+        "v5": "goes"
+    },
+    {
+        "tel": "వెతుకు",
+        "v1": "Google",
+        "v2": "googled",
+        "v3": "googled",
+        "v4": "googling",
+        "v5": "googles"
+    },
+    {
+        "tel": "పరిపాలించు",
+        "v1": "govern",
+        "v2": "governed",
+        "v3": "governed",
+        "v4": "governing",
+        "v5": "governs"
+    },
+    {
+        "tel": "అపహరించు, అందుకోవడం",
+        "v1": "grab",
+        "v2": "grabbed",
+        "v3": "grabbed",
+        "v4": "grabbing",
+        "v5": "grabs"
+    },
+    {
+        "tel": "శ్రేణి",
+        "v1": "grade",
+        "v2": "graded",
+        "v3": "graded",
+        "v4": "grading",
+        "v5": "grades"
+    },
+    {
+        "tel": "అడిగినది ఇచ్చు",
+        "v1": "grant",
+        "v2": "granted",
+        "v3": "granted",
+        "v4": "granting",
+        "v5": "grants"
+    },
+    {
+        "tel": "మర్యాద పూర్వకంగా పలకరించు",
+        "v1": "greet",
+        "v2": "greeted",
+        "v3": "greeted",
+        "v4": "greeting",
+        "v5": "greets"
+    },
+    {
+        "tel": "రుబ్బు",
+        "v1": "grind",
+        "v2": "ground",
+        "v3": "ground",
+        "v4": "grinding",
+        "v5": "grinds"
+    },
+    {
+        "tel": "పట్టు",
+        "v1": "grip",
+        "v2": "gripped",
+        "v3": "gripped",
+        "v4": "gripping",
+        "v5": "grips"
+    },
+    {
+        "tel": "పెరుగు",
+        "v1": "grow",
+        "v2": "grew",
+        "v3": "grown",
+        "v4": "growing",
+        "v5": "grows"
+    },
+    {
+        "tel": "కాపలాకాయు",
+        "v1": "guard",
+        "v2": "guarded",
+        "v3": "guarded",
+        "v4": "guarding",
+        "v5": "guards"
+    },
+    {
+        "tel": "అనుకొను",
+        "v1": "guess",
+        "v2": "guessed",
+        "v3": "guessed",
+        "v4": "guessing",
+        "v5": "guesses"
+    },
+    {
+        "tel": "దారిచూపు",
+        "v1": "guide",
+        "v2": "guided",
+        "v3": "guided",
+        "v4": "guiding",
+        "v5": "guides"
+    },
+    {
+        "tel": "నిర్వహించు",
+        "v1": "handle",
+        "v2": "handled",
+        "v3": "handled",
+        "v4": "handling",
+        "v5": "handles"
+    },
+    {
+        "tel": "వేలదీచుట",
+        "v1": "hang",
+        "v2": "hung",
+        "v3": "hung",
+        "v4": "hanging",
+        "v5": "hangs"
+    },
+    {
+        "tel": "సంభవించుట",
+        "v1": "happen",
+        "v2": "happened",
+        "v3": "happened",
+        "v4": "happening",
+        "v5": "happens"
+    },
+    {
+        "tel": "హాని",
+        "v1": "harm",
+        "v2": "harmed",
+        "v3": "harmed",
+        "v4": "harming",
+        "v5": "harms"
+    },
+    {
+        "tel": "పొదుగుడు",
+        "v1": "hatch",
+        "v2": "hatched",
+        "v3": "hatched",
+        "v4": "hatching",
+        "v5": "hatches"
+    },
+    {
+        "tel": "ద్వేషించు",
+        "v1": "hate",
+        "v2": "hated",
+        "v3": "hated",
+        "v4": "hating",
+        "v5": "hates"
+    },
+    {
+        "tel": "కలిగివుండుట",
+        "v1": "have",
+        "v2": "had",
+        "v3": "had",
+        "v4": "having",
+        "v5": "has"
+    },
+    {
+        "tel": "మానుట",
+        "v1": "heal",
+        "v2": "healed",
+        "v3": "healed",
+        "v4": "healing",
+        "v5": "heals"
+    },
+    {
+        "tel": "విను, ఆలకించు",
+        "v1": "hear",
+        "v2": "heard",
+        "v3": "heard",
+        "v4": "hearing",
+        "v5": "hears"
+    },
+    {
+        "tel": "లాగు",
+        "v1": "heave",
+        "v2": "hove",
+        "v3": "hove",
+        "v4": "heaving",
+        "v5": "heaves"
+    },
+    {
+        "tel": "సాయము చేయు",
+        "v1": "help",
+        "v2": "helped",
+        "v3": "helped",
+        "v4": "helping",
+        "v5": "helps"
+    },
+    {
+        "tel": "నరికివేయు",
+        "v1": "hew",
+        "v2": "hewed",
+        "v3": "hewn",
+        "v4": "hewing",
+        "v5": "hews"
+    },
+    {
+        "tel": "దాచు",
+        "v1": "hide",
+        "v2": "hid",
+        "v3": "hidden",
+        "v4": "hiding",
+        "v5": "hides"
+    },
+    {
+        "tel": "ఆటంకపరచు",
+        "v1": "hinder",
+        "v2": "hindered",
+        "v3": "hindered",
+        "v4": "hindering",
+        "v5": "hinders"
+    },
+    {
+        "tel": "బుసకొట్టుట",
+        "v1": "hiss",
+        "v2": "hissed",
+        "v3": "hissed",
+        "v4": "hissing",
+        "v5": "hisses"
+    },
+    {
+        "tel": "కొట్టు",
+        "v1": "hit",
+        "v2": "hit",
+        "v3": "hit",
+        "v4": "hitting",
+        "v5": "hits"
+    },
+    {
+        "tel": "మోసగించు",
+        "v1": "hoax",
+        "v2": "hoaxed",
+        "v3": "hoaxed",
+        "v4": "hoaxing",
+        "v5": "hoaxes"
+    },
+    {
+        "tel": "పట్టుకొను",
+        "v1": "hold",
+        "v2": "held",
+        "v3": "held",
+        "v4": "holding",
+        "v5": "holds"
+    },
+    {
+        "tel": "కుంటుచూ దాటు",
+        "v1": "hop",
+        "v2": "hopped",
+        "v3": "hopped",
+        "v4": "hopping",
+        "v5": "hops"
+    },
+    {
+        "tel": "కోరుట",
+        "v1": "hope",
+        "v2": "hoped",
+        "v3": "hoped",
+        "v4": "hoping",
+        "v5": "hopes"
+    },
+    {
+        "tel": "భయపరుచు",
+        "v1": "horrify",
+        "v2": "horrified",
+        "v3": "horrified",
+        "v4": "horrifying",
+        "v5": "horrifies"
+    },
+    {
+        "tel": "కౌగింలించుకొను",
+        "v1": "hug",
+        "v2": "hugged",
+        "v3": "hugged",
+        "v4": "hugging",
+        "v5": "hugs"
+    },
+    {
+        "tel": "ఝుంకార శబ్ధము",
+        "v1": "hum",
+        "v2": "hummed",
+        "v3": "hummed",
+        "v4": "humming",
+        "v5": "hums"
+    },
+    {
+        "tel": "అవమానపరచు",
+        "v1": "humiliate",
+        "v2": "humiliated",
+        "v3": "humiliated",
+        "v4": "humiliating",
+        "v5": "humiliates"
+    },
+    {
+        "tel": "వేటాడు",
+        "v1": "hunt",
+        "v2": "hunted",
+        "v3": "hunted",
+        "v4": "hunting",
+        "v5": "hunts"
+    },
+    {
+        "tel": "చుట్టివేయు",
+        "v1": "hurl",
+        "v2": "hurled",
+        "v3": "hurled",
+        "v4": "hurling",
+        "v5": "hurls"
+    },
+    {
+        "tel": "త్వరితపరచు",
+        "v1": "hurry",
+        "v2": "hurried",
+        "v3": "hurried",
+        "v4": "hurrying",
+        "v5": "hurries"
+    },
+    {
+        "tel": "బాధించుట",
+        "v1": "hurt",
+        "v2": "hurt",
+        "v3": "hurt",
+        "v4": "hurting",
+        "v5": "hurts"
+    },
+    {
+        "tel": "నిశబ్ధముగా ఉండు",
+        "v1": "hush",
+        "v2": "hushed",
+        "v3": "hushed",
+        "v4": "hushing",
+        "v5": "hushes"
+    },
+    {
+        "tel": "బలంతో త్రొక్కు",
+        "v1": "hustle",
+        "v2": "hustled",
+        "v3": "hustled",
+        "v4": "hustling",
+        "v5": "hustles"
+    },
+    {
+        "tel": "వశీకరించు కొనుట",
+        "v1": "hypnotize",
+        "v2": "hypnotized",
+        "v3": "hypnotized",
+        "v4": "hypnotizing",
+        "v5": "hypnotizes"
+    },
+    {
+        "tel": "ఆదర్శమైన",
+        "v1": "idealize",
+        "v2": "idealized",
+        "v3": "idealized",
+        "v4": "idealizing",
+        "v5": "idealizes"
+    },
+    {
+        "tel": "గుర్తించు",
+        "v1": "identify",
+        "v2": "identified",
+        "v3": "identified",
+        "v4": "identifying",
+        "v5": "identifies"
+    },
+    {
+        "tel": "దైవసమానంగా ఎంచి పూజించు",
+        "v1": "idolize",
+        "v2": "idolized",
+        "v3": "idolized",
+        "v4": "idolizing",
+        "v5": "idolizes"
+    },
+    {
+        "tel": "రగిలించు",
+        "v1": "ignite",
+        "v2": "ignited",
+        "v3": "ignited",
+        "v4": "igniting",
+        "v5": "ignites"
+    },
+    {
+        "tel": "నిర్లక్షంచేయు",
+        "v1": "ignore",
+        "v2": "ignored",
+        "v3": "ignored",
+        "v4": "ignoring",
+        "v5": "ignores"
+    },
+    {
+        "tel": "సరిగ్గా పట్టించుకోకపోవటం",
+        "v1": "ill-treat",
+        "v2": "ill-treated",
+        "v3": "ill-treated",
+        "v4": "ill-treating",
+        "v5": "ill-treats"
+    },
+    {
+        "tel": "కాంతిని ప్రసరింపజేయు",
+        "v1": "illuminate",
+        "v2": "illuminated",
+        "v3": "illuminated",
+        "v4": "illuminating",
+        "v5": "illuminates"
+    },
+    {
+        "tel": "ఆధ్యాత్మిక వికాసం కలిగించు",
+        "v1": "illumine",
+        "v2": "illumined",
+        "v3": "illumined",
+        "v4": "illumining",
+        "v5": "illumines"
+    },
+    {
+        "tel": "చిత్రించుట",
+        "v1": "illustrate",
+        "v2": "illustrated",
+        "v3": "illustrated",
+        "v4": "illustrating",
+        "v5": "illustrates"
+    },
+    {
+        "tel": "అనుకొనుట, ఊహించు",
+        "v1": "imagine",
+        "v2": "imagined",
+        "v3": "imagined",
+        "v4": "imagining",
+        "v5": "imagines"
+    },
+    {
+        "tel": "గ్రహించుకొనుట",
+        "v1": "imbibe",
+        "v2": "imbibed",
+        "v3": "imbibed",
+        "v4": "imbibing",
+        "v5": "imbibes"
+    },
+    {
+        "tel": "అనుసరించుట",
+        "v1": "imitate",
+        "v2": "imitated",
+        "v3": "imitated",
+        "v4": "imitating",
+        "v5": "imitates"
+    },
+    {
+        "tel": "పూర్తిగా మునుగునట్లు ద్రవములో ముంచు",
+        "v1": "immerse",
+        "v2": "immersed",
+        "v3": "immersed",
+        "v4": "immersing",
+        "v5": "immerses"
+    },
+    {
+        "tel": "బలిఇచ్చు",
+        "v1": "immolate",
+        "v2": "immolated",
+        "v3": "immolated",
+        "v4": "immolating",
+        "v5": "immolates"
+    },
+    {
+        "tel": "బంధించి ఉంచు",
+        "v1": "immure",
+        "v2": "immured",
+        "v3": "immured",
+        "v4": "immuring",
+        "v5": "immures"
+    },
+    {
+        "tel": "పాడు చేయు",
+        "v1": "impair",
+        "v2": "impaired",
+        "v3": "impaired",
+        "v4": "impairing",
+        "v5": "impairs"
+    },
+    {
+        "tel": "అందించు",
+        "v1": "impart",
+        "v2": "imparted",
+        "v3": "imparted",
+        "v4": "imparting",
+        "v5": "imparts"
+    },
+    {
+        "tel": "నేరమారోపించు",
+        "v1": "impeach",
+        "v2": "impeached",
+        "v3": "impeached",
+        "v4": "impeaching",
+        "v5": "impeaches"
+    },
+    {
+        "tel": "అవరోదం కలిగించు",
+        "v1": "impede",
+        "v2": "impeded",
+        "v3": "impeded",
+        "v4": "impeding",
+        "v5": "impedes"
+    },
+    {
+        "tel": "చలనం కలిగించు",
+        "v1": "impel",
+        "v2": "impelled",
+        "v3": "impelled",
+        "v4": "impelling",
+        "v5": "impels"
+    },
+    {
+        "tel": "భయం కలిగించుచున్న",
+        "v1": "impend",
+        "v2": "impended",
+        "v3": "impended",
+        "v4": "impending",
+        "v5": "impends"
+    },
+    {
+        "tel": "హద్దుమీరి ప్రవర్తించు",
+        "v1": "impinge",
+        "v2": "impinged",
+        "v3": "impinged",
+        "v4": "impinging",
+        "v5": "impinges"
+    },
+    {
+        "tel": "అంటుకట్టు",
+        "v1": "implant",
+        "v2": "implanted",
+        "v3": "implanted",
+        "v4": "implanting",
+        "v5": "implants"
+    },
+    {
+        "tel": "చిక్కు పడునట్లు చేయు",
+        "v1": "implicate",
+        "v2": "implicated",
+        "v3": "implicated",
+        "v4": "implicating",
+        "v5": "implicates"
+    },
+    {
+        "tel": "లోపలనే పగిలిపోవు",
+        "v1": "implode",
+        "v2": "imploded",
+        "v3": "imploded",
+        "v4": "imploding",
+        "v5": "implodes"
+    },
+    {
+        "tel": "దీనంగా అర్ధించు",
+        "v1": "implore",
+        "v2": "implored",
+        "v3": "implored",
+        "v4": "imploring",
+        "v5": "implores"
+    },
+    {
+        "tel": "ముఖ్యమైన బాగంగా గుర్తించు",
+        "v1": "imply",
+        "v2": "implied",
+        "v3": "implied",
+        "v4": "implying",
+        "v5": "implies"
+    },
+    {
+        "tel": "దిగుమతి",
+        "v1": "import",
+        "v2": "imported",
+        "v3": "imported",
+        "v4": "importing",
+        "v5": "imports"
+    },
+    {
+        "tel": "విధించే",
+        "v1": "impose",
+        "v2": "imposed",
+        "v3": "imposed",
+        "v4": "imposing",
+        "v5": "imposes"
+    },
+    {
+        "tel": "ప్రభావితము చేయుట",
+        "v1": "impress",
+        "v2": "impressed",
+        "v3": "impressed",
+        "v4": "impressing",
+        "v5": "impresses"
+    },
+    {
+        "tel": "దృఢమైన ముద్రవేయు",
+        "v1": "imprint",
+        "v2": "imprinted",
+        "v3": "imprinted",
+        "v4": "imprinting",
+        "v5": "imprints"
+    },
+    {
+        "tel": "అదుపులో ఉంచుకొను",
+        "v1": "imprison",
+        "v2": "imprisoned",
+        "v3": "imprisoned",
+        "v4": "imprisoning",
+        "v5": "imprisons"
+    },
+    {
+        "tel": "అభివృద్ధిచేసుట",
+        "v1": "improve",
+        "v2": "improved",
+        "v3": "improved",
+        "v4": "improving",
+        "v5": "improves"
+    },
+    {
+        "tel": "ప్రారంభించు",
+        "v1": "inaugurate",
+        "v2": "inaugurated",
+        "v3": "inaugurated",
+        "v4": "inaugurating",
+        "v5": "inaugurates"
+    },
+    {
+        "tel": "కోతపెట్టు",
+        "v1": "incise",
+        "v2": "incised",
+        "v3": "incised",
+        "v4": "incising",
+        "v5": "incises"
+    },
+    {
+        "tel": "కలుపుట",
+        "v1": "include",
+        "v2": "included",
+        "v3": "included",
+        "v4": "including",
+        "v5": "includes"
+    },
+    {
+        "tel": "పెంచు",
+        "v1": "increase",
+        "v2": "increased",
+        "v3": "increased",
+        "v4": "increasing",
+        "v5": "increases"
+    },
+    {
+        "tel": "నేర్పుట",
+        "v1": "inculcate",
+        "v2": "inculcated",
+        "v3": "inculcated",
+        "v4": "inculcating",
+        "v5": "inculcates"
+    },
+    {
+        "tel": "వొడంబడికచేసుట",
+        "v1": "indent",
+        "v2": "indented",
+        "v3": "indented",
+        "v4": "indenting",
+        "v5": "indents"
+    },
+    {
+        "tel": "సూచించు",
+        "v1": "indicate",
+        "v2": "indicated",
+        "v3": "indicated",
+        "v4": "indicating",
+        "v5": "indicates"
+    },
+    {
+        "tel": "ప్రేరేపించు",
+        "v1": "induce",
+        "v2": "induced",
+        "v3": "induced",
+        "v4": "inducing",
+        "v5": "induces"
+    },
+    {
+        "tel": "కోరికలను పూర్తిగా మన్నించు",
+        "v1": "indulge",
+        "v2": "indulged",
+        "v3": "indulged",
+        "v4": "indulging",
+        "v5": "indulges"
+    },
+    {
+        "tel": "సోకించుట",
+        "v1": "infect",
+        "v2": "infected",
+        "v3": "infected",
+        "v4": "infecting",
+        "v5": "infects"
+    },
+    {
+        "tel": "ముసురుకొను",
+        "v1": "infest",
+        "v2": "infested",
+        "v3": "infested",
+        "v4": "infesting",
+        "v5": "infests"
+    },
+    {
+        "tel": "మండునట్లుగా చేయు",
+        "v1": "inflame",
+        "v2": "inflamed",
+        "v3": "inflamed",
+        "v4": "inflaming",
+        "v5": "inflames"
+    },
+    {
+        "tel": "ఉబ్బునట్లు చేయు",
+        "v1": "inflate",
+        "v2": "inflated",
+        "v3": "inflated",
+        "v4": "inflating",
+        "v5": "inflates"
+    },
+    {
+        "tel": "వంకరగా చేయు",
+        "v1": "inflect",
+        "v2": "inflected",
+        "v3": "inflected",
+        "v4": "inflecting",
+        "v5": "inflects"
+    },
+    {
+        "tel": "తెలియజేయు",
+        "v1": "inform",
+        "v2": "informed",
+        "v3": "informed",
+        "v4": "informing",
+        "v5": "informs"
+    },
+    {
+        "tel": "ఉల్లంఘించు",
+        "v1": "infringe",
+        "v2": "infringed",
+        "v3": "infringed",
+        "v4": "infringing",
+        "v5": "infringes"
+    },
+    {
+        "tel": "నానవేసుట",
+        "v1": "infuse",
+        "v2": "infused",
+        "v3": "infused",
+        "v4": "infusing",
+        "v5": "infuses"
+    },
+    {
+        "tel": "కడుపులోకి తీసుకొను",
+        "v1": "ingest",
+        "v2": "ingested",
+        "v3": "ingested",
+        "v4": "ingesting",
+        "v5": "ingests"
+    },
+    {
+        "tel": "నివాసంగా చేసికొని ఉండు",
+        "v1": "inhabit",
+        "v2": "inhabited",
+        "v3": "inhabited",
+        "v4": "inhabiting",
+        "v5": "inhabits"
+    },
+    {
+        "tel": "గాలిని లోనికి పీల్చు",
+        "v1": "inhale",
+        "v2": "inhaled",
+        "v3": "inhaled",
+        "v4": "inhaling",
+        "v5": "inhales"
+    },
+    {
+        "tel": "వారసత్వంగా పొందు",
+        "v1": "inherit",
+        "v2": "inherited",
+        "v3": "inherited",
+        "v4": "inheriting",
+        "v5": "inherits"
+    },
+    {
+        "tel": "మొదలుపెట్టడం",
+        "v1": "initiate",
+        "v2": "initiated",
+        "v3": "initiated",
+        "v4": "initiating",
+        "v5": "initiates"
+    },
+    {
+        "tel": "బలవంతంగా పంపించు",
+        "v1": "inject",
+        "v2": "injected",
+        "v3": "injected",
+        "v4": "injecting",
+        "v5": "injects"
+    },
+    {
+        "tel": "గాయపడు",
+        "v1": "injure",
+        "v2": "injured",
+        "v3": "injured",
+        "v4": "injuring",
+        "v5": "injures"
+    },
+    {
+        "tel": "పొదుగు",
+        "v1": "inlay",
+        "v2": "inlaid",
+        "v3": "inlaid",
+        "v4": "inlaying",
+        "v5": "inlays"
+    },
+    {
+        "tel": "ఆవిష్కరణ",
+        "v1": "innovate",
+        "v2": "innovated",
+        "v3": "innovated",
+        "v4": "innovating",
+        "v5": "innovates"
+    },
+    {
+        "tel": "పెట్టుబడిగా పెట్టినవి, యంత్రానికి అందించే శక్తి",
+        "v1": "input",
+        "v2": "input",
+        "v3": "input",
+        "v4": "inputting",
+        "v5": "inputs"
+    },
+    {
+        "tel": "విచారించు",
+        "v1": "inquire",
+        "v2": "inquired",
+        "v3": "inquired",
+        "v4": "inquiring",
+        "v5": "inquires"
+    },
+    {
+        "tel": "అంకితం చేయు",
+        "v1": "inscribe",
+        "v2": "inscribed",
+        "v3": "inscribed",
+        "v4": "inscribing",
+        "v5": "inscribes"
+    },
+    {
+        "tel": "లోపల అమర్చు",
+        "v1": "insert",
+        "v2": "inserted",
+        "v3": "inserted",
+        "v4": "inserting",
+        "v5": "inserts"
+    },
+    {
+        "tel": "జాగ్రత్తగా పరిశీలించు",
+        "v1": "inspect",
+        "v2": "inspected",
+        "v3": "inspected",
+        "v4": "inspecting",
+        "v5": "inspects"
+    },
+    {
+        "tel": "ఆసక్తిని ప్రేరేపించు",
+        "v1": "inspire",
+        "v2": "inspired",
+        "v3": "inspired",
+        "v4": "inspiring",
+        "v5": "inspires"
+    },
+    {
+        "tel": "ఏర్పాటు చేయు",
+        "v1": "install",
+        "v2": "installed",
+        "v3": "installed",
+        "v4": "installing",
+        "v5": "installs"
+    },
+    {
+        "tel": "దూషణ చేయు",
+        "v1": "insult",
+        "v2": "insulted",
+        "v3": "insulted",
+        "v4": "insulting",
+        "v5": "insults"
+    },
+    {
+        "tel": "భీమాచేయు",
+        "v1": "insure",
+        "v2": "insured",
+        "v3": "insured",
+        "v4": "insuring",
+        "v5": "insures"
+    },
+    {
+        "tel": "ఒకచోట చేర్చు",
+        "v1": "integrate",
+        "v2": "integrated",
+        "v3": "integrated",
+        "v4": "integrating",
+        "v5": "integrates"
+    },
+    {
+        "tel": "ప్రవేశపెట్టు, పరిచయం చేయు,",
+        "v1": "introduce",
+        "v2": "introduced",
+        "v3": "introduced",
+        "v4": "introducing",
+        "v5": "introduces"
+    },
+    {
+        "tel": "కనిపెట్టు",
+        "v1": "invent",
+        "v2": "invented",
+        "v3": "invented",
+        "v4": "inventing",
+        "v5": "invents"
+    },
+    {
+        "tel": "ఆహ్వానించు",
+        "v1": "invite",
+        "v2": "invited",
+        "v3": "invited",
+        "v4": "inviting",
+        "v5": "invites"
+    },
+    {
+        "tel": "కలుపు, చేర్చు",
+        "v1": "join",
+        "v2": "joined",
+        "v3": "joined",
+        "v4": "joining",
+        "v5": "joins"
+    },
+    {
+        "tel": "ఎగిరి దుముకు",
+        "v1": "jump",
+        "v2": "jumped",
+        "v3": "jumped",
+        "v4": "jumping",
+        "v5": "jumps"
+    },
+    {
+        "tel": "న్యాయంచేయటానికి",
+        "v1": "justify",
+        "v2": "justified",
+        "v3": "justified",
+        "v4": "justifying",
+        "v5": "justifies"
+    },
+    {
+        "tel": "ఉంచు",
+        "v1": "keep",
+        "v2": "kept",
+        "v3": "kept",
+        "v4": "keeping",
+        "v5": "keeps"
+    },
+    {
+        "tel": "తన్ను",
+        "v1": "kick",
+        "v2": "kicked",
+        "v3": "kicked",
+        "v4": "kicking",
+        "v5": "kicks"
+    },
+    {
+        "tel": "చంపివేయు",
+        "v1": "kill",
+        "v2": "killed",
+        "v3": "killed",
+        "v4": "killing",
+        "v5": "kills"
+    },
+    {
+        "tel": "ముద్దు పెట్టుకొను",
+        "v1": "kiss",
+        "v2": "kissed",
+        "v3": "kissed",
+        "v4": "kissing",
+        "v5": "kisses"
+    },
+    {
+        "tel": "మోకరించుట",
+        "v1": "kneel",
+        "v2": "knelt",
+        "v3": "knelt",
+        "v4": "kneeling",
+        "v5": "kneels"
+    },
+    {
+        "tel": "అల్లుట, ముడివేయుట",
+        "v1": "knit",
+        "v2": "knit",
+        "v3": "knit",
+        "v4": "knitting",
+        "v5": "knits"
+    },
+    {
+        "tel": "కొట్టు, తట్టు",
+        "v1": "knock",
+        "v2": "knocked",
+        "v3": "knocked",
+        "v4": "knocking",
+        "v5": "knocks"
+    },
+    {
+        "tel": "తెలిసికొను",
+        "v1": "know",
+        "v2": "knew",
+        "v3": "known",
+        "v4": "knowing",
+        "v5": "knows"
+    },
+    {
+        "tel": "దించుట",
+        "v1": "land",
+        "v2": "landed",
+        "v3": "landed",
+        "v4": "landing",
+        "v5": "lands"
+    },
+    {
+        "tel": "జరుగుట",
+        "v1": "last",
+        "v2": "lasted",
+        "v3": "lasted",
+        "v4": "lasting",
+        "v5": "lasts"
+    },
+    {
+        "tel": "గడియ వేయు",
+        "v1": "latch",
+        "v2": "latched",
+        "v3": "latched",
+        "v4": "latching",
+        "v5": "latches"
+    },
+    {
+        "tel": "నవ్వుట",
+        "v1": "laugh",
+        "v2": "laughed",
+        "v3": "laughed",
+        "v4": "laughing",
+        "v5": "laughs"
+    },
+    {
+        "tel": "ఉంచు, పెట్టు",
+        "v1": "lay",
+        "v2": "laid",
+        "v3": "laid",
+        "v4": "laying",
+        "v5": "lays"
+    },
+    {
+        "tel": "తీసుకపోవుట, పెత్తనము",
+        "v1": "lead",
+        "v2": "led",
+        "v3": "led",
+        "v4": "leading",
+        "v5": "leads"
+    },
+    {
+        "tel": "కాఱుట",
+        "v1": "leak",
+        "v2": "leaked",
+        "v3": "leaked",
+        "v4": "leaking",
+        "v5": "leaks"
+    },
+    {
+        "tel": "ఆనుకొను",
+        "v1": "lean",
+        "v2": "leant",
+        "v3": "leant",
+        "v4": "leaning",
+        "v5": "leans"
+    },
+    {
+        "tel": "దుముకు, గంతు వేయు",
+        "v1": "leap",
+        "v2": "leapt",
+        "v3": "leapt",
+        "v4": "leaping",
+        "v5": "leaps"
+    },
+    {
+        "tel": "అభ్యసించు, నేర్చుకొను",
+        "v1": "learn",
+        "v2": "learnt",
+        "v3": "learnt",
+        "v4": "learning",
+        "v5": "learns"
+    },
+    {
+        "tel": "విడిచిపెట్టుట",
+        "v1": "leave",
+        "v2": "left",
+        "v3": "left",
+        "v4": "leaving",
+        "v5": "leaves"
+    },
+    {
+        "tel": "ఓరచూపుచూచుట",
+        "v1": "leer",
+        "v2": "leered",
+        "v3": "leered",
+        "v4": "leering",
+        "v5": "leers"
+    },
+    {
+        "tel": "అప్పుయిచ్చుట",
+        "v1": "lend",
+        "v2": "lent",
+        "v3": "lent",
+        "v4": "lending",
+        "v5": "lends"
+    },
+    {
+        "tel": "అనుమతి ఇచ్చు",
+        "v1": "let",
+        "v2": "let",
+        "v3": "let",
+        "v4": "letting",
+        "v5": "lets"
+    },
+    {
+        "tel": "నాకి తిను",
+        "v1": "lick",
+        "v2": "licked",
+        "v3": "licked",
+        "v4": "licking",
+        "v5": "licks"
+    },
+    {
+        "tel": "పడుకొనుట",
+        "v1": "lie",
+        "v2": "lay",
+        "v3": "lain",
+        "v4": "lying",
+        "v5": "lies"
+    },
+    {
+        "tel": "అబద్దము",
+        "v1": "lie",
+        "v2": "lied",
+        "v3": "lied",
+        "v4": "lying",
+        "v5": "lies"
+    },
+    {
+        "tel": "పైకెత్తు",
+        "v1": "lift",
+        "v2": "lifted",
+        "v3": "lifted",
+        "v4": "lifting",
+        "v5": "lifts"
+    },
+    {
+        "tel": "వెలిగించుట",
+        "v1": "light",
+        "v2": "lit",
+        "v3": "lit",
+        "v4": "lighting",
+        "v5": "lights"
+    },
+    {
+        "tel": "ఇష్టపడుట",
+        "v1": "like",
+        "v2": "liked",
+        "v3": "liked",
+        "v4": "liking",
+        "v5": "likes"
+    },
+    {
+        "tel": "కుంటుట",
+        "v1": "limp",
+        "v2": "limped",
+        "v3": "limped",
+        "v4": "limping",
+        "v5": "limps"
+    },
+    {
+        "tel": "వినండి",
+        "v1": "listen",
+        "v2": "listened",
+        "v3": "listened",
+        "v4": "listening",
+        "v5": "listens"
+    },
+    {
+        "tel": "జీవించు, బ్రతుకు",
+        "v1": "live",
+        "v2": "lived",
+        "v3": "lived",
+        "v4": "living",
+        "v5": "lives"
+    },
+    {
+        "tel": "చూచు",
+        "v1": "look",
+        "v2": "looked",
+        "v3": "looked",
+        "v4": "looking",
+        "v5": "looks"
+    },
+    {
+        "tel": "పోగొట్టుకొను",
+        "v1": "lose",
+        "v2": "lost",
+        "v3": "lost",
+        "v4": "losing",
+        "v5": "loses"
+    },
+    {
+        "tel": "ప్రేమించు",
+        "v1": "love",
+        "v2": "loved",
+        "v3": "loved",
+        "v4": "loving",
+        "v5": "loves"
+    },
+    {
+        "tel": "పెంచు",
+        "v1": "magnify",
+        "v2": "magnified",
+        "v3": "magnified",
+        "v4": "magnifying",
+        "v5": "magnifies"
+    },
+    {
+        "tel": "పోషించు",
+        "v1": "maintain",
+        "v2": "maintained",
+        "v3": "maintained",
+        "v4": "maintaining",
+        "v5": "maintains"
+    },
+    {
+        "tel": "తయారుచేయు",
+        "v1": "make",
+        "v2": "made",
+        "v3": "made",
+        "v4": "making",
+        "v5": "makes"
+    },
+    {
+        "tel": "నడిపించుట, నడుపు",
+        "v1": "manage",
+        "v2": "managed",
+        "v3": "managed",
+        "v4": "managing",
+        "v5": "manages"
+    },
+    {
+        "tel": "నడుచుట",
+        "v1": "march",
+        "v2": "marched",
+        "v3": "marched",
+        "v4": "marching",
+        "v5": "marches"
+    },
+    {
+        "tel": "వేసుట",
+        "v1": "mark",
+        "v2": "marked",
+        "v3": "marked",
+        "v4": "marking",
+        "v5": "marks"
+    },
+    {
+        "tel": "వివాహం",
+        "v1": "marry",
+        "v2": "married",
+        "v3": "married",
+        "v4": "marrying",
+        "v5": "marries"
+    },
+    {
+        "tel": "మిశ్రమముచేసుట",
+        "v1": "mash",
+        "v2": "mashed",
+        "v3": "mashed",
+        "v4": "mashing",
+        "v5": "mashes"
+    },
+    {
+        "tel": "తగినట్లు",
+        "v1": "match",
+        "v2": "matched",
+        "v3": "matched",
+        "v4": "matching",
+        "v5": "matches"
+    },
+    {
+        "tel": "భావించుకొనుట, అర్థమౌట",
+        "v1": "mean",
+        "v2": "meant",
+        "v3": "meant",
+        "v4": "meaning",
+        "v5": "means"
+    },
+    {
+        "tel": "కొలుచుట",
+        "v1": "measure",
+        "v2": "measured",
+        "v3": "measured",
+        "v4": "measuring",
+        "v5": "measures"
+    },
+    {
+        "tel": "కలుసుకొను",
+        "v1": "meet",
+        "v2": "met",
+        "v3": "met",
+        "v4": "meeting",
+        "v5": "meets"
+    },
+    {
+        "tel": "కరిగించుట",
+        "v1": "melt",
+        "v2": "melted",
+        "v3": "melted",
+        "v4": "melting",
+        "v5": "melts"
+    },
+    {
+        "tel": "విలీనం చేయు, కలుపు",
+        "v1": "merge",
+        "v2": "merged",
+        "v3": "merged",
+        "v4": "merging",
+        "v5": "merges"
+    },
+    {
+        "tel": "కూయుట",
+        "v1": "mew",
+        "v2": "mewed",
+        "v3": "mewed",
+        "v4": "mewing",
+        "v5": "mews"
+    },
+    {
+        "tel": "వలసపోవు",
+        "v1": "migrate",
+        "v2": "migrated",
+        "v3": "migrated",
+        "v4": "migrating",
+        "v5": "migrates"
+    },
+    {
+        "tel": "లక్ష్యపెట్టుట, వినుట",
+        "v1": "mind",
+        "v2": "minded",
+        "v3": "minded",
+        "v4": "minding",
+        "v5": "minds"
+    },
+    {
+        "tel": "తప్పుదారి పట్టించు",
+        "v1": "mislead",
+        "v2": "misled",
+        "v3": "misled",
+        "v4": "misleading",
+        "v5": "misleads"
+    },
+    {
+        "tel": "విఫలమవు",
+        "v1": "miss",
+        "v2": "missed",
+        "v3": "missed",
+        "v4": "missing",
+        "v5": "misses"
+    },
+    {
+        "tel": "పొరపాటు",
+        "v1": "mistake",
+        "v2": "mistook",
+        "v3": "mistaken",
+        "v4": "mistaking",
+        "v5": "mistakes"
+    },
+    {
+        "tel": "దుర్వినియోగం",
+        "v1": "misuse",
+        "v2": "misused",
+        "v3": "misused",
+        "v4": "misusing",
+        "v5": "misuses"
+    },
+    {
+        "tel": "కలుపు",
+        "v1": "mix",
+        "v2": "mixed",
+        "v3": "mixed",
+        "v4": "mixing",
+        "v5": "mixes"
+    },
+    {
+        "tel": "బాధతో మూలుగు",
+        "v1": "moan",
+        "v2": "moaned",
+        "v3": "moaned",
+        "v4": "moaning",
+        "v5": "moans"
+    },
+    {
+        "tel": "సవరించండి",
+        "v1": "modify",
+        "v2": "modified",
+        "v3": "modified",
+        "v4": "modifying",
+        "v5": "modifies"
+    },
+    {
+        "tel": "అరచు",
+        "v1": "moo",
+        "v2": "mooed",
+        "v3": "mooed",
+        "v4": "mooing",
+        "v5": "moos"
+    },
+    {
+        "tel": "ప్రోత్సహించు",
+        "v1": "motivate",
+        "v2": "motivated",
+        "v3": "motivated",
+        "v4": "motivating",
+        "v5": "motivates"
+    },
+    {
+        "tel": "అచ్చువేయుట",
+        "v1": "mould",
+        "v2": "moulded",
+        "v3": "moulded",
+        "v4": "moulding",
+        "v5": "moulds"
+    },
+    {
+        "tel": "కదలిక",
+        "v1": "move",
+        "v2": "moved",
+        "v3": "moved",
+        "v4": "moving",
+        "v5": "moves"
+    },
+    {
+        "tel": "గుణించు",
+        "v1": "multiply",
+        "v2": "multiplied",
+        "v3": "multiplied",
+        "v4": "multiplying",
+        "v5": "multiplies"
+    },
+    {
+        "tel": "గొణుగుట, సణుగుట",
+        "v1": "murmur",
+        "v2": "murmured",
+        "v3": "murmured",
+        "v4": "murmuring",
+        "v5": "murmurs"
+    },
+    {
+        "tel": "మేకులు కొట్టడం",
+        "v1": "nail",
+        "v2": "nailed",
+        "v3": "nailed",
+        "v4": "nailing",
+        "v5": "nails"
+    },
+    {
+        "tel": "స్వల్పనిద్ర",
+        "v1": "nap",
+        "v2": "napped",
+        "v3": "napped",
+        "v4": "napping",
+        "v5": "naps"
+    },
+    {
+        "tel": "అవసరము",
+        "v1": "need",
+        "v2": "needed",
+        "v3": "needed",
+        "v4": "needing",
+        "v5": "needs"
+    },
+    {
+        "tel": "అశ్రద్దచేయుట",
+        "v1": "neglect",
+        "v2": "neglected",
+        "v3": "neglected",
+        "v4": "neglecting",
+        "v5": "neglects"
+    },
+    {
+        "tel": "కరుచుట, కొరుకుట, గిల్లుట, తుంచుట",
+        "v1": "nip",
+        "v2": "nipped",
+        "v3": "nipped",
+        "v4": "nipping",
+        "v5": "nips"
+    },
+    {
+        "tel": "తల ఊపుట",
+        "v1": "nod",
+        "v2": "nodded",
+        "v3": "nodded",
+        "v4": "nodding",
+        "v5": "nods"
+    },
+    {
+        "tel": "గుర్తు చేయుట",
+        "v1": "note",
+        "v2": "noted",
+        "v3": "noted",
+        "v4": "noting",
+        "v5": "notes"
+    },
+    {
+        "tel": "సమాచారము",
+        "v1": "notice",
+        "v2": "noticed",
+        "v3": "noticed",
+        "v4": "noticing",
+        "v5": "notices"
+    },
+    {
+        "tel": "ప్రకటన చేయుట",
+        "v1": "notify",
+        "v2": "notified",
+        "v3": "notified",
+        "v4": "notifying",
+        "v5": "notifies"
+    },
+    {
+        "tel": "పెంచుట",
+        "v1": "nourish",
+        "v2": "nourished",
+        "v3": "nourished",
+        "v4": "nourishing",
+        "v5": "nourishes"
+    },
+    {
+        "tel": "చనుబాలిచ్చుట, పెంచుట, పోషించుట, సాకుట",
+        "v1": "nurse",
+        "v2": "nursed",
+        "v3": "nursed",
+        "v4": "nursing",
+        "v5": "nurses"
+    },
+    {
+        "tel": "ఆజ్ఞ పాటించు",
+        "v1": "obey",
+        "v2": "obeyed",
+        "v3": "obeyed",
+        "v4": "obeying",
+        "v5": "obeys"
+    },
+    {
+        "tel": "నిర్బంధించుట, ఉపకారము చేయు",
+        "v1": "oblige",
+        "v2": "obliged",
+        "v3": "obliged",
+        "v4": "obliging",
+        "v5": "obliges"
+    },
+    {
+        "tel": "గమనించు",
+        "v1": "observe",
+        "v2": "observed",
+        "v3": "observed",
+        "v4": "observing",
+        "v5": "observes"
+    },
+    {
+        "tel": "అడ్డగించు",
+        "v1": "obstruct",
+        "v2": "obstructed",
+        "v3": "obstructed",
+        "v4": "obstructing",
+        "v5": "obstructs"
+    },
+    {
+        "tel": "సంపాదించు, పొందు",
+        "v1": "obtain",
+        "v2": "obtained",
+        "v3": "obtained",
+        "v4": "obtaining",
+        "v5": "obtains"
+    },
+    {
+        "tel": "ఆక్రమించు",
+        "v1": "occupy",
+        "v2": "occupied",
+        "v3": "occupied",
+        "v4": "occupying",
+        "v5": "occupies"
+    },
+    {
+        "tel": "సంభవించు",
+        "v1": "occur",
+        "v2": "occurred",
+        "v3": "occurred",
+        "v4": "occurring",
+        "v5": "occurs"
+    },
+    {
+        "tel": "ఇవ్వటం, అర్పించడం",
+        "v1": "offer",
+        "v2": "offered",
+        "v3": "offered",
+        "v4": "offering",
+        "v5": "offers"
+    },
+    {
+        "tel": "లోపమును సరిచేయు",
+        "v1": "offset",
+        "v2": "offset",
+        "v3": "offset",
+        "v4": "offsetting",
+        "v5": "offsets"
+    },
+    {
+        "tel": "వదిలివేయు,",
+        "v1": "omit",
+        "v2": "omitted",
+        "v3": "omitted",
+        "v4": "omitting",
+        "v5": "omits"
+    },
+    {
+        "tel": "స్రవించుట, కారుట",
+        "v1": "ooze",
+        "v2": "oozed",
+        "v3": "oozed",
+        "v4": "oozing",
+        "v5": "oozes"
+    },
+    {
+        "tel": "తెరుచుట, ఆరంభించుట",
+        "v1": "open",
+        "v2": "opened",
+        "v3": "opened",
+        "v4": "opening",
+        "v5": "opens"
+    },
+    {
+        "tel": "నడిపించుట",
+        "v1": "operate",
+        "v2": "operated",
+        "v3": "operated",
+        "v4": "operating",
+        "v5": "operates"
+    },
+    {
+        "tel": "వెల్లడించు",
+        "v1": "opine",
+        "v2": "opined",
+        "v3": "opined",
+        "v4": "opining",
+        "v5": "opines"
+    },
+    {
+        "tel": "పీడించు, హింసించు",
+        "v1": "oppress",
+        "v2": "oppressed",
+        "v3": "oppressed",
+        "v4": "oppressing",
+        "v5": "oppresses"
+    },
+    {
+        "tel": "సరిఅయిన, ఎంపిక",
+        "v1": "opt",
+        "v2": "opted",
+        "v3": "opted",
+        "v4": "opting",
+        "v5": "opts"
+    },
+    {
+        "tel": "అనుకూల పరచడం",
+        "v1": "optimize",
+        "v2": "optimized",
+        "v3": "optimized",
+        "v4": "optimizing",
+        "v5": "optimizes"
+    },
+    {
+        "tel": "ఆజ్ఞాపించడం, ఆదేశం ఇవ్వటం",
+        "v1": "order",
+        "v2": "ordered",
+        "v3": "ordered",
+        "v4": "ordering",
+        "v5": "orders"
+    },
+    {
+        "tel": "ఏర్పాటు చేయు, కుదుర్చు",
+        "v1": "organize",
+        "v2": "organized",
+        "v3": "organized",
+        "v4": "organizing",
+        "v5": "organizes"
+    },
+    {
+        "tel": "ఉత్పత్తి చేయు, ఆరంభమౌట",
+        "v1": "originate",
+        "v2": "originated",
+        "v3": "originated",
+        "v4": "originating",
+        "v5": "originates"
+    },
+    {
+        "tel": "బయటకి",
+        "v1": "output",
+        "v2": "output",
+        "v3": "output",
+        "v4": "outputting",
+        "v5": "outputs"
+    },
+    {
+        "tel": "పొంగి పొర్లు",
+        "v1": "overflow",
+        "v2": "overflowed",
+        "v3": "overflowed",
+        "v4": "overflowing",
+        "v5": "overflows"
+    },
+    {
+        "tel": "దాటి పోవు",
+        "v1": "overtake",
+        "v2": "overtook",
+        "v3": "overtaken",
+        "v4": "overtaking",
+        "v5": "overtakes"
+    },
+    {
+        "tel": "రుణపడియుండు",
+        "v1": "owe",
+        "v2": "owed",
+        "v3": "owed",
+        "v4": "owing",
+        "v5": "owes"
+    },
+    {
+        "tel": "సొంతమైన",
+        "v1": "own",
+        "v2": "owned",
+        "v3": "owned",
+        "v4": "owning",
+        "v5": "owns"
+    },
+    {
+        "tel": "సముదాయించుట",
+        "v1": "pacify",
+        "v2": "pacified",
+        "v3": "pacified",
+        "v4": "pacifying",
+        "v5": "pacifies"
+    },
+    {
+        "tel": "చిత్రాన్ని వేయు",
+        "v1": "paint",
+        "v2": "painted",
+        "v3": "painted",
+        "v4": "painting",
+        "v5": "paints"
+    },
+    {
+        "tel": "క్షమాపణ",
+        "v1": "pardon",
+        "v2": "pardoned",
+        "v3": "pardoned",
+        "v4": "pardoning",
+        "v5": "pardons"
+    },
+    {
+        "tel": "ఎడబాయుట, విభజించుట",
+        "v1": "part",
+        "v2": "parted",
+        "v3": "parted",
+        "v4": "parting",
+        "v5": "parts"
+    },
+    {
+        "tel": "పంచుకునే",
+        "v1": "partake",
+        "v2": "partook",
+        "v3": "partaken",
+        "v4": "partaking",
+        "v5": "partakes"
+    },
+    {
+        "tel": "పాల్గొను",
+        "v1": "participate",
+        "v2": "participated",
+        "v3": "participated",
+        "v4": "participating",
+        "v5": "participates"
+    },
+    {
+        "tel": "దాటుట",
+        "v1": "pass",
+        "v2": "passed",
+        "v3": "passed",
+        "v4": "passing",
+        "v5": "passes"
+    },
+    {
+        "tel": "అతికించు",
+        "v1": "paste",
+        "v2": "pasted",
+        "v3": "pasted",
+        "v4": "pasting",
+        "v5": "pastes"
+    },
+    {
+        "tel": "తట్టుట",
+        "v1": "pat",
+        "v2": "patted",
+        "v3": "patted",
+        "v4": "patting",
+        "v5": "pats"
+    },
+    {
+        "tel": "చిరుగును కప్పివేయుట",
+        "v1": "patch",
+        "v2": "patched",
+        "v3": "patched",
+        "v4": "patching",
+        "v5": "patches"
+    },
+    {
+        "tel": "తాత్కాలిక విరామము",
+        "v1": "pause",
+        "v2": "paused",
+        "v3": "paused",
+        "v4": "pausing",
+        "v5": "pauses"
+    },
+    {
+        "tel": "చెల్లించు",
+        "v1": "pay",
+        "v2": "paid",
+        "v3": "paid",
+        "v4": "paying",
+        "v5": "pays"
+    },
+    {
+        "tel": "కన్నం లో నుంచి చూడటం",
+        "v1": "peep",
+        "v2": "peeped",
+        "v3": "peeped",
+        "v4": "peeping",
+        "v5": "peeps"
+    },
+    {
+        "tel": "చెడిపోవుట, నశించుట",
+        "v1": "perish",
+        "v2": "perished",
+        "v3": "perished",
+        "v4": "perishing",
+        "v5": "perishes"
+    },
+    {
+        "tel": "అనుమతి",
+        "v1": "permit",
+        "v2": "permitted",
+        "v3": "permitted",
+        "v4": "permitting",
+        "v5": "permits"
+    },
+    {
+        "tel": "ఇష్టపడునట్లు చేయు",
+        "v1": "persuade",
+        "v2": "persuaded",
+        "v3": "persuaded",
+        "v4": "persuading",
+        "v5": "persuades"
+    },
+    {
+        "tel": "టెలిఫోను చేయు",
+        "v1": "phone",
+        "v2": "phoned",
+        "v3": "phoned",
+        "v4": "phoning",
+        "v5": "phones"
+    },
+    {
+        "tel": "పెట్టుట, వుంచుట",
+        "v1": "place",
+        "v2": "placed",
+        "v3": "placed",
+        "v4": "placing",
+        "v5": "places"
+    },
+    {
+        "tel": "పథకం వేయుట",
+        "v1": "plan",
+        "v2": "planned",
+        "v3": "planned",
+        "v4": "planning",
+        "v5": "plans"
+    },
+    {
+        "tel": "ఆడుట",
+        "v1": "play",
+        "v2": "played",
+        "v3": "played",
+        "v4": "playing",
+        "v5": "plays"
+    },
+    {
+        "tel": "వాదించు",
+        "v1": "plead",
+        "v2": "pled",
+        "v3": "pled",
+        "v4": "pleading",
+        "v5": "pleads"
+    },
+    {
+        "tel": "మర్యాదగా, అభ్యర్థన",
+        "v1": "please",
+        "v2": "pleased",
+        "v3": "pleased",
+        "v4": "pleasing",
+        "v5": "pleases"
+    },
+    {
+        "tel": "కోయు, త్రుంచు",
+        "v1": "pluck",
+        "v2": "plucked",
+        "v3": "plucked",
+        "v4": "plucking",
+        "v5": "plucks"
+    },
+    {
+        "tel": "కొనసాగించు",
+        "v1": "ply",
+        "v2": "plied",
+        "v3": "plied",
+        "v4": "plying",
+        "v5": "plies"
+    },
+    {
+        "tel": "చూపుట",
+        "v1": "point",
+        "v2": "pointed",
+        "v3": "pointed",
+        "v4": "pointing",
+        "v5": "points"
+    },
+    {
+        "tel": "మెరుగుపరచు",
+        "v1": "polish",
+        "v2": "polished",
+        "v3": "polished",
+        "v4": "polishing",
+        "v5": "polishes"
+    },
+    {
+        "tel": "పాడుచేయు, కలుషితం చేయు",
+        "v1": "pollute",
+        "v2": "polluted",
+        "v3": "polluted",
+        "v4": "polluting",
+        "v5": "pollutes"
+    },
+    {
+        "tel": "ధీర్ఘంగా ఆలోచించు",
+        "v1": "ponder",
+        "v2": "pondered",
+        "v3": "pondered",
+        "v4": "pondering",
+        "v5": "ponders"
+    },
+    {
+        "tel": "పోయుట",
+        "v1": "pour",
+        "v2": "poured",
+        "v3": "poured",
+        "v4": "pouring",
+        "v5": "pours"
+    },
+    {
+        "tel": "అలక, పెదవి విరుపు",
+        "v1": "pout",
+        "v2": "pouted",
+        "v3": "pouted",
+        "v4": "pouting",
+        "v5": "pouts"
+    },
+    {
+        "tel": "సాధన చేయు",
+        "v1": "practise",
+        "v2": "practised",
+        "v3": "practised",
+        "v4": "practising",
+        "v5": "practises"
+    },
+    {
+        "tel": "ప్రశంసించు, స్తుతించుట",
+        "v1": "praise",
+        "v2": "praised",
+        "v3": "praised",
+        "v4": "praising",
+        "v5": "praises"
+    },
+    {
+        "tel": "ప్రార్థించుట, వేడుకొనుట",
+        "v1": "pray",
+        "v2": "prayed",
+        "v3": "prayed",
+        "v4": "praying",
+        "v5": "prays"
+    },
+    {
+        "tel": "భోధించు, వుపదేశించుట",
+        "v1": "preach",
+        "v2": "preached",
+        "v3": "preached",
+        "v4": "preaching",
+        "v5": "preaches"
+    },
+    {
+        "tel": "ఎక్కువగా ఇష్టపడు,",
+        "v1": "prefer",
+        "v2": "preferred",
+        "v3": "preferred",
+        "v4": "preferring",
+        "v5": "prefers"
+    },
+    {
+        "tel": "సిద్ధమౌట, సిధ్ధపరచు",
+        "v1": "prepare",
+        "v2": "prepared",
+        "v3": "prepared",
+        "v4": "preparing",
+        "v5": "prepares"
+    },
+    {
+        "tel": "విధించుట",
+        "v1": "prescribe",
+        "v2": "prescribed",
+        "v3": "prescribed",
+        "v4": "prescribing",
+        "v5": "prescribes"
+    },
+    {
+        "tel": "హాజరగు",
+        "v1": "present",
+        "v2": "presented",
+        "v3": "presented",
+        "v4": "presenting",
+        "v5": "presents"
+    },
+    {
+        "tel": "నిల్వ చేయు",
+        "v1": "preserve",
+        "v2": "preserved",
+        "v3": "preserved",
+        "v4": "preserving",
+        "v5": "preserves"
+    },
+    {
+        "tel": "అధ్యక్షత, అదుపు చేయు",
+        "v1": "preside",
+        "v2": "presided",
+        "v3": "presided",
+        "v4": "presiding",
+        "v5": "presides"
+    },
+    {
+        "tel": "ఒత్తిడి చేయు, నలిపివేయు",
+        "v1": "press",
+        "v2": "pressed",
+        "v3": "pressed",
+        "v4": "pressing",
+        "v5": "presses"
+    },
+    {
+        "tel": "నటించు",
+        "v1": "pretend",
+        "v2": "pretended",
+        "v3": "pretended",
+        "v4": "pretending",
+        "v5": "pretends"
+    },
+    {
+        "tel": "నిరోధించు",
+        "v1": "prevent",
+        "v2": "prevented",
+        "v3": "prevented",
+        "v4": "preventing",
+        "v5": "prevents"
+    },
+    {
+        "tel": "ముద్రించు",
+        "v1": "print",
+        "v2": "printed",
+        "v3": "printed",
+        "v4": "printing",
+        "v5": "prints"
+    },
+    {
+        "tel": "కొనసాగు, ముందుకు పోవు",
+        "v1": "proceed",
+        "v2": "proceeded",
+        "v3": "proceeded",
+        "v4": "proceeding",
+        "v5": "proceeds"
+    },
+    {
+        "tel": "ఉత్పత్తిచేయు",
+        "v1": "produce",
+        "v2": "produced",
+        "v3": "produced",
+        "v4": "producing",
+        "v5": "produces"
+    },
+    {
+        "tel": "పెరుగుట, పురోగతి",
+        "v1": "progress",
+        "v2": "progressed",
+        "v3": "progressed",
+        "v4": "progressing",
+        "v5": "progresses"
+    },
+    {
+        "tel": "నిషేదించుట",
+        "v1": "prohibit",
+        "v2": "prohibited",
+        "v3": "prohibited",
+        "v4": "prohibiting",
+        "v5": "prohibits"
+    },
+    {
+        "tel": "వాగ్దానం చేయు",
+        "v1": "promise",
+        "v2": "promised",
+        "v3": "promised",
+        "v4": "promising",
+        "v5": "promises"
+    },
+    {
+        "tel": "ప్రతిపాదన చేయు",
+        "v1": "propose",
+        "v2": "proposed",
+        "v3": "proposed",
+        "v4": "proposing",
+        "v5": "proposes"
+    },
+    {
+        "tel": "శిక్షించడానికి",
+        "v1": "prosecute",
+        "v2": "prosecuted",
+        "v3": "prosecuted",
+        "v4": "prosecuting",
+        "v5": "prosecutes"
+    },
+    {
+        "tel": "రక్షణ కల్పించు, భద్రంగా వుంచు",
+        "v1": "protect",
+        "v2": "protected",
+        "v3": "protected",
+        "v4": "protecting",
+        "v5": "protects"
+    },
+    {
+        "tel": "నిరూపించు, రుజువు చేయు",
+        "v1": "prove",
+        "v2": "proved",
+        "v3": "proved",
+        "v4": "proving",
+        "v5": "proves"
+    },
+    {
+        "tel": "సరఫరా చేయు, అందించు",
+        "v1": "provide",
+        "v2": "provided",
+        "v3": "provided",
+        "v4": "providing",
+        "v5": "provides"
+    },
+    {
+        "tel": "లాగు",
+        "v1": "pull",
+        "v2": "pulled",
+        "v3": "pulled",
+        "v4": "pulling",
+        "v5": "pulls"
+    },
+    {
+        "tel": "శిక్షించు, దండించు",
+        "v1": "punish",
+        "v2": "punished",
+        "v3": "punished",
+        "v4": "punishing",
+        "v5": "punishes"
+    },
+    {
+        "tel": "శుద్ధి చేయు",
+        "v1": "purify",
+        "v2": "purified",
+        "v3": "purified",
+        "v4": "purifying",
+        "v5": "purifies"
+    },
+    {
+        "tel": "త్రోయు, ముందుకు నెట్టు",
+        "v1": "push",
+        "v2": "pushed",
+        "v3": "pushed",
+        "v4": "pushing",
+        "v5": "pushes"
+    },
+    {
+        "tel": "పెట్టుట, వుంచుట",
+        "v1": "put",
+        "v2": "put",
+        "v3": "put",
+        "v4": "putting",
+        "v5": "puts"
+    },
+    {
+        "tel": "అర్హత",
+        "v1": "qualify",
+        "v2": "qualified",
+        "v3": "qualified",
+        "v4": "qualifying",
+        "v5": "qualifies"
+    },
+    {
+        "tel": "వివాదపడు, తగాదా",
+        "v1": "quarrel",
+        "v2": "quarrelled",
+        "v3": "quarrelled",
+        "v4": "quarrelling",
+        "v5": "quarrels"
+    },
+    {
+        "tel": "అడుగుట, విచారించుట",
+        "v1": "question",
+        "v2": "questioned",
+        "v3": "questioned",
+        "v4": "questioning",
+        "v5": "questions"
+    },
+    {
+        "tel": "వదలిపెట్టు, వదలించుకొను",
+        "v1": "quit",
+        "v2": "quit",
+        "v3": "quit",
+        "v4": "quitting",
+        "v5": "quits"
+    },
+    {
+        "tel": "పరుగు పోటీ",
+        "v1": "race",
+        "v2": "raced",
+        "v3": "raced",
+        "v4": "racing",
+        "v5": "races"
+    },
+    {
+        "tel": "వర్షించుట",
+        "v1": "rain",
+        "v2": "rained",
+        "v3": "rained",
+        "v4": "raining",
+        "v5": "rains"
+    },
+    {
+        "tel": "గలగల మాట్లాడు, టకటక శబ్దము చేయు",
+        "v1": "rattle",
+        "v2": "rattled",
+        "v3": "rattled",
+        "v4": "rattling",
+        "v5": "rattles"
+    },
+    {
+        "tel": "చేరుకొను, సమీపించు",
+        "v1": "reach",
+        "v2": "reached",
+        "v3": "reached",
+        "v4": "reaching",
+        "v5": "reaches"
+    },
+    {
+        "tel": "చదువు, అర్థం చేసుకును",
+        "v1": "read",
+        "v2": "read",
+        "v3": "read",
+        "v4": "reading",
+        "v5": "reads"
+    },
+    {
+        "tel": "తెలుసుకోవటం, అవగాహన చేసుకొను",
+        "v1": "realize",
+        "v2": "realized",
+        "v3": "realized",
+        "v4": "realizing",
+        "v5": "realizes"
+    },
+    {
+        "tel": "పునర్నిర్మాణం చేయు",
+        "v1": "rebuild",
+        "v2": "rebuilt",
+        "v3": "rebuilt",
+        "v4": "rebuilding",
+        "v5": "rebuilds"
+    },
+    {
+        "tel": "ఉపసంహరణ, మళ్ళించుట",
+        "v1": "recall",
+        "v2": "recalled",
+        "v3": "recalled",
+        "v4": "recalling",
+        "v5": "recalls"
+    },
+    {
+        "tel": "క్రొత్త రూపం తెచ్చు, మెరుగు పరుచు",
+        "v1": "recast",
+        "v2": "recast",
+        "v3": "recast",
+        "v4": "recasting",
+        "v5": "recasts"
+    },
+    {
+        "tel": "స్వీకరించు, తీసుకొను",
+        "v1": "receive",
+        "v2": "received",
+        "v3": "received",
+        "v4": "receiving",
+        "v5": "receives"
+    },
+    {
+        "tel": "స్మరించు, ఉచ్చరించు",
+        "v1": "recite",
+        "v2": "recited",
+        "v3": "recited",
+        "v4": "reciting",
+        "v5": "recites"
+    },
+    {
+        "tel": "గుర్తించు",
+        "v1": "recognize",
+        "v2": "recognized",
+        "v3": "recognized",
+        "v4": "recognizing",
+        "v5": "recognizes"
+    },
+    {
+        "tel": "గుర్తు చేసుకొను, జ్ణప్తికి తెచ్చుకొను",
+        "v1": "recollect",
+        "v2": "recollected",
+        "v3": "recollected",
+        "v4": "recollecting",
+        "v5": "recollects"
+    },
+    {
+        "tel": "మరలమరల వచ్చు, తిరిగి సంభనించు",
+        "v1": "recur",
+        "v2": "recurred",
+        "v3": "recurred",
+        "v4": "recurring",
+        "v5": "recurs"
+    },
+    {
+        "tel": "మరలా చేయు",
+        "v1": "redo",
+        "v2": "redid",
+        "v3": "redone",
+        "v4": "redoing",
+        "v5": "redoes"
+    },
+    {
+        "tel": "తగ్గించు",
+        "v1": "reduce",
+        "v2": "reduced",
+        "v3": "reduced",
+        "v4": "reducing",
+        "v5": "reduces"
+    },
+    {
+        "tel": "పరిగణలోకి తెచ్చు",
+        "v1": "refer",
+        "v2": "referred",
+        "v3": "referred",
+        "v4": "referring",
+        "v5": "refers"
+    },
+    {
+        "tel": "ప్రతిబింబింపజేయు",
+        "v1": "reflect",
+        "v2": "reflected",
+        "v3": "reflected",
+        "v4": "reflecting",
+        "v5": "reflects"
+    },
+    {
+        "tel": "కాదనుట, తిరస్కరించుట",
+        "v1": "refuse",
+        "v2": "refused",
+        "v3": "refused",
+        "v4": "refusing",
+        "v5": "refuses"
+    },
+    {
+        "tel": "సంబంధించి",
+        "v1": "regard",
+        "v2": "regarded",
+        "v3": "regarded",
+        "v4": "regarding",
+        "v5": "regards"
+    },
+    {
+        "tel": "నిరాశ",
+        "v1": "regret",
+        "v2": "regretted",
+        "v3": "regretted",
+        "v4": "regretting",
+        "v5": "regrets"
+    },
+    {
+        "tel": "సంబంధించినది",
+        "v1": "relate",
+        "v2": "related",
+        "v3": "related",
+        "v4": "relating",
+        "v5": "relates"
+    },
+    {
+        "tel": "విశ్రాంతి తీసుకొను",
+        "v1": "relax",
+        "v2": "relaxed",
+        "v3": "relaxed",
+        "v4": "relaxing",
+        "v5": "relaxes"
+    },
+    {
+        "tel": "ఆధారపడిన",
+        "v1": "rely",
+        "v2": "relied",
+        "v3": "relied",
+        "v4": "relying",
+        "v5": "relies"
+    },
+    {
+        "tel": "మిగులు",
+        "v1": "remain",
+        "v2": "remained",
+        "v3": "remained",
+        "v4": "remaining",
+        "v5": "remains"
+    },
+    {
+        "tel": "మరల చేయు, మరలా తయారు చేయు",
+        "v1": "remake",
+        "v2": "remade",
+        "v3": "remade",
+        "v4": "remaking",
+        "v5": "remakes"
+    },
+    {
+        "tel": "తొలగించు",
+        "v1": "remove",
+        "v2": "removed",
+        "v3": "removed",
+        "v4": "removing",
+        "v5": "removes"
+    },
+    {
+        "tel": "చించుట",
+        "v1": "rend",
+        "v2": "rent",
+        "v3": "rent",
+        "v4": "rending",
+        "v5": "rends"
+    },
+    {
+        "tel": "పునరుద్ధరణ",
+        "v1": "renew",
+        "v2": "renewed",
+        "v3": "renewed",
+        "v4": "renewing",
+        "v5": "renews"
+    },
+    {
+        "tel": "త్యజించు, సన్యసించు",
+        "v1": "renounce",
+        "v2": "renounced",
+        "v3": "renounced",
+        "v4": "renouncing",
+        "v5": "renounces"
+    },
+    {
+        "tel": "బాగు చేయు",
+        "v1": "repair",
+        "v2": "repaired",
+        "v3": "repaired",
+        "v4": "repairing",
+        "v5": "repairs"
+    },
+    {
+        "tel": "తిరిగి చెప్పు",
+        "v1": "repeat",
+        "v2": "repeated",
+        "v3": "repeated",
+        "v4": "repeating",
+        "v5": "repeats"
+    },
+    {
+        "tel": "స్థాన పూర్తి",
+        "v1": "replace",
+        "v2": "replaced",
+        "v3": "replaced",
+        "v4": "replacing",
+        "v5": "replaces"
+    },
+    {
+        "tel": "జవాబు చెప్పు",
+        "v1": "reply",
+        "v2": "replied",
+        "v3": "replied",
+        "v4": "replying",
+        "v5": "replies"
+    },
+    {
+        "tel": "నివేదిక",
+        "v1": "report",
+        "v2": "reported",
+        "v3": "reported",
+        "v4": "reporting",
+        "v5": "reports"
+    },
+    {
+        "tel": "మర్యాదగా అడుగు, మర్యాదతో కూడిన కోరిక",
+        "v1": "request",
+        "v2": "requested",
+        "v3": "requested",
+        "v4": "requesting",
+        "v5": "requests"
+    },
+    {
+        "tel": "అమ్ముకోవటానికి",
+        "v1": "resell",
+        "v2": "resold",
+        "v3": "resold",
+        "v4": "reselling",
+        "v5": "resells"
+    },
+    {
+        "tel": "తలపించే",
+        "v1": "resemble",
+        "v2": "resembled",
+        "v3": "resembled",
+        "v4": "resembling",
+        "v5": "resembles"
+    },
+    {
+        "tel": "తిరిగి అమర్చు",
+        "v1": "reset",
+        "v2": "reset",
+        "v3": "reset",
+        "v4": "resetting",
+        "v5": "resets"
+    },
+    {
+        "tel": "అడ్డుకోవటానికి",
+        "v1": "resist",
+        "v2": "resisted",
+        "v3": "resisted",
+        "v4": "resisting",
+        "v5": "resists"
+    },
+    {
+        "tel": "పరిష్కరించుకొను",
+        "v1": "resolve",
+        "v2": "resolved",
+        "v3": "resolved",
+        "v4": "resolving",
+        "v5": "resolves"
+    },
+    {
+        "tel": "మంచిగౌరవము",
+        "v1": "respect",
+        "v2": "respected",
+        "v3": "respected",
+        "v4": "respecting",
+        "v5": "respects"
+    },
+    {
+        "tel": "విశ్రాంతి",
+        "v1": "rest",
+        "v2": "rested",
+        "v3": "rested",
+        "v4": "resting",
+        "v5": "rests"
+    },
+    {
+        "tel": "హద్దులో నుంచు",
+        "v1": "restrain",
+        "v2": "restrained",
+        "v3": "restrained",
+        "v4": "restraining",
+        "v5": "restrains"
+    },
+    {
+        "tel": "తీసుకొని వుంచు",
+        "v1": "retain",
+        "v2": "retained",
+        "v3": "retained",
+        "v4": "retaining",
+        "v5": "retains"
+    },
+    {
+        "tel": "వాంతి వచ్చునట్లు చేయుట",
+        "v1": "retch",
+        "v2": "retched",
+        "v3": "retched",
+        "v4": "retching",
+        "v5": "retches"
+    },
+    {
+        "tel": "పదవీ విరమణ",
+        "v1": "retire",
+        "v2": "retired",
+        "v3": "retired",
+        "v4": "retiring",
+        "v5": "retires"
+    },
+    {
+        "tel": "తిరిగి వచ్చు",
+        "v1": "return",
+        "v2": "returned",
+        "v3": "returned",
+        "v4": "returning",
+        "v5": "returns"
+    },
+    {
+        "tel": "పునర్వినియోగం",
+        "v1": "reuse",
+        "v2": "reused",
+        "v3": "reused",
+        "v4": "reusing",
+        "v5": "reuses"
+    },
+    {
+        "tel": "పునరాలోచన చేయు",
+        "v1": "review",
+        "v2": "reviewed",
+        "v3": "reviewed",
+        "v4": "reviewing",
+        "v5": "reviews"
+    },
+    {
+        "tel": "గుర్తు తెచ్చుకొని, మరలా చూచుట",
+        "v1": "rewind",
+        "v2": "rewound",
+        "v3": "rewound",
+        "v4": "rewinding",
+        "v5": "rewinds"
+    },
+    {
+        "tel": "వదులుకొను",
+        "v1": "rid",
+        "v2": "rid",
+        "v3": "rid",
+        "v4": "ridding",
+        "v5": "rids"
+    },
+    {
+        "tel": "స్వారీ చేయు, పైనుండి నడుపు",
+        "v1": "ride",
+        "v2": "rode",
+        "v3": "ridden",
+        "v4": "riding",
+        "v5": "rides"
+    },
+    {
+        "tel": "మోగుట",
+        "v1": "ring",
+        "v2": "rang",
+        "v3": "rung",
+        "v4": "ringing",
+        "v5": "rings"
+    },
+    {
+        "tel": "పైకిలేచు, ముందుకు ఎదుగు",
+        "v1": "rise",
+        "v2": "rose",
+        "v3": "risen",
+        "v4": "rising",
+        "v5": "rises"
+    },
+    {
+        "tel": "గర్జించు",
+        "v1": "roar",
+        "v2": "roared",
+        "v3": "roared",
+        "v4": "roaring",
+        "v5": "roars"
+    },
+    {
+        "tel": "దోచుకొను, కొల్లగొట్టు",
+        "v1": "rob",
+        "v2": "robbed",
+        "v3": "robbed",
+        "v4": "robbing",
+        "v5": "robs"
+    },
+    {
+        "tel": "చుట్టుకొను, దొర్లిపోవు",
+        "v1": "roll",
+        "v2": "rolled",
+        "v3": "rolled",
+        "v4": "rolling",
+        "v5": "rolls"
+    },
+    {
+        "tel": "శక్తిని కోల్పోవు, మానసికంగా బలహీనపడు",
+        "v1": "rot",
+        "v2": "rotted",
+        "v3": "rotted",
+        "v4": "rotting",
+        "v5": "rots"
+    },
+    {
+        "tel": "రుద్దు, తుడిచివేయు",
+        "v1": "rub",
+        "v2": "rubbed",
+        "v3": "rubbed",
+        "v4": "rubbing",
+        "v5": "rubs"
+    },
+    {
+        "tel": "పాలన చేయు",
+        "v1": "rule",
+        "v2": "ruled",
+        "v3": "ruled",
+        "v4": "ruling",
+        "v5": "rules"
+    },
+    {
+        "tel": "పరుగెత్తు",
+        "v1": "run",
+        "v2": "ran",
+        "v3": "run",
+        "v4": "running",
+        "v5": "runs"
+    },
+    {
+        "tel": "చొరబడుట, చొచ్చుట",
+        "v1": "rush",
+        "v2": "rushed",
+        "v3": "rushed",
+        "v4": "rushing",
+        "v5": "rushes"
+    },
+    {
+        "tel": "ధ్వంసం చేయు",
+        "v1": "sabotage",
+        "v2": "sabotaged",
+        "v3": "sabotaged",
+        "v4": "sabotaging",
+        "v5": "sabotages"
+    },
+    {
+        "tel": "దోచుకొనుట",
+        "v1": "sack",
+        "v2": "sacked",
+        "v3": "sacked",
+        "v4": "sacking",
+        "v5": "sacks"
+    },
+    {
+        "tel": "సమర్పించబడిన, త్యాగం చేయబడ్డ",
+        "v1": "sacrifice",
+        "v2": "sacrificed",
+        "v3": "sacrificed",
+        "v4": "sacrificing",
+        "v5": "sacrifices"
+    },
+    {
+        "tel": "బలహీనమగు",
+        "v1": "sag",
+        "v2": "sagged",
+        "v3": "sagged",
+        "v4": "sagging",
+        "v5": "sags"
+    },
+    {
+        "tel": "ఓడను నడిపే తెర",
+        "v1": "sail",
+        "v2": "sailed",
+        "v3": "sailed",
+        "v4": "sailing",
+        "v5": "sails"
+    },
+    {
+        "tel": "దాడి చేయు",
+        "v1": "sally",
+        "v2": "sallied",
+        "v3": "sallied",
+        "v4": "sallying",
+        "v5": "sallies"
+    },
+    {
+        "tel": "గౌరవించుట",
+        "v1": "salute",
+        "v2": "saluted",
+        "v3": "saluted",
+        "v4": "saluting",
+        "v5": "salutes"
+    },
+    {
+        "tel": "కాపాడు, రక్షించు",
+        "v1": "salvage",
+        "v2": "salvaged",
+        "v3": "salvaged",
+        "v4": "salvaging",
+        "v5": "salvages"
+    },
+    {
+        "tel": "ప్రశాంశత కలిగించు",
+        "v1": "salve",
+        "v2": "salved",
+        "v3": "salved",
+        "v4": "salving",
+        "v5": "salves"
+    },
+    {
+        "tel": "ఉదాహరించి, ఉదాహరణతో",
+        "v1": "sample",
+        "v2": "sampled",
+        "v3": "sampled",
+        "v4": "sampling",
+        "v5": "samples"
+    },
+    {
+        "tel": "పవిత్రీకరించు, అంకితము చేయు",
+        "v1": "sanctify",
+        "v2": "sanctified",
+        "v3": "sanctified",
+        "v4": "sanctifying",
+        "v5": "sanctifies"
+    },
+    {
+        "tel": "అనుమతి, ఆమోదం",
+        "v1": "sanction",
+        "v2": "sanctioned",
+        "v3": "sanctioned",
+        "v4": "sanctioning",
+        "v5": "sanctions"
+    },
+    {
+        "tel": "దట్టి, నడికట్టు",
+        "v1": "sash",
+        "v2": "sashed",
+        "v3": "sashed",
+        "v4": "sashing",
+        "v5": "sashes"
+    },
+    {
+        "tel": "తృప్తిచేసుట",
+        "v1": "sate",
+        "v2": "sated",
+        "v3": "sated",
+        "v4": "sating",
+        "v5": "sates"
+    },
+    {
+        "tel": "తనివిదీర్చుట, తృప్తిచేసుట, తనివితీరా",
+        "v1": "satiate",
+        "v2": "satiated",
+        "v3": "satiated",
+        "v4": "satiating",
+        "v5": "satiates"
+    },
+    {
+        "tel": "విమర్శించు",
+        "v1": "satirise",
+        "v2": "satirised",
+        "v3": "satirised",
+        "v4": "satirising",
+        "v5": "satirises"
+    },
+    {
+        "tel": "సంతృప్తి యిచ్చు",
+        "v1": "satisfy",
+        "v2": "satisfied",
+        "v3": "satisfied",
+        "v4": "satisfying",
+        "v5": "satisfies"
+    },
+    {
+        "tel": "",
+        "v1": "saturate",
+        "v2": "పూర్తిగా",
+        "v3": "నింపు,",
+        "v4": "పూర్తిగా",
+        "v5": "నానబెట్టు"
+    },
+    {
+        "tel": "saturated saturating saturates saunter అల్లాడుట, తిరుగుట, విహరించుట",
+        "v1": "saturated",
+        "v2": "sauntered",
+        "v3": "sauntered",
+        "v4": "sauntering",
+        "v5": "saunters"
+    },
+    {
+        "tel": "కాపాడు, రక్షించుట",
+        "v1": "save",
+        "v2": "saved",
+        "v3": "saved",
+        "v4": "saving",
+        "v5": "saves"
+    },
+    {
+        "tel": "కోయుట",
+        "v1": "saw",
+        "v2": "sawed",
+        "v3": "sawn",
+        "v4": "sawing",
+        "v5": "saws"
+    },
+    {
+        "tel": "చెప్పు, మాట్లాడు",
+        "v1": "say",
+        "v2": "said",
+        "v3": "said",
+        "v4": "saying",
+        "v5": "says"
+    },
+    {
+        "tel": "పొక్కుట",
+        "v1": "scab",
+        "v2": "scabbed",
+        "v3": "scabbed",
+        "v4": "scabbing",
+        "v5": "scabs"
+    },
+    {
+        "tel": "కమిలిపోవుట",
+        "v1": "scald",
+        "v2": "scalded",
+        "v3": "scalded",
+        "v4": "scalding",
+        "v5": "scalds"
+    },
+    {
+        "tel": "కొలుచుట",
+        "v1": "scale",
+        "v2": "scaled",
+        "v3": "scaled",
+        "v4": "scaling",
+        "v5": "scales"
+    },
+    {
+        "tel": "అవినీతిచేయు, వంచనచేయు",
+        "v1": "scam",
+        "v2": "scammed",
+        "v3": "scammed",
+        "v4": "scamming",
+        "v5": "scams"
+    },
+    {
+        "tel": "అన్వేషించు",
+        "v1": "scan",
+        "v2": "scanned",
+        "v3": "scanned",
+        "v4": "scanning",
+        "v5": "scans"
+    },
+    {
+        "tel": "కురచైన, మితమైన",
+        "v1": "scant",
+        "v2": "scanted",
+        "v3": "scanted",
+        "v4": "scanting",
+        "v5": "scants"
+    },
+    {
+        "tel": "గాట్లు, మచ్చలు",
+        "v1": "scar",
+        "v2": "scarred",
+        "v3": "scarred",
+        "v4": "scarring",
+        "v5": "scars"
+    },
+    {
+        "tel": "భయ పెట్టు, భీతి గొల్పు",
+        "v1": "scare",
+        "v2": "scared",
+        "v3": "scared",
+        "v4": "scaring",
+        "v5": "scares"
+    },
+    {
+        "tel": "భయంగొలుసునది",
+        "v1": "scarify",
+        "v2": "scarified",
+        "v3": "scarified",
+        "v4": "scarifying",
+        "v5": "scarifies"
+    },
+    {
+        "tel": "గొడవపడు",
+        "v1": "scarp",
+        "v2": "scarped",
+        "v3": "scarped",
+        "v4": "scarping",
+        "v5": "scarps"
+    },
+    {
+        "tel": "లేచిపోయిన, వేగంగా వెడలు",
+        "v1": "scat",
+        "v2": "scatted",
+        "v3": "scatted",
+        "v4": "scatting",
+        "v5": "scats"
+    },
+    {
+        "tel": "అటు ఇటు పడవేయు",
+        "v1": "scatter",
+        "v2": "scattered",
+        "v3": "scattered",
+        "v4": "scattering",
+        "v5": "scatters"
+    },
+    {
+        "tel": "చీవాట్లు పెట్టు, కోపంతో నిందించు",
+        "v1": "scold",
+        "v2": "scolded",
+        "v3": "scolded",
+        "v4": "scolding",
+        "v5": "scolds"
+    },
+    {
+        "tel": "ఎండింపజేయు",
+        "v1": "scorch",
+        "v2": "scorched",
+        "v3": "scorched",
+        "v4": "scorching",
+        "v5": "scorches"
+    },
+    {
+        "tel": "కోపం ప్రదర్శించు",
+        "v1": "scowl",
+        "v2": "scowled",
+        "v3": "scowled",
+        "v4": "scowling",
+        "v5": "scowls"
+    },
+    {
+        "tel": "అవసరపడి వ్రాయు",
+        "v1": "scrawl",
+        "v2": "scrawled",
+        "v3": "scrawled",
+        "v4": "scrawling",
+        "v5": "scrawls"
+    },
+    {
+        "tel": "బిగ్గరగా నవ్వు, గట్టిగా ఏడ్చు",
+        "v1": "scream",
+        "v2": "screamed",
+        "v3": "screamed",
+        "v4": "screaming",
+        "v5": "screams"
+    },
+    {
+        "tel": "మరతిప్పుట, బిగించు",
+        "v1": "screw",
+        "v2": "screwed",
+        "v3": "screwed",
+        "v4": "screwing",
+        "v5": "screws"
+    },
+    {
+        "tel": "తోముట, రాచుట",
+        "v1": "scrub",
+        "v2": "scrubbed",
+        "v3": "scrubbed",
+        "v4": "scrubbing",
+        "v5": "scrubs"
+    },
+    {
+        "tel": "పరిశోధించుట, వెతుకు, వెతుకుట",
+        "v1": "search",
+        "v2": "searched",
+        "v3": "searched",
+        "v4": "searching",
+        "v5": "searches"
+    },
+    {
+        "tel": "కూర్చుండపెట్టుట, కూర్చోబెట్టు",
+        "v1": "seat",
+        "v2": "seated",
+        "v3": "seated",
+        "v4": "seating",
+        "v5": "seats"
+    },
+    {
+        "tel": "జాగ్రత్తచేసుట, భద్రపరుచుట",
+        "v1": "secure",
+        "v2": "secured",
+        "v3": "secured",
+        "v4": "securing",
+        "v5": "secures"
+    },
+    {
+        "tel": "చూచు, మనసుతో తెలుసుకొను",
+        "v1": "see",
+        "v2": "saw",
+        "v3": "seen",
+        "v4": "seeing",
+        "v5": "sees"
+    },
+    {
+        "tel": "వెతకు, అన్వేషించు",
+        "v1": "seek",
+        "v2": "sought",
+        "v3": "sought",
+        "v4": "seeking",
+        "v5": "seeks"
+    },
+    {
+        "tel": "అన్నట్లుగా వుండు, కనిపించు",
+        "v1": "seem",
+        "v2": "seemed",
+        "v3": "seemed",
+        "v4": "seeming",
+        "v5": "seems"
+    },
+    {
+        "tel": "స్వాధీనం",
+        "v1": "seize",
+        "v2": "seized",
+        "v3": "seized",
+        "v4": "seizing",
+        "v5": "seizes"
+    },
+    {
+        "tel": "ఎంచుకొను, ఎన్నుకొను",
+        "v1": "select",
+        "v2": "selected",
+        "v3": "selected",
+        "v4": "selecting",
+        "v5": "selects"
+    },
+    {
+        "tel": "విక్రయించు, అమ్ము",
+        "v1": "sell",
+        "v2": "sold",
+        "v3": "sold",
+        "v4": "selling",
+        "v5": "sells"
+    },
+    {
+        "tel": "పంపించు, తీసుకొనిపోవు",
+        "v1": "send",
+        "v2": "sent",
+        "v3": "sent",
+        "v4": "sending",
+        "v5": "sends"
+    },
+    {
+        "tel": "తీర్పుచెప్పుట, విధించు",
+        "v1": "sentence",
+        "v2": "sentenced",
+        "v3": "sentenced",
+        "v4": "sentencing",
+        "v5": "sentences"
+    },
+    {
+        "tel": "విడిగా వుంచు",
+        "v1": "separate",
+        "v2": "separated",
+        "v3": "separated",
+        "v4": "separating",
+        "v5": "separates"
+    },
+    {
+        "tel": "సరైన స్థితిలో వుంచు",
+        "v1": "set",
+        "v2": "set",
+        "v3": "set",
+        "v4": "setting",
+        "v5": "sets"
+    },
+    {
+        "tel": "తెంచుట, వించుట, విడదీయుట",
+        "v1": "sever",
+        "v2": "severed",
+        "v3": "severed",
+        "v4": "severing",
+        "v5": "severs"
+    },
+    {
+        "tel": "దారంతో కుట్టివేయు",
+        "v1": "sew",
+        "v2": "sewed",
+        "v3": "sewn",
+        "v4": "sewing",
+        "v5": "sews"
+    },
+    {
+        "tel": "కదలడము",
+        "v1": "shake",
+        "v2": "shook",
+        "v3": "shaken",
+        "v4": "shaking",
+        "v5": "shakes"
+    },
+    {
+        "tel": "ఆకారము",
+        "v1": "shape",
+        "v2": "shaped",
+        "v3": "shaped",
+        "v4": "shaping",
+        "v5": "shapes"
+    },
+    {
+        "tel": "పంచుకొను",
+        "v1": "share",
+        "v2": "shared",
+        "v3": "shared",
+        "v4": "sharing",
+        "v5": "shares"
+    },
+    {
+        "tel": "పగలకొట్టుట",
+        "v1": "shatter",
+        "v2": "shattered",
+        "v3": "shattered",
+        "v4": "shattering",
+        "v5": "shatters"
+    },
+    {
+        "tel": "క్షౌరముచేసుట",
+        "v1": "shave",
+        "v2": "shove",
+        "v3": "shaven",
+        "v4": "shaving",
+        "v5": "shaves"
+    },
+    {
+        "tel": "బొచ్చులేకుండా కత్తిరించుట",
+        "v1": "shear",
+        "v2": "shore",
+        "v3": "shorn",
+        "v4": "shearing",
+        "v5": "shears"
+    },
+    {
+        "tel": "కార్చుట, రాల్చుట",
+        "v1": "shed",
+        "v2": "shed",
+        "v3": "shed",
+        "v4": "shedding",
+        "v5": "sheds"
+    },
+    {
+        "tel": "ప్రకాశించు, మెరయు",
+        "v1": "shine",
+        "v2": "shone",
+        "v3": "shone",
+        "v4": "shining",
+        "v5": "shines"
+    },
+    {
+        "tel": "భయపడు",
+        "v1": "shirk",
+        "v2": "shirked",
+        "v3": "shirked",
+        "v4": "shirking",
+        "v5": "shirks"
+    },
+    {
+        "tel": "వణుకు",
+        "v1": "shiver",
+        "v2": "shivered",
+        "v3": "shivered",
+        "v4": "shivering",
+        "v5": "shivers"
+    },
+    {
+        "tel": "ఆకస్మికంగా, తీవ్రంగా కలిగిన కుదువు",
+        "v1": "shock",
+        "v2": "shocked",
+        "v3": "shocked",
+        "v4": "shocking",
+        "v5": "shocks"
+    },
+    {
+        "tel": "కాల్చు, సినిమా తీయు",
+        "v1": "shoot",
+        "v2": "shot",
+        "v3": "shot",
+        "v4": "shooting",
+        "v5": "shoots"
+    },
+    {
+        "tel": "తగ్గు",
+        "v1": "shorten",
+        "v2": "shortened",
+        "v3": "shortened",
+        "v4": "shortening",
+        "v5": "shortens"
+    },
+    {
+        "tel": "బిగ్గరగా అరచు, బిగ్గరగా అరచు",
+        "v1": "shout",
+        "v2": "shouted",
+        "v3": "shouted",
+        "v4": "shouting",
+        "v5": "shouts"
+    },
+    {
+        "tel": "కనపడుట, కనపరుచుట, చూపించు, చూపుట, తెలియచేసుట",
+        "v1": "show",
+        "v2": "showed",
+        "v3": "shown",
+        "v4": "showing",
+        "v5": "shows"
+    },
+    {
+        "tel": "కుంచించుకొనిపోవు, ముడుచుకొను",
+        "v1": "shrink",
+        "v2": "shrank",
+        "v3": "shrunk",
+        "v4": "shrinking",
+        "v5": "shrinks"
+    },
+    {
+        "tel": "మూయు, వేసుట",
+        "v1": "shut",
+        "v2": "shut",
+        "v3": "shut",
+        "v4": "shutting",
+        "v5": "shuts"
+    },
+    {
+        "tel": "చూచుట, చూడుట",
+        "v1": "sight",
+        "v2": "sighted",
+        "v3": "sighted",
+        "v4": "sighting",
+        "v5": "sights"
+    },
+    {
+        "tel": "సైగ చేయు",
+        "v1": "signal",
+        "v2": "signalled",
+        "v3": "signalled",
+        "v4": "signalling",
+        "v5": "signals"
+    },
+    {
+        "tel": "గుర్తింపు కలిగిన",
+        "v1": "signify",
+        "v2": "signified",
+        "v3": "signified",
+        "v4": "signifying",
+        "v5": "signifies"
+    },
+    {
+        "tel": "గానం చేయు",
+        "v1": "sing",
+        "v2": "sang",
+        "v3": "sung",
+        "v4": "singing",
+        "v5": "sings"
+    },
+    {
+        "tel": "ముంచివేసుట, ముంచుట",
+        "v1": "sink",
+        "v2": "sank",
+        "v3": "sunk",
+        "v4": "sinking",
+        "v5": "sinks"
+    },
+    {
+        "tel": "కొంచెం కొంచెం తాగు",
+        "v1": "sip",
+        "v2": "sipped",
+        "v3": "sipped",
+        "v4": "sipping",
+        "v5": "sips"
+    },
+    {
+        "tel": "కూర్చొను",
+        "v1": "sit",
+        "v2": "sat",
+        "v3": "sat",
+        "v4": "sitting",
+        "v5": "sits"
+    },
+    {
+        "tel": "ఆకాశంలో నుంచి దూకు",
+        "v1": "ski",
+        "v2": "skied",
+        "v3": "skied",
+        "v4": "skiing",
+        "v5": "skis"
+    },
+    {
+        "tel": "జారుట",
+        "v1": "skid",
+        "v2": "skidded",
+        "v3": "skidded",
+        "v4": "skidding",
+        "v5": "skids"
+    },
+    {
+        "tel": "నేలకి కొట్టటం",
+        "v1": "slam",
+        "v2": "slammed",
+        "v3": "slammed",
+        "v4": "slamming",
+        "v5": "slams"
+    },
+    {
+        "tel": "వధించు",
+        "v1": "slay",
+        "v2": "slew",
+        "v3": "slain",
+        "v4": "slaying",
+        "v5": "slays"
+    },
+    {
+        "tel": "నిద్రపోవు",
+        "v1": "sleep",
+        "v2": "slept",
+        "v3": "slept",
+        "v4": "sleeping",
+        "v5": "sleeps"
+    },
+    {
+        "tel": "నున్నని ప్రదేశముపై జారు",
+        "v1": "slide",
+        "v2": "slid",
+        "v3": "slid/slide",
+        "v4": "sliding",
+        "v5": "slides"
+    },
+    {
+        "tel": "జారుట",
+        "v1": "slip",
+        "v2": "slipped",
+        "v3": "slipped",
+        "v4": "slipping",
+        "v5": "slips"
+    },
+    {
+        "tel": "చీలిక, కోత",
+        "v1": "slit",
+        "v2": "slit",
+        "v3": "slit",
+        "v4": "slitting",
+        "v5": "slits"
+    },
+    {
+        "tel": "ముక్కలు చేయు, నాశనం చేయు",
+        "v1": "smash",
+        "v2": "smashed",
+        "v3": "smashed",
+        "v4": "smashing",
+        "v5": "smashes"
+    },
+    {
+        "tel": "వాసన చూచు",
+        "v1": "smell",
+        "v2": "smelt",
+        "v3": "smelt",
+        "v4": "smelling",
+        "v5": "smells"
+    },
+    {
+        "tel": "నవ్వు",
+        "v1": "smile",
+        "v2": "smiled",
+        "v3": "smiled",
+        "v4": "smiling",
+        "v5": "smiles"
+    },
+    {
+        "tel": "నునుపైన",
+        "v1": "smooth",
+        "v2": "smoothed",
+        "v3": "smoothed",
+        "v4": "smoothing",
+        "v5": "smoothes"
+    },
+    {
+        "tel": "చిటపట శబ్దం చేయు",
+        "v1": "snap",
+        "v2": "snapped",
+        "v3": "snapped",
+        "v4": "snapping",
+        "v5": "snaps"
+    },
+    {
+        "tel": "పెరుక్కొనుట, బలత్కారంగా ఎత్తుకొనిపోవు",
+        "v1": "snatch",
+        "v2": "snatched",
+        "v3": "snatched",
+        "v4": "snatching",
+        "v5": "snatches"
+    },
+    {
+        "tel": "నక్కుట, జారుకొను",
+        "v1": "sneak",
+        "v2": "sneaked",
+        "v3": "sneaked",
+        "v4": "sneaking",
+        "v5": "sneaks"
+    },
+    {
+        "tel": "తుమ్ముట",
+        "v1": "sneeze",
+        "v2": "sneezed",
+        "v3": "sneezed",
+        "v4": "sneezing",
+        "v5": "sneezes"
+    },
+    {
+        "tel": "ఏడుస్తూ",
+        "v1": "sob",
+        "v2": "sobbed",
+        "v3": "sobbed",
+        "v4": "sobbing",
+        "v5": "sobs"
+    },
+    {
+        "tel": "ప్రార్ధించుట బతిమాలుకొనుట వేడుకొనుట",
+        "v1": "solicit",
+        "v2": "solicited",
+        "v3": "solicited",
+        "v4": "soliciting",
+        "v5": "solicits"
+    },
+    {
+        "tel": "పరిష్కరించుట",
+        "v1": "solve",
+        "v2": "solved",
+        "v3": "solved",
+        "v4": "solving",
+        "v5": "solves"
+    },
+    {
+        "tel": "ఓదార్చుట",
+        "v1": "soothe",
+        "v2": "soothed",
+        "v3": "soothed",
+        "v4": "soothing",
+        "v5": "soothes"
+    },
+    {
+        "tel": "విభజించుట",
+        "v1": "sort",
+        "v2": "sorted",
+        "v3": "sorted",
+        "v4": "sorting",
+        "v5": "sorts"
+    },
+    {
+        "tel": "మెరయు",
+        "v1": "sparkle",
+        "v2": "sparkled",
+        "v3": "sparkled",
+        "v4": "sparkling",
+        "v5": "sparkles"
+    },
+    {
+        "tel": "మాట్లాడు ఉపన్యసించు",
+        "v1": "speak",
+        "v2": "spoke",
+        "v3": "spoken",
+        "v4": "speaking",
+        "v5": "speaks"
+    },
+    {
+        "tel": "పదంలోని అక్షరములను చెప్పు",
+        "v1": "spell",
+        "v2": "spelt",
+        "v3": "spelt",
+        "v4": "spelling",
+        "v5": "spells"
+    },
+    {
+        "tel": "ఖర్చు చేయు, గడుపు",
+        "v1": "spend",
+        "v2": "spent",
+        "v3": "spent",
+        "v4": "spending",
+        "v5": "spends"
+    },
+    {
+        "tel": "చల్లు, తొణుకు",
+        "v1": "spill",
+        "v2": "spilt",
+        "v3": "spilt",
+        "v4": "spilling",
+        "v5": "spills"
+    },
+    {
+        "tel": "తిరుగుట",
+        "v1": "spin",
+        "v2": "span/spun",
+        "v3": "spun",
+        "v4": "spinning",
+        "v5": "spins"
+    },
+    {
+        "tel": "ఉమ్మివేసుట",
+        "v1": "spit",
+        "v2": "spat/spit",
+        "v3": "spat/spit",
+        "v4": "spitting",
+        "v5": "spits"
+    },
+    {
+        "tel": "విడగొట్టు",
+        "v1": "split",
+        "v2": "split",
+        "v3": "split",
+        "v4": "splitting",
+        "v5": "splits"
+    },
+    {
+        "tel": "నాశనం చేయు",
+        "v1": "spoil",
+        "v2": "spoilt",
+        "v3": "spoilt",
+        "v4": "spoiling",
+        "v5": "spoils"
+    },
+    {
+        "tel": "పిచికారీ చేయు",
+        "v1": "spray",
+        "v2": "sprayed",
+        "v3": "sprayed",
+        "v4": "spraying",
+        "v5": "sprays"
+    },
+    {
+        "tel": "విస్తరించు, పూర్తిగా కప్పు",
+        "v1": "spread",
+        "v2": "spread",
+        "v3": "spread",
+        "v4": "spreading",
+        "v5": "spreads"
+    },
+    {
+        "tel": "ఎగిరిపడు",
+        "v1": "spring",
+        "v2": "sprang",
+        "v3": "sprung",
+        "v4": "springing",
+        "v5": "springs"
+    },
+    {
+        "tel": "మొలకెత్తు",
+        "v1": "sprout",
+        "v2": "sprouted",
+        "v3": "sprouted",
+        "v4": "sprouting",
+        "v5": "sprouts"
+    },
+    {
+        "tel": "పిండి వేయు",
+        "v1": "squeeze",
+        "v2": "squeezed",
+        "v3": "squeezed",
+        "v4": "squeezing",
+        "v5": "squeezes"
+    },
+    {
+        "tel": "నిలబడు",
+        "v1": "stand",
+        "v2": "stood",
+        "v3": "stood",
+        "v4": "standing",
+        "v5": "stands"
+    },
+    {
+        "tel": "తదేకంగా చూడు",
+        "v1": "stare",
+        "v2": "stared",
+        "v3": "stared",
+        "v4": "staring",
+        "v5": "stares"
+    },
+    {
+        "tel": "ప్రారంభించు, బయలుదేరు",
+        "v1": "start",
+        "v2": "started",
+        "v3": "started",
+        "v4": "starting",
+        "v5": "starts"
+    },
+    {
+        "tel": "చెప్పుట",
+        "v1": "state",
+        "v2": "stated",
+        "v3": "stated",
+        "v4": "stating",
+        "v5": "states"
+    },
+    {
+        "tel": "ఉండు, నిలుచుట",
+        "v1": "stay",
+        "v2": "stayed",
+        "v3": "stayed",
+        "v4": "staying",
+        "v5": "stays"
+    },
+    {
+        "tel": "దొంగలించు",
+        "v1": "steal",
+        "v2": "stole",
+        "v3": "stolen",
+        "v4": "stealing",
+        "v5": "steals"
+    },
+    {
+        "tel": "పైకి పెరిగిన",
+        "v1": "steep",
+        "v2": "steeped",
+        "v3": "steeped",
+        "v4": "steeping",
+        "v5": "steeps"
+    },
+    {
+        "tel": "ఎదిరించుట ఎదురాడుట విరోధించుట",
+        "v1": "stem",
+        "v2": "stemmed",
+        "v3": "stemmed",
+        "v4": "stemming",
+        "v5": "stems"
+    },
+    {
+        "tel": "అడుగుపెట్టుట తొక్కుట",
+        "v1": "step",
+        "v2": "stepped",
+        "v3": "stepped",
+        "v4": "stepping",
+        "v5": "steps"
+    },
+    {
+        "tel": "మరిగించి క్రిములను చంపు",
+        "v1": "sterilize",
+        "v2": "sterilized",
+        "v3": "sterilized",
+        "v4": "sterilizing",
+        "v5": "sterilizes"
+    },
+    {
+        "tel": "అంటించుట అతికించుట",
+        "v1": "stick",
+        "v2": "stuck",
+        "v3": "stuck",
+        "v4": "sticking",
+        "v5": "sticks"
+    },
+    {
+        "tel": "పురికొల్పుట రేచుట",
+        "v1": "stimulate",
+        "v2": "stimulated",
+        "v3": "stimulated",
+        "v4": "stimulating",
+        "v5": "stimulates"
+    },
+    {
+        "tel": "కరుచుట కొరుకుట",
+        "v1": "sting",
+        "v2": "stung",
+        "v3": "stung",
+        "v4": "stinging",
+        "v5": "stings"
+    },
+    {
+        "tel": "కలియపెట్టుట కలుపుట కుళ్లగించుట",
+        "v1": "stir",
+        "v2": "stirred",
+        "v3": "stirred",
+        "v4": "stirring",
+        "v5": "stirs"
+    },
+    {
+        "tel": "కుట్టుట",
+        "v1": "stitch",
+        "v2": "stitched",
+        "v3": "stitched",
+        "v4": "stitching",
+        "v5": "stitches"
+    },
+    {
+        "tel": "అడ్డగించుట, ఆగు, ఆపు",
+        "v1": "stop",
+        "v2": "stopped",
+        "v3": "stopped",
+        "v4": "stopping",
+        "v5": "stops"
+    },
+    {
+        "tel": "కూడబెట్టుట, చేర్చిపెట్టుట",
+        "v1": "store",
+        "v2": "stored",
+        "v3": "stored",
+        "v4": "storing",
+        "v5": "stores"
+    },
+    {
+        "tel": "అధికంగా శ్రమపడు",
+        "v1": "strain",
+        "v2": "strained",
+        "v3": "strained",
+        "v4": "straining",
+        "v5": "strains"
+    },
+    {
+        "tel": "అటు ఇటు తిరుగు",
+        "v1": "stray",
+        "v2": "strayed",
+        "v3": "strayed",
+        "v4": "straying",
+        "v5": "strays"
+    },
+    {
+        "tel": "ఒత్తిడి చేయు",
+        "v1": "stress",
+        "v2": "stressed",
+        "v3": "stressed",
+        "v4": "stressing",
+        "v5": "stresses"
+    },
+    {
+        "tel": "చాచు, విస్తరించు",
+        "v1": "stretch",
+        "v2": "stretched",
+        "v3": "stretched",
+        "v4": "stretching",
+        "v5": "stretches"
+    },
+    {
+        "tel": "పెద్ద అడుగులు వేస్తూ నడచు",
+        "v1": "stride",
+        "v2": "strode",
+        "v3": "stridden",
+        "v4": "striding",
+        "v5": "strides"
+    },
+    {
+        "tel": "కొట్టుట",
+        "v1": "strike",
+        "v2": "struck",
+        "v3": "struck/stricken",
+        "v4": "striking",
+        "v5": "strikes"
+    },
+    {
+        "tel": "కుట్టు",
+        "v1": "string",
+        "v2": "strung",
+        "v3": "strung",
+        "v4": "stringing",
+        "v5": "strings"
+    },
+    {
+        "tel": "ప్రయత్నము చేయు",
+        "v1": "strive",
+        "v2": "strove",
+        "v3": "striven",
+        "v4": "striving",
+        "v5": "strives"
+    },
+    {
+        "tel": "పరిశీలన",
+        "v1": "study",
+        "v2": "studied",
+        "v3": "studied",
+        "v4": "studying",
+        "v5": "studies"
+    },
+    {
+        "tel": "అప్పగించు",
+        "v1": "submit",
+        "v2": "submitted",
+        "v3": "submitted",
+        "v4": "submitting",
+        "v5": "submits"
+    },
+    {
+        "tel": "ధృవీకరించు",
+        "v1": "subscribe",
+        "v2": "subscribed",
+        "v3": "subscribed",
+        "v4": "subscribing",
+        "v5": "subscribes"
+    },
+    {
+        "tel": "తీసివేత",
+        "v1": "subtract",
+        "v2": "subtracted",
+        "v3": "subtracted",
+        "v4": "subtracting",
+        "v5": "subtracts"
+    },
+    {
+        "tel": "సాధించు",
+        "v1": "succeed",
+        "v2": "succeeded",
+        "v3": "succeeded",
+        "v4": "succeeding",
+        "v5": "succeeds"
+    },
+    {
+        "tel": "పీల్చుకొను",
+        "v1": "suck",
+        "v2": "sucked",
+        "v3": "sucked",
+        "v4": "sucking",
+        "v5": "sucks"
+    },
+    {
+        "tel": "బాధ",
+        "v1": "suffer",
+        "v2": "suffered",
+        "v3": "suffered",
+        "v4": "suffering",
+        "v5": "suffers"
+    },
+    {
+        "tel": "సూచించు, సలహా చెప్పు",
+        "v1": "suggest",
+        "v2": "suggested",
+        "v3": "suggested",
+        "v4": "suggesting",
+        "v5": "suggests"
+    },
+    {
+        "tel": "ఆజ్ఞాపించు",
+        "v1": "summon",
+        "v2": "summoned",
+        "v3": "summoned",
+        "v4": "summoning",
+        "v5": "summons"
+    },
+    {
+        "tel": "సరఫరా చేయు",
+        "v1": "supply",
+        "v2": "supplied",
+        "v3": "supplied",
+        "v4": "supplying",
+        "v5": "supplies"
+    },
+    {
+        "tel": "సహాయము",
+        "v1": "support",
+        "v2": "supported",
+        "v3": "supported",
+        "v4": "supporting",
+        "v5": "supports"
+    },
+    {
+        "tel": "సాధ్యమేనని భావించు",
+        "v1": "suppose",
+        "v2": "supposed",
+        "v3": "supposed",
+        "v4": "supposing",
+        "v5": "supposes"
+    },
+    {
+        "tel": "పైకిలేచు, ఉప్పొంగు",
+        "v1": "surge",
+        "v2": "surged",
+        "v3": "surged",
+        "v4": "surging",
+        "v5": "surges"
+    },
+    {
+        "tel": "అనుమానించు,అనుమానించు",
+        "v1": "surmise",
+        "v2": "surmised",
+        "v3": "surmised",
+        "v4": "surmising",
+        "v5": "surmises"
+    },
+    {
+        "tel": "అందకుండా పోవు",
+        "v1": "surpass",
+        "v2": "surpassed",
+        "v3": "surpassed",
+        "v4": "surpassing",
+        "v5": "surpasses"
+    },
+    {
+        "tel": "చుట్టు వ్యాపించు",
+        "v1": "surround",
+        "v2": "surrounded",
+        "v3": "surrounded",
+        "v4": "surrounding",
+        "v5": "surrounds"
+    },
+    {
+        "tel": "సర్వే",
+        "v1": "survey",
+        "v2": "surveyed",
+        "v3": "surveyed",
+        "v4": "surveying",
+        "v5": "surveys"
+    },
+    {
+        "tel": "జీవించు",
+        "v1": "survive",
+        "v2": "survived",
+        "v3": "survived",
+        "v4": "surviving",
+        "v5": "survives"
+    },
+    {
+        "tel": "మ్రింగు",
+        "v1": "swallow",
+        "v2": "swallowed",
+        "v3": "swallowed",
+        "v4": "swallowing",
+        "v5": "swallows"
+    },
+    {
+        "tel": "ఇటు అటు ఊగులాడు",
+        "v1": "sway",
+        "v2": "swayed",
+        "v3": "swayed",
+        "v4": "swaying",
+        "v5": "sways"
+    },
+    {
+        "tel": "ప్రమాణము చేయు",
+        "v1": "swear",
+        "v2": "swore",
+        "v3": "sworn",
+        "v4": "swearing",
+        "v5": "swears"
+    },
+    {
+        "tel": "చెమట",
+        "v1": "sweat",
+        "v2": "sweat",
+        "v3": "sweat",
+        "v4": "sweating",
+        "v5": "sweats"
+    },
+    {
+        "tel": "తుడుచు, ఊడ్చు",
+        "v1": "sweep",
+        "v2": "swept",
+        "v3": "swept",
+        "v4": "sweeping",
+        "v5": "sweeps"
+    },
+    {
+        "tel": "ఉబ్బు, వాచు",
+        "v1": "swell",
+        "v2": "swelled",
+        "v3": "swollen",
+        "v4": "swelling",
+        "v5": "swells"
+    },
+    {
+        "tel": "ఈత గొట్టు",
+        "v1": "swim",
+        "v2": "swam",
+        "v3": "swum",
+        "v4": "swimming",
+        "v5": "swims"
+    },
+    {
+        "tel": "ఊగుట, వ్రేలాడు",
+        "v1": "swing",
+        "v2": "swung",
+        "v3": "swung",
+        "v4": "swinging",
+        "v5": "swings"
+    },
+    {
+        "tel": "తీసుకొనుట",
+        "v1": "take",
+        "v2": "took",
+        "v3": "taken",
+        "v4": "taking",
+        "v5": "takes"
+    },
+    {
+        "tel": "మాట్లాడటం",
+        "v1": "talk",
+        "v2": "talked",
+        "v3": "talked",
+        "v4": "talking",
+        "v5": "talks"
+    },
+    {
+        "tel": "తట్టుట",
+        "v1": "tap",
+        "v2": "tapped",
+        "v3": "tapped",
+        "v4": "tapping",
+        "v5": "taps"
+    },
+    {
+        "tel": "రుచి చూడు",
+        "v1": "taste",
+        "v2": "tasted",
+        "v3": "tasted",
+        "v4": "tasting",
+        "v5": "tastes"
+    },
+    {
+        "tel": "శిస్తు లేని",
+        "v1": "tax",
+        "v2": "taxed",
+        "v3": "taxed",
+        "v4": "taxing",
+        "v5": "taxes"
+    },
+    {
+        "tel": "పాఠాలు నేర్పు విద్య బోధించు",
+        "v1": "teach",
+        "v2": "taught",
+        "v3": "taught",
+        "v4": "teaching",
+        "v5": "teaches"
+    },
+    {
+        "tel": "చించు, కన్నీరు కార్చు",
+        "v1": "tear",
+        "v2": "tore",
+        "v3": "torn",
+        "v4": "tearing",
+        "v5": "tears"
+    },
+    {
+        "tel": "చెప్పు, అనుట, చెప్పు, చెప్పుట",
+        "v1": "tell",
+        "v2": "told",
+        "v3": "told",
+        "v4": "telling",
+        "v5": "tells"
+    },
+    {
+        "tel": "ఆశపెట్టు, నియంత్రణ లేని",
+        "v1": "tempt",
+        "v2": "tempted",
+        "v3": "tempted",
+        "v4": "tempting",
+        "v5": "tempts"
+    },
+    {
+        "tel": "కాచుట, కాపాడుట",
+        "v1": "tend",
+        "v2": "tended",
+        "v3": "tended",
+        "v4": "tending",
+        "v5": "tends"
+    },
+    {
+        "tel": "రద్దు చేయు",
+        "v1": "terminate",
+        "v2": "terminated",
+        "v3": "terminated",
+        "v4": "terminating",
+        "v5": "terminates"
+    },
+    {
+        "tel": "భయపెట్టుట",
+        "v1": "terrify",
+        "v2": "terrified",
+        "v3": "terrified",
+        "v4": "terrifying",
+        "v5": "terrifies"
+    },
+    {
+        "tel": "శోధించుట, పరీక్షించు",
+        "v1": "test",
+        "v2": "tested",
+        "v3": "tested",
+        "v4": "testing",
+        "v5": "tests"
+    },
+    {
+        "tel": "కృతజ్ఞత తెలుపు",
+        "v1": "thank",
+        "v2": "thanked",
+        "v3": "thanked",
+        "v4": "thanking",
+        "v5": "thanks"
+    },
+    {
+        "tel": "ఆలోచించు",
+        "v1": "think",
+        "v2": "thought",
+        "v3": "thought",
+        "v4": "thinking",
+        "v5": "thinks"
+    },
+    {
+        "tel": "వృద్ధి పొందు",
+        "v1": "thrive",
+        "v2": "throve",
+        "v3": "thriven",
+        "v4": "thriving",
+        "v5": "thrives"
+    },
+    {
+        "tel": "విసరు",
+        "v1": "throw",
+        "v2": "threw",
+        "v3": "thrown",
+        "v4": "throwing",
+        "v5": "throws"
+    },
+    {
+        "tel": "గెంటుట, తాకుట, తోసుట",
+        "v1": "thrust",
+        "v2": "thrust",
+        "v3": "thrust",
+        "v4": "thrusting",
+        "v5": "thrusts"
+    },
+    {
+        "tel": "కొట్టుట",
+        "v1": "thump",
+        "v2": "thumped",
+        "v3": "thumped",
+        "v4": "thumping",
+        "v5": "thumps"
+    },
+    {
+        "tel": "ముడి",
+        "v1": "tie",
+        "v2": "tied",
+        "v3": "tied",
+        "v4": "tying",
+        "v5": "ties"
+    },
+    {
+        "tel": "విసుగు",
+        "v1": "tire",
+        "v2": "tired",
+        "v3": "tired",
+        "v4": "tiring",
+        "v5": "tires"
+    },
+    {
+        "tel": "పైకి ఎగరవేయు",
+        "v1": "toss",
+        "v2": "tossed",
+        "v3": "tossed",
+        "v4": "tossing",
+        "v5": "tosses"
+    },
+    {
+        "tel": "తాకు",
+        "v1": "touch",
+        "v2": "touched",
+        "v3": "touched",
+        "v4": "touching",
+        "v5": "touches"
+    },
+    {
+        "tel": "శిక్షణనిచ్చు",
+        "v1": "train",
+        "v2": "trained",
+        "v3": "trained",
+        "v4": "training",
+        "v5": "trains"
+    },
+    {
+        "tel": "కాలితో తొక్కు",
+        "v1": "trample",
+        "v2": "trampled",
+        "v3": "trampled",
+        "v4": "trampling",
+        "v5": "tramples"
+    },
+    {
+        "tel": "మరియొక చోటికి మార్చు",
+        "v1": "transfer",
+        "v2": "transferred",
+        "v3": "transferred",
+        "v4": "transferring",
+        "v5": "transfers"
+    },
+    {
+        "tel": "ఆకారం మార్చు, మరు రూపము చేయు",
+        "v1": "transform",
+        "v2": "transformed",
+        "v3": "transformed",
+        "v4": "transforming",
+        "v5": "transforms"
+    },
+    {
+        "tel": "తర్జుమా చేయు",
+        "v1": "translate",
+        "v2": "translated",
+        "v3": "translated",
+        "v4": "translating",
+        "v5": "translates"
+    },
+    {
+        "tel": "ఉచ్చుపన్ను",
+        "v1": "trap",
+        "v2": "trapped",
+        "v3": "trapped",
+        "v4": "trapping",
+        "v5": "traps"
+    },
+    {
+        "tel": "ప్రయాణించు",
+        "v1": "travel",
+        "v2": "travelled",
+        "v3": "travelled",
+        "v4": "travelling",
+        "v5": "travels"
+    },
+    {
+        "tel": "తొక్కుట, నడుచుట",
+        "v1": "tread",
+        "v2": "trod",
+        "v3": "trodden",
+        "v4": "treading",
+        "v5": "treads"
+    },
+    {
+        "tel": "వ్యవహరించిన",
+        "v1": "treat",
+        "v2": "treated",
+        "v3": "treated",
+        "v4": "treating",
+        "v5": "treats"
+    },
+    {
+        "tel": "వణుకు, భయపడు",
+        "v1": "tremble",
+        "v2": "trembled",
+        "v3": "trembled",
+        "v4": "trembling",
+        "v5": "trembles"
+    },
+    {
+        "tel": "గొప్ప విజయము",
+        "v1": "triumph",
+        "v2": "triumphed",
+        "v3": "triumphed",
+        "v4": "triumphing",
+        "v5": "triumphs"
+    },
+    {
+        "tel": "నమ్ముట, విశ్వసించుట",
+        "v1": "trust",
+        "v2": "trusted",
+        "v3": "trusted",
+        "v4": "trusting",
+        "v5": "trusts"
+    },
+    {
+        "tel": "యత్నము చేయు",
+        "v1": "try",
+        "v2": "tried",
+        "v3": "tried",
+        "v4": "trying",
+        "v5": "tries"
+    },
+    {
+        "tel": "తిరుగు",
+        "v1": "turn",
+        "v2": "turned",
+        "v3": "turned",
+        "v4": "turning",
+        "v5": "turns"
+    },
+    {
+        "tel": "టైపు చేయు",
+        "v1": "type",
+        "v2": "typed",
+        "v3": "typed",
+        "v4": "typing",
+        "v5": "types"
+    },
+    {
+        "tel": "అర్దం చేసుకొను",
+        "v1": "understand",
+        "v2": "understood",
+        "v3": "understood",
+        "v4": "understanding",
+        "v5": "understands"
+    },
+    {
+        "tel": "దిద్దుబాటు రద్దుచెయ్యి",
+        "v1": "undo",
+        "v2": "undid",
+        "v3": "undone",
+        "v4": "undoing",
+        "v5": "undoes"
+    },
+    {
+        "tel": "వేరుతో పెకిలించి పారవేయు",
+        "v1": "uproot",
+        "v2": "uprooted",
+        "v3": "uprooted",
+        "v4": "uprooting",
+        "v5": "uproots"
+    },
+    {
+        "tel": "కలత",
+        "v1": "upset",
+        "v2": "upset",
+        "v3": "upset",
+        "v4": "upsetting",
+        "v5": "upsets"
+    },
+    {
+        "tel": "తపన",
+        "v1": "urge",
+        "v2": "urged",
+        "v3": "urged",
+        "v4": "urging",
+        "v5": "urges"
+    },
+    {
+        "tel": "ఉపయోగించుట",
+        "v1": "use",
+        "v2": "used",
+        "v3": "used",
+        "v4": "using",
+        "v5": "uses"
+    },
+    {
+        "tel": "ఉచ్చరించుట, చెప్పుట, పలుకుట",
+        "v1": "utter",
+        "v2": "uttered",
+        "v3": "uttered",
+        "v4": "uttering",
+        "v5": "utters"
+    },
+    {
+        "tel": "విలువ",
+        "v1": "value",
+        "v2": "valued",
+        "v3": "valued",
+        "v4": "valuing",
+        "v5": "values"
+    },
+    {
+        "tel": "అంతర్ధానమైనపోవుట, అదృశ్యమైపోవు",
+        "v1": "vanish",
+        "v2": "vanished",
+        "v3": "vanished",
+        "v4": "vanishing",
+        "v5": "vanishes"
+    },
+    {
+        "tel": "మారుతూ",
+        "v1": "vary",
+        "v2": "varied",
+        "v3": "varied",
+        "v4": "varying",
+        "v5": "varies"
+    },
+    {
+        "tel": "నిజపరచుట, పరీక్షించు",
+        "v1": "verify",
+        "v2": "verified",
+        "v3": "verified",
+        "v4": "verifying",
+        "v5": "verifies"
+    },
+    {
+        "tel": "బాధించుటగ, వేధించుట",
+        "v1": "vex",
+        "v2": "vexed",
+        "v3": "vexed",
+        "v4": "vexing",
+        "v5": "vexes"
+    },
+    {
+        "tel": "తిరస్కరించుట",
+        "v1": "vie",
+        "v2": "vied",
+        "v3": "vied",
+        "v4": "vying",
+        "v5": "vies"
+    },
+    {
+        "tel": "చూపు",
+        "v1": "view",
+        "v2": "viewed",
+        "v3": "viewed",
+        "v4": "viewing",
+        "v5": "views"
+    },
+    {
+        "tel": "ఉల్లంఘించే",
+        "v1": "violate",
+        "v2": "violated",
+        "v3": "violated",
+        "v4": "violating",
+        "v5": "violates"
+    },
+    {
+        "tel": "వాంతి",
+        "v1": "vomit",
+        "v2": "vomited",
+        "v3": "vomited",
+        "v4": "vomiting",
+        "v5": "vomits"
+    },
+    {
+        "tel": "మేలుకొను",
+        "v1": "wake",
+        "v2": "woke",
+        "v3": "woken",
+        "v4": "waking",
+        "v5": "wakes"
+    },
+    {
+        "tel": "నడచు",
+        "v1": "walk",
+        "v2": "walked",
+        "v3": "walked",
+        "v4": "walking",
+        "v5": "walks"
+    },
+    {
+        "tel": "తిరుగుట, సంచరించుట",
+        "v1": "wander",
+        "v2": "wandered",
+        "v3": "wandered",
+        "v4": "wandering",
+        "v5": "wanders"
+    },
+    {
+        "tel": "కావలసిన",
+        "v1": "want",
+        "v2": "wanted",
+        "v3": "wanted",
+        "v4": "wanting",
+        "v5": "wants"
+    },
+    {
+        "tel": "హెచ్చరించు",
+        "v1": "warn",
+        "v2": "warned",
+        "v3": "warned",
+        "v4": "warning",
+        "v5": "warns"
+    },
+    {
+        "tel": "వృధా",
+        "v1": "waste",
+        "v2": "wasted",
+        "v3": "wasted",
+        "v4": "wasting",
+        "v5": "wastes"
+    },
+    {
+        "tel": "కాచుట, కాపాడుట, కావలివుండుట",
+        "v1": "watch",
+        "v2": "watched",
+        "v3": "watched",
+        "v4": "watching",
+        "v5": "watches"
+    },
+    {
+        "tel": "చెమర్చుట, నీళ్ళుకట్టుట, నీళ్ళుకారుట",
+        "v1": "water",
+        "v2": "watered",
+        "v3": "watered",
+        "v4": "watering",
+        "v5": "waters"
+    },
+    {
+        "tel": "అల, వీచుట",
+        "v1": "wave",
+        "v2": "waved",
+        "v3": "waved",
+        "v4": "waving",
+        "v5": "waves"
+    },
+    {
+        "tel": "ఆపుట, పెరుగుట, వృద్ధియవుట",
+        "v1": "wax",
+        "v2": "waxed",
+        "v3": "waxed",
+        "v4": "waxing",
+        "v5": "waxes"
+    },
+    {
+        "tel": "దాగియుండి పైబడు",
+        "v1": "waylay",
+        "v2": "waylaid",
+        "v3": "waylaid",
+        "v4": "waylaying",
+        "v5": "waylays"
+    },
+    {
+        "tel": "ధరించు",
+        "v1": "wear",
+        "v2": "wore",
+        "v3": "worn",
+        "v4": "wearing",
+        "v5": "wears"
+    },
+    {
+        "tel": "నేయు",
+        "v1": "weave",
+        "v2": "wove",
+        "v3": "woven",
+        "v4": "weaving",
+        "v5": "weaves"
+    },
+    {
+        "tel": "పెళ్లి అవుట",
+        "v1": "wed",
+        "v2": "wed",
+        "v3": "wed",
+        "v4": "wedding",
+        "v5": "weds"
+    },
+    {
+        "tel": "కన్నీరు కార్చు, ఏడువు",
+        "v1": "weep",
+        "v2": "wept",
+        "v3": "wept",
+        "v4": "weeping",
+        "v5": "weeps"
+    },
+    {
+        "tel": "తూచుట",
+        "v1": "weigh",
+        "v2": "weighed",
+        "v3": "weighed",
+        "v4": "weighing",
+        "v5": "weighs"
+    },
+    {
+        "tel": "సుస్వాగతము",
+        "v1": "welcome",
+        "v2": "welcomed",
+        "v3": "welcomed",
+        "v4": "welcoming",
+        "v5": "welcomes"
+    },
+    {
+        "tel": "పోవుట, వెళ్ళుట",
+        "v1": "wend",
+        "v2": "went",
+        "v3": "went",
+        "v4": "wending",
+        "v5": "wends"
+    },
+    {
+        "tel": "తడిచిన",
+        "v1": "wet",
+        "v2": "wet",
+        "v3": "wet",
+        "v4": "wetting",
+        "v5": "wets"
+    },
+    {
+        "tel": "కొరడా , కొట్టుట",
+        "v1": "whip",
+        "v2": "whipped",
+        "v3": "whipped",
+        "v4": "whipping",
+        "v5": "whips"
+    },
+    {
+        "tel": "గుసగుసలాడు",
+        "v1": "whisper",
+        "v2": "whispered",
+        "v3": "whispered",
+        "v4": "whispering",
+        "v5": "whispers"
+    },
+    {
+        "tel": "గెలుపు",
+        "v1": "win",
+        "v2": "won",
+        "v3": "won",
+        "v4": "winning",
+        "v5": "wins"
+    },
+    {
+        "tel": "ఆశించు, కోరిక కలిగియుండు",
+        "v1": "wish",
+        "v2": "wished",
+        "v3": "wished",
+        "v4": "wishing",
+        "v5": "wishes"
+    },
+    {
+        "tel": "వెనక్కి, ఉపసంహరణము",
+        "v1": "withdraw",
+        "v2": "withdrew",
+        "v3": "withdrawn",
+        "v4": "withdrawing",
+        "v5": "withdraws"
+    },
+    {
+        "tel": "పని",
+        "v1": "work",
+        "v2": "worked",
+        "v3": "worked",
+        "v4": "working",
+        "v5": "works"
+    },
+    {
+        "tel": "ఆందోళన, వ్యాకులత చెందు",
+        "v1": "worry",
+        "v2": "worried",
+        "v3": "worried",
+        "v4": "worrying",
+        "v5": "worries"
+    },
+    {
+        "tel": "పూజించు, ఆరాధించు",
+        "v1": "worship",
+        "v2": "worshipped",
+        "v3": "worshipped",
+        "v4": "worshipping",
+        "v5": "worships"
+    },
+    {
+        "tel": "పిండుట, మెలిపెట్టుట",
+        "v1": "wring",
+        "v2": "wrung",
+        "v3": "wrung",
+        "v4": "wringing",
+        "v5": "wrings"
+    },
+    {
+        "tel": "వ్రాయు",
+        "v1": "write",
+        "v2": "wrote",
+        "v3": "written",
+        "v4": "writing",
+        "v5": "writes"
+    },
+    {
+        "tel": "ఆవలించు",
+        "v1": "yawn",
+        "v2": "yawned",
+        "v3": "yawned",
+        "v4": "yawning",
+        "v5": "yawns"
+    },
+    {
+        "tel": "అరచి చెప్పు, కేకలు పెట్టు",
+        "v1": "yell",
+        "v2": "yelled",
+        "v3": "yelled",
+        "v4": "yelling",
+        "v5": "yells"
+    },
+    {
+        "tel": "ఇచ్చు, దిగుబడి, లభించు",
+        "v1": "yield",
+        "v2": "yielded",
+        "v3": "yielded",
+        "v4": "yielding",
+        "v5": "yields"
+    }
+]}
