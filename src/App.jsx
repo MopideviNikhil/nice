@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Json from './verbs.json'
 import './App.css';
 
 const DataTable = () => {
- 
+  
   const columns = ['v1', 'tel', 'v2', 'v3', 'v4', 'v5'];
   const columnLabels = {
     v1: 'Base',
@@ -29,37 +29,31 @@ const DataTable = () => {
     ? Json.verbs.filter(item => item.v1.toLowerCase().startsWith(filterLetter.toLowerCase()))
     : Json.verbs;
 
-  // ✅ Robust voice loading with retry
-  useEffect(() => {
-    let attempts = 0;
-
-    const loadVoices = () => {
-      const voices = speechSynthesis.getVoices();
-      if (voices.length > 0) {
-        setAvailableVoices(voices);
-        if (!selectedVoice) {
-          const preferred = voices.find(v => v.name.includes("Google") || v.name.includes("Microsoft")) || voices[0];
-          setSelectedVoice(preferred);
-        }
-      } else if (attempts < 20) {
-        attempts++;
-        setTimeout(loadVoices, 250);
-      } else {
-        alert("Unable to load speech voices. Please refresh the page or use a different browser.");
-      }
-    };
-
-    if (typeof window !== 'undefined' && window.speechSynthesis) {
-      loadVoices();
-      window.speechSynthesis.onvoiceschanged = loadVoices;
-    }
-  }, []);
-
   const toggleColumn = (col) => {
     setVisibleColumns(prev => ({ ...prev, [col]: !prev[col] }));
   };
 
-  // ✅ Speak logic
+  const loadVoicesManually = () => {
+    let attempts = 0;
+
+    const tryLoad = () => {
+      const voices = speechSynthesis.getVoices();
+      if (voices.length > 0) {
+        setAvailableVoices(voices);
+        const preferred = voices.find(v => v.name.includes("Google") || v.name.includes("Microsoft")) || voices[0];
+        setSelectedVoice(preferred);
+      } else if (attempts < 20) {
+        attempts++;
+        setTimeout(tryLoad, 250);
+      } else {
+        alert("Unable to load speech voices. Try using a different browser like Chrome.");
+      }
+    };
+
+    tryLoad();
+  };
+
+  // 🔊 Read aloud
   const speakAllWords = () => {
     if (!window.speechSynthesis) {
       alert("Speech Synthesis not supported in this browser.");
@@ -81,19 +75,14 @@ const DataTable = () => {
       setIsSpeaking(false);
       setIsPaused(false);
     };
-    utterance.onerror = (e) => {
-      console.error("Speech error:", e);
-      alert("Speech synthesis failed to start. Try refreshing or changing browser.");
+    utterance.onerror = () => {
       setIsSpeaking(false);
+      setIsPaused(false);
+      alert("Failed to speak. Try enabling voices again or refresh.");
     };
 
-    try {
-      speechSynthesis.cancel();
-      speechSynthesis.speak(utterance);
-    } catch (err) {
-      alert("Speech synthesis failed.");
-      console.error(err);
-    }
+    speechSynthesis.cancel();
+    speechSynthesis.speak(utterance);
   };
 
   const togglePause = () => {
@@ -125,7 +114,17 @@ const DataTable = () => {
     <div className="p-4 font-sans">
       <h2 className="text-xl font-bold mb-4">Verb Table (Filter, Read, Download)</h2>
 
-      {/* 🔤 Filter by letter */}
+      {/* 🎙 Enable Audio */}
+      {availableVoices.length === 0 && (
+        <button
+          onClick={loadVoicesManually}
+          className="px-4 py-2 mb-4 bg-orange-500 text-white rounded hover:bg-orange-600"
+        >
+          🎙 Enable Audio
+        </button>
+      )}
+
+      {/* 🔤 Alphabet Filter */}
       <div className="flex flex-wrap gap-2 mb-4">
         {alphabet.map(letter => (
           <button
@@ -144,7 +143,7 @@ const DataTable = () => {
         </button>
       </div>
 
-      {/* ✅ Column toggles */}
+      {/* Toggle Columns */}
       <div className="flex flex-wrap gap-2 mb-4">
         {columns.map(col => (
           <button
@@ -157,7 +156,7 @@ const DataTable = () => {
         ))}
       </div>
 
-      {/* 🎙 Controls */}
+      {/* 🎧 Controls */}
       <div className="flex flex-wrap items-center gap-4 mb-6">
         <select
           className="px-3 py-1 border rounded text-sm w-full sm:w-auto max-w-xs"
@@ -198,7 +197,7 @@ const DataTable = () => {
         </button>
       </div>
 
-      {/* 📋 Table */}
+      {/* 📋 Verb Table */}
       <div className="overflow-x-auto">
         <table className="min-w-full border border-gray-300 text-sm">
           <thead className="bg-gray-100">
